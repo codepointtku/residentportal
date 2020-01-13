@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Navbar = ({ icon }) => {
   return (
-    <nav className="navbar">
+    <nav className="app-TopNavBar navbar navbar-default">
         <img
           src="/turku-logo.svg"
           className="Navbar"
