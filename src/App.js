@@ -5,9 +5,12 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
+      <header className="App-header"></header>
       <Container>
-        <header className="App-header"></header>
-        <h1>Turku Asukasportaali</h1>
+        <Row>
+          <h1>Turku Asukasportaali</h1>
+        </Row>
+
         <Row>
           <Col class="col1">
             <h3>1 of 2</h3>
