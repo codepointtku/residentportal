@@ -1,4 +1,4 @@
-Turku City's Residental Portal, created with: React, Redux, HTLM5 ja Sass.
+Turku City's Residental Portal, created with: React, Redux, HTLM5 and Sass.
 
 ## Installation
 
