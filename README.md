@@ -5,9 +5,9 @@ Turku City's Residental Portal, created with: React, Redux, HTLM5 ja Sass.
 ### `npx create-react-app .`
 ### `npm i node-sass`
 
-## Scriptit
+## Scripts
 
-Käynnistys:
+Start:
 
 ### `npm start`
 
