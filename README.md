@@ -1,6 +1,6 @@
-Turun Asukasportaali, käytössä olevat teknologiat: React, Redux, HTLM5 ja Sass.
+Turku City's Residental Portal, created with: React, Redux, HTLM5 ja Sass.
 
-## Asennus
+## Installation
 
 ### `npx create-react-app .`
 ### `npm i node-sass`
