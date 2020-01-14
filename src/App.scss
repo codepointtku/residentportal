@@ -6,7 +6,7 @@
 /* Styles */
 :root {
   --primary-color: #37475e;
-  --dark-color: #313131e1;
+  --dark-color: #000000e1;
   --light-color: #ffffff;
   --danger-color: #dc3545;
   --success-color: #28a745;
@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-  color: #c878d8;
+  color: #ffffff;
 }
 
 ul {
