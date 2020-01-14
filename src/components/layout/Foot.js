@@ -7,7 +7,7 @@ const Foot = () => {
   return (
     
     <div className="container footer">
-      <div className="row">
+      <div className="row" id="footrow">
         <div className="col-lg-3 col-md-3">
           <div>
             <img alt="Turun kaupunki" id="footerlogo" src={turkulogo} title="Turun kaupunki" />
