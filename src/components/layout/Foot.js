@@ -1,6 +1,6 @@
 import React from "react";
 import {} from "react-bootstrap";
-import turkulogo from './turkufooterlogo.png';
+import turkulogo from './turkufooterlogo2.png';
 
 
 const Foot = () => {
