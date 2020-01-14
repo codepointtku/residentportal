@@ -1,6 +1,6 @@
 import React from "react";
 import {} from "react-bootstrap";
-import turkulogo from './turkulogo.png';
+import turkulogo from './turkufooterlogo.png';
 
 
 const Foot = () => {
@@ -14,7 +14,7 @@ const Foot = () => {
           </div>
         </div>
         <div class="col-lg-6 col-md-6" id="footID">
-    <h2 id="footh2">Varaamo</h2>
+    <h2 id="footh2">Turku Asukasportaali</h2>
     <p><span id="footspan">© Turun Kaupunki 
         <br />PL 355 20101 Turku 
         <br />vaihde (02) 330 000 
