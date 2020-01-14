@@ -7,7 +7,7 @@ const Foot = () => {
     <div className="footer">
       <div className="row">
         <div className="col-lg-3 col-md-3">
-          <div className="container col-lg-6 col-md-6">
+          <div className="container col-lg-6 col-md-6 container-footer">
             <h2 id="footh2">Turku Asukasportaali</h2>
             <p>
               <span id="footspan">
@@ -27,15 +27,12 @@ const Foot = () => {
               </span>
               <br />
               <br />
-              <a className="" href="/accessibility-info">
+              <a href="/">
                 Saavutettavuusseloste
               </a>
               <br />
               <a
-                className=""
                 href="https://opaskartta.turku.fi/eFeedback/fi/Feedback/30-S%C3%A4hk%C3%B6iset%20asiointipalvelut"
-                rel="noopener noreferrer"
-                target="_blank"
               >
                 Palautteesi voit lähettää täältä.
               </a>
