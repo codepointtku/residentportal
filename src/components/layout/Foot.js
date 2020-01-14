@@ -10,7 +10,7 @@ const Foot = () => {
       <div className="row">
         <div className="col-lg-3 col-md-3">
           <div className="navbar-brand">
-            <img alt="Turun kaupunki" src={turkulogo} title="Turun kaupunki" />
+            <img alt="Turun kaupunki" id="footerlogo" src={turkulogo} title="Turun kaupunki" />
           </div>
         </div>
         <div class="col-lg-6 col-md-6" id="footID">
