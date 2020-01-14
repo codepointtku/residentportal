@@ -4,6 +4,7 @@
 /* Styles */
 :root {
   --primary-color: #37475e;
+  --secondary-color: #00aeef;
   --dark-color: #000000e1;
   --light-color: #ffffff;
   --danger-color: #dc3545;
@@ -21,9 +22,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: rgba(25, 25, 25, 0.5);
   background-size: cover;
-  color: rgb(53, 53, 53);
+  color: var(--dark-color);
 }
 
 h1 {
@@ -390,7 +390,7 @@ table th {
   width: 100%;
   opacity: 0.9;
   margin-bottom: 1rem;
-  background-color: #ffffff;
+  background-color: var(--light-color);
 }
 
 .navbar ul {
@@ -398,7 +398,7 @@ table th {
 }
 
 .navbar a {
-  color: #fff;
+  color: var(--light-color);
   padding: 0rem;
   margin: 0 0.25rem;
 }
@@ -416,7 +416,7 @@ a.navbar-brand img {
 }
 
 .navbar a:hover {
-  color: rgb(249, 221, 255);
+  color: var(--dark-color);
 }
 
 .navbar .welcome span {
@@ -524,18 +524,18 @@ a.navbar-brand img {
 
 /* Popup */
 .popup-content {
-  width: auto !important;
+  width: auto;
   position: relative;
   display: inline-block;
-  background-color: rgba(200, 200, 200, 0) !important;
-  border: none !important;
+  background-color: rgba(200, 200, 200, 0);
+  border: none;
 }
 
 // väliaikaisia lisäyksiä:
 // tärkeitä: .cont:issa määritellyt display: flex ja flex-direction: column;
 
 .App {
-  background-color: rgba(0, 172, 239, 1);
+  background-color: var(--secondary-color);
 }
 
 .cont {
@@ -548,17 +548,16 @@ a.navbar-brand img {
 .row {
   margin: 1%;
   background-color: rgba(167, 165, 165, 0);
-  
 }
 
 .col1 {
   flex-shrink: 1;
-  background-color: white;
+  background-color: var(--light-color);
   margin: 1%;
 }
 .footer {
-  background-color: #37475e;
-  color: #ffffff;
+  background-color: var(--primary-color);
+  color: var(--light-color);
   z-index: 898;
   margin-top: 40px;
   text-align: center;
@@ -567,7 +566,7 @@ a.navbar-brand img {
 
 #footID {
   z-index: 898;
-  color: #ffffff;
+  color: var(--light-color);
 }
 
 #footh2 {
@@ -584,4 +583,3 @@ a.navbar-brand img {
   width: 182.742px;
   height: 249.433px;
 }
-
