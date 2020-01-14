@@ -5,8 +5,10 @@ import logo from "./turkulogo.png";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div>
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="container">
+        <a href="/" className="navbar-brand">
+          <img src={logo} alt="logo" />
+        </a>
       </div>
     </nav>
   );

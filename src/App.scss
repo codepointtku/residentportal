@@ -387,11 +387,12 @@ table th {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.7rem 2rem;
+  padding: 0rem 0rem;
   z-index: 1;
   width: 100%;
   opacity: 0.9;
   margin-bottom: 1rem;
+  background-color: #ffffff;
 }
 
 .navbar ul {
@@ -400,8 +401,12 @@ table th {
 
 .navbar a {
   color: #fff;
-  padding: 0.45rem;
+  padding: 0rem;
   margin: 0 0.25rem;
+}
+
+a.navbar-brand {
+  width: 20%;
 }
 
 .navbar a:hover {
@@ -540,7 +545,7 @@ table th {
 }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgb(255, 255, 255);
 }
 
 .col1 {
