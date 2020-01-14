@@ -6,8 +6,8 @@ const Foot = () => {
   return (
     <div className="footer">
       <div className="row">
-        <div className="col-lg-3 col-md-3">
-          <div className="container col-lg-6 col-md-6 container-footer">
+        <div className="container col-lg-3 col-md-3">
+          <div className="container col-lg-6 col-md-6">
             <h2 id="footh2">Turku Asukasportaali</h2>
             <p>
               <span id="footspan">
