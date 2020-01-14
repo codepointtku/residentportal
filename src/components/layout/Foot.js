@@ -4,10 +4,10 @@ import turkulogo from "./turkufooterlogo2.png";
 
 const Foot = () => {
   return (
-    <div className="container footer">
-      <div className="row footrow">
+    <div className="footer">
+      <div className="row">
         <div className="col-lg-3 col-md-3">
-          <div className="col-lg-6 col-md-6 footID">
+          <div className="container col-lg-6 col-md-6">
             <h2 id="footh2">Turku Asukasportaali</h2>
             <p>
               <span id="footspan">
@@ -27,12 +27,12 @@ const Foot = () => {
               </span>
               <br />
               <br />
-              <a className="accessibility-info-link" href="/accessibility-info">
+              <a className="" href="/accessibility-info">
                 Saavutettavuusseloste
               </a>
               <br />
               <a
-                className="feedback-link"
+                className=""
                 href="https://opaskartta.turku.fi/eFeedback/fi/Feedback/30-S%C3%A4hk%C3%B6iset%20asiointipalvelut"
                 rel="noopener noreferrer"
                 target="_blank"
