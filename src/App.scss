@@ -548,6 +548,7 @@ a.navbar-brand img {
 
 .row {
   margin: 0%;
+  margin-left: 6rem;
   background-color: rgba(167, 165, 165, 0);
 }
 
@@ -588,6 +589,7 @@ a.navbar-brand img {
 .navmenu {
   background-color: var(--primary-color);
   color: var(--light-color);
+  font-size: small;
   padding: 0.7rem;
 }
 
