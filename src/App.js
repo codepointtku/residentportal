@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/layout/Navbar";
-import Boxes from "./Boxes";
+import Boxes from "./components/layout/Boxes";
 import Foot from "./components/layout/Foot";
 import "./App.scss";
 
