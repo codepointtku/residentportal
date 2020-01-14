@@ -1,14 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import logo from "./turkulogo.png";
 
-const Navbar = ({ icon }) => {
+const Navbar = () => {
   return (
-    <nav className="app-TopNavBar navbar navbar-default">
-        <img
-          src="/turku-logo.svg"
-          className="Navbar"
-          alt="turku-logo"
-        ></img>
+    <nav className="navbar">
+      <div>
+        <img src={logo} className="App-logo" alt="logo" />
+      </div>
     </nav>
   );
 };
