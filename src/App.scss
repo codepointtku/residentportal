@@ -537,7 +537,7 @@ a.navbar-brand img {
 // tärkeitä: .cont:issa määritellyt display: flex ja flex-direction: column;
 
 .App {
-  background-color: rgb(67, 70, 70);
+  background-color: rgba(0, 172, 239, 1);
 }
 
 .cont {
@@ -550,7 +550,7 @@ a.navbar-brand img {
 .row {
   margin: 1%;
   background-color: rgba(167, 165, 165, 0);
-  justify-content: space-evenly;
+  
 }
 
 .col1 {
@@ -570,7 +570,6 @@ a.navbar-brand img {
 #footID {
   
   z-index: 898;
-  text-align: left;
   color: #ffffff;
 }
 
@@ -588,3 +587,4 @@ a.navbar-brand img {
   width: 182.742px;
   height: 249.433px;
 }
+
