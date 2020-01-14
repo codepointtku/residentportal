@@ -1,7 +1,5 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 /* Styles */
 :root {
@@ -20,7 +18,7 @@
 }
 
 body {
-  font-family: "Noto, Open, Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: rgba(25, 25, 25, 0.5);
@@ -568,7 +566,6 @@ a.navbar-brand img {
 }
 
 #footID {
-  
   z-index: 898;
   text-align: left;
   color: #ffffff;
