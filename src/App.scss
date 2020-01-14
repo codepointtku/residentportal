@@ -36,6 +36,7 @@ h2 {
 
 h3 {
   opacity: 100%;
+  color: var(--light-color);
 }
 
 p {
@@ -389,7 +390,7 @@ table th {
   z-index: 1;
   width: 100%;
   opacity: 1;
-  margin-bottom: 1rem;
+
   background-color: var(--light-color);
 }
 
@@ -582,4 +583,9 @@ a.navbar-brand img {
 #footerlogo {
   width: 182.742px;
   height: 249.433px;
+}
+
+.navmenu {
+  background-color: var(--primary-color);
+  color: var(--light-color);
 }

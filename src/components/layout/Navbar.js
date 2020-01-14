@@ -4,13 +4,21 @@ import logo from "./turkulogo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div>
-        <a href="/" className="navbar-brand">
-          <img src={logo} alt="logo" />
+    <>
+      <nav className="navbar">
+        <div>
+          <a href="/" className="navbar-brand">
+            <img src={logo} alt="logo" />
+          </a>
+        </div>
+      </nav>
+      <nav className="navmenu">
+        <a className="navbar" href="/asp/">
+          Asukasportaali
         </a>
-      </div>
-    </nav>
+        <a href="/lisaa/">Lisää tietoa</a>
+      </nav>
+    </>
   );
 };
 
