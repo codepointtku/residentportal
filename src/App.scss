@@ -519,3 +519,32 @@ table th {
   background-color: rgba(200, 200, 200, 0) !important;
   border: none !important;
 }
+
+// väliaikaisia lisäyksiä:
+// tärkeitä: .cont:issa määritellyt display: flex ja flex-direction: column;
+
+.App {
+  background-color: rgb(67, 70, 70);
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(167, 165, 165, 0);
+  margin: 1%;
+}
+
+.row {
+  margin: 1%;
+  background-color: rgba(167, 165, 165, 0);
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.col1 {
+  flex-shrink: 1;
+  background-color: white;
+  margin: 1%;
+}
