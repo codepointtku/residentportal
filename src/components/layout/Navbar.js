@@ -13,10 +13,12 @@ const Navbar = () => {
         </div>
       </nav>
       <nav className="navmenu">
-        <a className="navbar" href="/asp/">
-          Asukasportaali
+        <a className="navmenu" href="/asp/">
+          Asukasportaali{" "}
         </a>
-        <a href="/lisaa/">Lisää tietoa</a>
+        <a className="navmenu" href="/lisaa/">
+          Lisää tietoa{" "}
+        </a>
       </nav>
     </>
   );
