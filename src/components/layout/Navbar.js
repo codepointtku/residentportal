@@ -14,7 +14,7 @@ const Navbar = () => {
       </nav>
       <nav className="navmenu">
         <div className="navlinks">
-          <a className="navmenu" href="/asp/">
+          <a className="navmenu font-weight-bold" href="/asp/">
             Asukasportaali{" "}
           </a>
           <a className="navmenu" href="/lisaa/">
