@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -22,6 +22,7 @@ const Home = () => {
               type="button"
               className="ml-1 mt-5 btn btn-dark active text-uppercase"
               aria-pressed="true"
+              aria-label="Nappi"
             >
               Kirjaudu asukasportaaliin
             </Link>

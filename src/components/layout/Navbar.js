@@ -15,10 +15,14 @@ const Navbar = () => {
       </nav>
       <nav className="navmenu">
         <ul className="navlinks">
-          <Link to="/asp" className="navmenu font-weight-bold ml-5">
+          <Link
+            to="/asp"
+            className="navmenu font-weight-bold ml-5"
+            aria-label="Asukasportaali"
+          >
             Asukasportaali{" "}
           </Link>
-          <Link to="/about" className="navmenu">
+          <Link to="/about" className="navmenu" aria-label="Lisää tietoa">
             Lisää tietoa{" "}
           </Link>
         </ul>
