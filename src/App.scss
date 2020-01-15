@@ -428,6 +428,13 @@ a.navbar-brand img {
   margin-right: 0.6rem;
 }
 
+.navmenu {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  font-size: small;
+  padding: 0.7rem;
+}
+
 /* Mobile Styles */
 @media (max-width: 700px) {
   .hide-sm {
@@ -590,13 +597,10 @@ a.navbar-brand img {
   height: 200px;
 }
 
-.navmenu {
-  background-color: var(--primary-color);
-  color: var(--light-color);
-  font-size: small;
-  padding: 0.7rem;
-}
+// Navbar
 
-.navlinks {
-  margin-left: 6rem;
+// Navbarin komponentti Topnav
+
+.nav navbar-nav navbar-right {
+  color: var(--dark-color);
 }
