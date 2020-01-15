@@ -7,14 +7,14 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div>
-          <a href="/" className="navbar-brand">
+          <a href="/" className="navbar-brand ml-5">
             <img src={logo} alt="logo" />
           </a>
         </div>
       </nav>
       <nav className="navmenu">
         <div className="navlinks">
-          <a className="navmenu font-weight-bold" href="/asp/">
+          <a className="navmenu font-weight-bold ml-5" href="/asp/">
             Asukasportaali{" "}
           </a>
           <a className="navmenu" href="/lisaa/">
