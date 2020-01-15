@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import Residentportal from "./Residentportal";
 
 const Home = () => {
   return (
@@ -28,6 +29,11 @@ const Home = () => {
             </Link>
             <div className="p-5 mt-5"></div>
           </div>
+          <Switch>
+            <Route path="/residentportal">
+              <Residentportal />
+            </Route>
+          </Switch>
         </div>
       </div>
     </Router>

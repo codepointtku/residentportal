@@ -1,8 +1,12 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import React, { Fragment } from "react";
+import Navbar from "../layout/NavbarDark";
 
 const Residentportal = () => {
-  return;
+  return (
+    <Fragment>
+      <Navbar />
+    </Fragment>
+  );
 };
 
 export default Residentportal;

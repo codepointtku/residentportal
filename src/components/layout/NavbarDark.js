@@ -1,18 +1,19 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "./turkulogowhite.png";
 
 const NavbarDark = () => {
   return (
-    <>
+    <Fragment>
       <nav className="navbar-dark">
         <div>
-          <a href="/" className="navbar-brand ml-5">
+          <Link href="/" className="navbar-brand ml-5">
             <img src={logo} alt="logo" />
-          </a>
+          </Link>
         </div>
       </nav>
-    </>
+    </Fragment>
   );
 };
 

@@ -28,6 +28,7 @@ const Navbar = () => {
         </ul>
       </nav>
       <Switch>
+        <Route path="/about"></Route>
         <Route path="/"></Route>
       </Switch>
     </Router>
