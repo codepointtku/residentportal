@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div className="container ">
-      <div classname="text-center">
+      <div className="text-left">
         <h1 className="text-light">
           Asukasportaali - <br></br>Kaikki tietosi samassa paikassa
         </h1>
