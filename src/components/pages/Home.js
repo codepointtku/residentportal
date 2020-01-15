@@ -12,7 +12,7 @@ const Home = () => {
           Asukasportaalista voit tarkistaa esimerkiksi kirjastolainasi,<br></br>
           lääkäriasiointisi ja bussikorttisi voimassaoloajat.
         </h5>
-        <button type="button" class="btn btn-dark text-uppercase">
+        <button type="button" className="btn btn-dark text-uppercase">
           Kirjaudu asukasportaaliin
         </button>
       </div>
