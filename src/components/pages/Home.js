@@ -14,12 +14,15 @@ const Home = () => {
             <br></br>
             lääkäriasiointisi ja bussikorttisi voimassaoloajat.
           </h5>
-          <button
+          <a
+            href="/residentportal"
+            role="button"
             type="button"
-            className="ml-1 mt-5 btn btn-dark text-uppercase"
+            className="ml-1 mt-5 btn btn-dark active text-uppercase"
+            aria-pressed="true"
           >
             Kirjaudu asukasportaaliin
-          </button>
+          </a>
           <div className="p-5 mt-5"></div>
         </div>
       </div>

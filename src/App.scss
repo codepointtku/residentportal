@@ -394,6 +394,16 @@ table th {
   background-color: var(--light-color);
 }
 
+.navbar-dark {
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+  min-height: 105px;
+  width: 100%;
+  opacity: 1;
+  background-color: var(--primary-color);
+}
+
 .navbar ul {
   display: flex;
 }
