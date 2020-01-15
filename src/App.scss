@@ -36,7 +36,6 @@ h2 {
 
 h3 {
   opacity: 100%;
-  color: var(--light-color);
 }
 
 p {
@@ -327,7 +326,7 @@ li {
 .bg-white,
 .badge-white,
 .alert-white {
-  background: #fff;
+  background: var(--light-color);
   color: #333;
   border: #ccc solid 1px;
 }
@@ -388,13 +387,11 @@ table th {
 /* Navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 0rem 0rem;
   z-index: 1;
   width: 100%;
   opacity: 1;
-
   background-color: var(--light-color);
 }
 
@@ -403,16 +400,17 @@ table th {
 }
 
 .navbar a {
-  color: var(--light-color);
-  padding: 0rem;
+  color: var(--dark-color);
   margin: 0 0.25rem;
 }
 
 a.navbar-brand {
+  height: 100%;
   width: 100%;
+  padding: 23px 20px;
   margin-top: -2rem;
   margin-bottom: -2rem;
-  margin-left: 6rem;
+  float: left;
 }
 
 a.navbar-brand img {
