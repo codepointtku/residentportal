@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "./turkulogo.png";
 
@@ -22,17 +22,13 @@ const Navbar = () => {
             className="navmenu font-weight-bold ml-5"
             aria-label="Asukasportaali"
           >
-            Asukasportaali{" "}
+            Asukasportaali
           </Link>
           <Link to="/about" className="navmenu" aria-label="Lisää tietoa">
-            Lisää tietoa{" "}
+            Lisää tietoa
           </Link>
         </ul>
       </nav>
-      <Switch>
-        <Route path="/about"></Route>
-        <Route path="/"></Route>
-      </Switch>
     </Router>
   );
 };

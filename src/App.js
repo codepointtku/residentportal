@@ -6,6 +6,10 @@ import Home from "./components/pages/Home";
 import Foot from "./components/layout/Foot";
 import Residentportal from "./components/pages/Residentportal";
 import "./App.scss";
+//Pages
+import Home from "./components/pages/Home";
+import Residentalportal from "./components/pages/Residentportal";
+import About from "./components/pages/About";
 
 function App() {
   return (
@@ -26,4 +30,5 @@ function App() {
     </BrowserRouter>
   );
 }
+
 export default App;
