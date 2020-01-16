@@ -71,6 +71,7 @@ img {
   margin: auto;
   overflow: hidden;
   padding-bottom: 1rem;
+  align-content: center;
 }
 
 .container-img {
@@ -128,7 +129,7 @@ img {
 }
 
 .text-shadow {
-  text-shadow: 1px 1px  var(--dark-color);
+  text-shadow: 1px 1px var(--dark-color);
 }
 
 /* Center All */
@@ -462,7 +463,7 @@ a.navbar-brand img {
     grid-template-columns: 1fr;
   }
 
-  /* Text Styles */
+  /* Mobile Text Styles */
   .x-large {
     font-size: 3rem;
   }
@@ -475,15 +476,46 @@ a.navbar-brand img {
     font-size: 1rem;
   }
 
-  /* Navbar */
+  /* Mobile Navbar */
+
   .navbar {
     display: block;
     text-align: left;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .navbar-container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    //padding: 1%;
   }
 
   .navbar ul {
     text-align: center;
     justify-content: center;
+  }
+
+  a.navbar-brand {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: left;
+    align-content: left;
+
+    //padding: 23px 20px;
+    //margin-top: -2rem;
+    //margin-bottom: -2rem;
+  }
+
+  a.navbar-brand img {
+    height: 109px;
+    width: 155px;
   }
 }
 

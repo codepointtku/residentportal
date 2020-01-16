@@ -7,10 +7,12 @@ const Navbar = () => {
   return (
     <Router>
       <nav className="navbar">
-        <div>
-          <Link to="/" className="navbar-brand ml-5">
-            <img src={logo} alt="logo" />
-          </Link>
+        <div className="navbar-container">
+          <div className="navbar-container">
+            <Link to="/" className="navbar-brand ml-5 navbar-container">
+              <img src={logo} alt="logo" />
+            </Link>
+          </div>
         </div>
       </nav>
       <nav className="navmenu">
