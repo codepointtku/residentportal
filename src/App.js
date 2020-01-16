@@ -21,6 +21,9 @@ function App() {
           <Route path="/residentportal" component={NavbarDark} />
         </Switch>
         <Switch>
+          <Route exact path="/about" component={About} />
+        </Switch>
+        <Switch>
           <Route path="/residentportal" component={Residentalportal} />
         </Switch>
         <Foot />
