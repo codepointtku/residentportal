@@ -2,38 +2,40 @@ import React from "react";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import Residentportal from "./Residentportal";
 
-const Home = () => {
+const Home = img => {
   return (
     <Router>
-      <div className="p-5 mt-5">
-        <div className="container">
-          <div className="text-left ml-1 mt-5">
-            <h1 className="text-light ml-1">
-              Asukasportaali - <br></br>Kaikki tietosi samassa paikassa
-            </h1>
+      <div className="container-img">
+        <div className="p-5">
+          <div className="container">
+            <div className="text-left ml-1 mt-5">
+              <h1 className="text-light ml-1">
+                Asukasportaali - <br></br>Kaikki tietosi samassa paikassa
+              </h1>
 
-            <h5 className="text-light ml-1 mt-4">
-              Asukasportaalista voit tarkistaa esimerkiksi kirjastolainasi,
-              <br></br>
-              lääkäriasiointisi ja bussikorttisi voimassaoloajat.
-            </h5>
-            <Link
-              to="/residentportal"
-              role="button"
-              type="button"
-              className="ml-1 mt-5 btn btn-dark active text-uppercase"
-              aria-pressed="true"
-              aria-label="Nappi"
-            >
-              Kirjaudu asukasportaaliin
-            </Link>
-            <div className="p-5 mt-5"></div>
+              <h5 className="text-light ml-1 mt-4">
+                Asukasportaalista voit tarkistaa esimerkiksi kirjastolainasi,
+                <br></br>
+                lääkäriasiointisi ja bussikorttisi voimassaoloajat.
+              </h5>
+              <Link
+                to="/residentportal"
+                role="button"
+                type="button"
+                className="ml-1 mt-5 btn btn-dark active text-uppercase"
+                aria-pressed="true"
+                aria-label="Nappi"
+              >
+                Kirjaudu asukasportaaliin
+              </Link>
+              <div className="p-5 mt-5"></div>
+            </div>
+            <Switch>
+              <Route path="/residentportal">
+                <Residentportal />
+              </Route>
+            </Switch>
           </div>
-          <Switch>
-            <Route path="/residentportal">
-              <Residentportal />
-            </Route>
-          </Switch>
         </div>
       </div>
     </Router>
