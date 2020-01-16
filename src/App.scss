@@ -72,6 +72,11 @@ img {
   overflow: hidden;
   padding-bottom: 1rem;
 }
+
+.container-img {
+  background-image: url("./components/layout/aurajokiranta_kuva-vesa-aaltonen.svg");
+  background-size: cover;
+}
 /* Text Styles*/
 .x-large {
   font-size: 4rem;
@@ -578,7 +583,6 @@ a.navbar-brand img {
   background-color: var(--primary-color);
   color: var(--light-color);
   z-index: 898;
-  margin-top: 40px;
   text-align: center;
   max-width: 100%;
 }
