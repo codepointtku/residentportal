@@ -1,6 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
-import Residentportal from "./Residentportal";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const Home = img => {
   return (
@@ -30,11 +29,6 @@ const Home = img => {
               </Link>
               <div className="p-5 mt-5"></div>
             </div>
-            <Switch>
-              <Route path="/residentportal">
-                <Residentportal />
-              </Route>
-            </Switch>
           </div>
         </div>
       </div>
