@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav className="navmenu">
         <ul className="navlinks">
           <Link
-            to="/asp"
+            to="/"
             className="navmenu font-weight-bold ml-5"
             aria-label="Asukasportaali"
           >
