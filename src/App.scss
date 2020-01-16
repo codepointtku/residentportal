@@ -478,6 +478,25 @@ a.navbar-brand img {
     font-size: 1rem;
   }
 
+  h1 {
+    font-size: 9vw;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .p-5 {
+    padding: 2% !important;
+  }
+
+  .btn-dark {
+    display: flex;
+    align-self: center;
+  }
+
   /* Mobile Navbar */
 
   .navbar {
