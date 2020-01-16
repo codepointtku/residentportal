@@ -480,12 +480,10 @@ a.navbar-brand img {
 
   h1 {
     font-size: 9vw;
-    text-align: center;
   }
 
   h5 {
     font-size: 6vw;
-    text-align: center;
   }
 
   .p-5 {
@@ -494,7 +492,15 @@ a.navbar-brand img {
 
   .btn-dark {
     display: flex;
+    max-width: 700px;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
     align-self: center;
+  }
+
+  .text-shadow {
+    text-align: center;
   }
 
   /* Mobile Navbar */
