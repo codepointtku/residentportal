@@ -1,17 +1,37 @@
-import React from "react";
+import React, { Component } from "react";
 import Navbar from "./components/layout/Navbar";
-import Home from "./components/pages/Home";
 import Foot from "./components/layout/Foot";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+  Redirect
+} from "react-router-dom";
 import "./App.scss";
+//Pages
+import Home from "./components/pages/Home";
+import Residentalportal from "./components/pages/Residentportal";
+import About from "./components/pages/About";
 
-function App() {
-  return (
-      <div className="App">
-        <Navbar></Navbar>
-        <Home></Home>
-        <Foot className="footer"></Foot>
-        <div></div>
-      </div>
-  );
+class App extends Component {
+  render( ) {
+    return (
+     
+      <Router>
+        <Navbar/>
+        <div className="App">
+          
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/Residentalportal" component={Residentalportal} />
+            <Route exact path="/About" component={About} />
+          </Switch>
+          <Foot className="footer"></Foot>
+        </div>
+      </Router>
+    );
+  }
 }
+
 export default App;

@@ -1,10 +1,13 @@
 import React, { Fragment } from "react";
-import Navbar from "../layout/NavbarDark";
+import NavbarDark from "../layout/NavbarDark";
 
 const Residentportal = () => {
   return (
     <Fragment>
-      <Navbar />
+      <NavbarDark />
+      <div className='container'>
+        <img src=''></img>
+      </div>
     </Fragment>
   );
 };
