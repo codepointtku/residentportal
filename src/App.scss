@@ -74,7 +74,7 @@ img {
 }
 
 .container-img {
-  background-image: url("./components/layout/aurajokiranta_kuva-vesa-aaltonen.svg");
+  background-image: url("./components/layout/aurajokiranta_kuva-vesa-aaltonen.jpg");
   background-size: cover;
 }
 /* Text Styles*/
@@ -125,6 +125,10 @@ img {
 
 .text-left {
   text-align: left;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px  var(--dark-color);
 }
 
 /* Center All */
