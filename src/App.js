@@ -2,9 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
 import NavbarDark from "./components/layout/NavbarDark";
-import Home from "./components/pages/Home";
 import Foot from "./components/layout/Foot";
-import Residentportal from "./components/pages/Residentportal";
 import "./App.scss";
 //Pages
 import Home from "./components/pages/Home";
@@ -23,7 +21,7 @@ function App() {
           <Route path="/residentportal" component={NavbarDark} />
         </Switch>
         <Switch>
-          <Route path="/residentportal" component={Residentportal} />
+          <Route path="/residentportal" component={Residentalportal} />
         </Switch>
         <Foot />
       </div>

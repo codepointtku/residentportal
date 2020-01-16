@@ -1,11 +1,6 @@
-import React, {Fragment} from "react";
-import NavbarDark from  "../layout/NavbarDark";
+import React, { Fragment } from "react";
 
 const About = () => {
-  return (
-  <Fragment>
-     <NavbarDark />
-     </Fragment>
-  )
+  return <Fragment></Fragment>;
 };
 export default About;
