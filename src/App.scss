@@ -75,8 +75,10 @@ img {
 }
 
 .container-img {
-  background-image: url("./components/layout/aurajokiranta_kuva-vesa-aaltonen.jpg");
+  background-image: url("./components/layout/aurajokiranta_kuva-vesa-aaltonen.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
 }
 /* Text Styles*/
 .x-large {
@@ -129,7 +131,7 @@ img {
 }
 
 .text-shadow {
-  text-shadow: 1px 1px var(--dark-color);
+  text-shadow: 2px 2px 6px var(--dark-color);
 }
 
 /* Center All */
@@ -594,7 +596,7 @@ a.navbar-brand img {
 // tärkeitä: .cont:issa määritellyt display: flex ja flex-direction: column;
 
 .App {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .cont {
