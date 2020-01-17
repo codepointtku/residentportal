@@ -147,7 +147,6 @@ img {
   text-shadow: 2px 2px 6px var(--dark-color);
 }
 .text-shadow-header {
-    
   text-shadow: 1px 1px 1px var(--primary-color);
   color: var(--primary-color);
 }
@@ -471,8 +470,15 @@ a.navbar-brand img {
   padding: 25px;
 }
 
+.profilemenu {
+  margin: 0px;
+  padding: 25px;
+  align-content: center !important;
+}
+
 #asukas-link {
   background-color: var(--secondary-color);
+  margin: 0 !important;
 }
 
 #aspa-link {
@@ -536,7 +542,6 @@ a.navbar-brand img {
   .text-shadow {
     text-align: center;
   }
- 
 
   /* Mobile Navbar */
 
