@@ -1,11 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "./turkulogo.png";
 
 const Navbar = () => {
   return (
-    <Router>
+    <div>
       <nav className="navbar">
         <div className="navbar-container">
           <div className="navbar-container">
@@ -29,7 +29,7 @@ const Navbar = () => {
           </Link>
         </ul>
       </nav>
-    </Router>
+    </div>
   );
 };
 
