@@ -29,7 +29,7 @@ const NavbarDark = () => {
             className="navmenu"
             aria-label="Asiakaspalvelija"
           >
-            > Asiakaspalvelija{" "}
+            Asiakaspalvelija{" "}
           </Link>
           <Link
             id="doctor-link"
@@ -37,7 +37,7 @@ const NavbarDark = () => {
             className="navmenu"
             aria-label="Lääkäri"
           >
-            > Lääkäri{" "}
+            Lääkäri{" "}
           </Link>
           <Link
             id="information-link"
@@ -45,7 +45,7 @@ const NavbarDark = () => {
             className="navmenu"
             aria-label="Lisää tietoa"
           >
-            > Lisää tietoa{" "}
+            Lisää tietoa{" "}
           </Link>
         </ul>
       </nav>
