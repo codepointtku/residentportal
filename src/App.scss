@@ -13,7 +13,7 @@
   --link-color: #7dcdc8;
   --symbol-color: #ed0c6e;
   --picture-color: #c3c4b7;
-
+  --tertiary-color: #006bb6;
 }
 
 * {
@@ -457,6 +457,13 @@ a.navbar-brand img {
   padding: 25px;
 }
 
+#asukas-link {
+  background-color: var(--secondary-color);
+}
+
+#aspa-link {
+  background-color: var(--tertiary-color);
+}
 /* Mobile Styles */
 @media (max-width: 700px) {
   .hide-sm {

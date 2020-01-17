@@ -15,33 +15,40 @@ const NavbarDark = () => {
       </nav>
       <nav className="Navmenu">
         <ul className="navlinks">
-          <Link 
-          to="/asp"
-          className="navmenu font-weight-bold ml-5"
-          aria-label="Asukas"
-        >
-          Asukas {" "}
-          </Link>
-          <Link to= "/about" 
-          className="navmenu" 
-          aria-label="Asiakaspalvelija">
+          <Link
+            id="asukas-link"
+            to="/asp"
+            className="navmenu font-weight-bold ml-5"
+            aria-label="Asukas"
           >
-          Asiakaspalvelija {" "}
+            Asukas{" "}
           </Link>
-          <Link to= "/about" 
-          className="navmenu" 
-          aria-label="Lääkäri">
+          <Link
+            id="aspa-link"
+            to="/about"
+            className="navmenu"
+            aria-label="Asiakaspalvelija"
           >
-          Lääkäri {" "}
+            > Asiakaspalvelija{" "}
           </Link>
-          <Link to= "/about" 
-          className="navmenu" 
-          aria-label="Lisää tietoa">
+          <Link
+            id="doctor-link"
+            to="/about"
+            className="navmenu"
+            aria-label="Lääkäri"
           >
-          Lisää tietoa {" "}
+            > Lääkäri{" "}
+          </Link>
+          <Link
+            id="information-link"
+            to="/about"
+            className="navmenu"
+            aria-label="Lisää tietoa"
+          >
+            > Lisää tietoa{" "}
           </Link>
         </ul>
-        </nav>
+      </nav>
     </Fragment>
   );
 };
