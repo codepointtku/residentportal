@@ -75,6 +75,7 @@ img {
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
+  padding: 0;
   padding-bottom: 1rem;
   align-content: center;
 }
@@ -487,6 +488,7 @@ a.navbar-brand img {
 
 #doctor-link {
   background-color: var(--picture-color);
+  color: var(--dark-color);
 }
 
 #information-link {
