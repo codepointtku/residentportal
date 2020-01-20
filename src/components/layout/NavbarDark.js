@@ -8,7 +8,7 @@ const NavbarDark = () => {
     <Fragment>
       <nav className="navbar-dark">
         <div>
-          <Link href="/" className="navbar-brand ml-5">
+          <Link to="/" className="navbar-brand ml-5">
             <img src={logo} alt="logo" />
           </Link>
         </div>
