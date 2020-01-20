@@ -1,10 +1,8 @@
 import React, { Fragment } from "react";
-import Navbar from "../layout/Navbar";
 
 const Aspa = () => {
   return (
     <Fragment>
-      <Navbar></Navbar>
       <div className="container1">
         <div className="">
           <div className="container1">
