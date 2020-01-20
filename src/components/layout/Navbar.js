@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "../layout/images/turkulogo.png";
+import NavbarRight from "./NavbarRight";
 
 const Navbar = () => {
   return (
@@ -13,6 +14,7 @@ const Navbar = () => {
               <img src={logo} alt="logo" />
             </Link>
           </div>
+          <NavbarRight>APUVA</NavbarRight>
         </div>
       </nav>
       <nav className="navmenu">
