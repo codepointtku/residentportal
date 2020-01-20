@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import logo from "./turkulogo.png";
+import logo from "../layout/images/turkulogo.png";
 
 const Navbar = () => {
   return (

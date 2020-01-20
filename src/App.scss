@@ -77,6 +77,7 @@ img {
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
+  padding: 0;
   padding-bottom: 1rem;
   align-content: center;
 }
@@ -90,7 +91,7 @@ img {
 }
 
 .container-img {
-  background-image: url("./components/layout/aurajokiranta_kuva-vesa-aaltonen.png");
+  background-image: url("./components/layout/images/aurajokiranta_kuva-vesa-aaltonen.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -493,7 +494,7 @@ a.navbar-brand img {
 .profilemenu {
   margin: 0px;
   padding: 25px;
-  align-content: center !important;
+  text-align: center;
 }
 
 #asukas-link {
@@ -507,6 +508,7 @@ a.navbar-brand img {
 
 #doctor-link {
   background-color: var(--picture-color);
+  color: var(--dark-color);
 }
 
 #information-link {
@@ -563,8 +565,10 @@ a.navbar-brand img {
     text-align: center;
   }
 
-  /* Mobile Navbar */
+  // Mobile Hamburger
 
+
+  /* Mobile Navbar */
   .navbar {
     display: block;
     text-align: left;
@@ -580,7 +584,6 @@ a.navbar-brand img {
     overflow: hidden;
     justify-content: center;
     align-content: center;
-    //padding: 1%;
   }
 
   .navbar ul {
@@ -594,10 +597,6 @@ a.navbar-brand img {
     width: 100%;
     justify-content: left;
     align-content: left;
-
-    //padding: 23px 20px;
-    //margin-top: -2rem;
-    //margin-bottom: -2rem;
   }
 
   a.navbar-brand img {
