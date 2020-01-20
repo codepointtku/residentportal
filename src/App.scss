@@ -80,9 +80,8 @@ img {
   padding-bottom: 1rem;
   align-content: center;
 }
-.container1 {
-  max-width: max-content;
-  margin: auto;
+.card-container {
+  margin: initial;
   overflow: hidden;
   padding-bottom: 1rem;
   align-content: center;
@@ -768,4 +767,19 @@ a.navbar-brand img {
 
 .nav navbar-nav navbar-right {
   color: var(--dark-color);
+}
+.card-btn
+{
+  position: relative;
+  left: 20px;
+  margin-top: 20rem;
+  background-color: var(--link-color);
+  min-width: 10rem;
+}
+.card-btn1{
+  position: relative;
+  left: 20px;
+  margin-top: 2rem;
+  background-color: var(--link-color);
+  min-width: 10rem;
 }
