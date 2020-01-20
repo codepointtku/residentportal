@@ -68,9 +68,8 @@ ul {
 
 img {
   width: 100%;
-  position:  static;  
+  position: static;
 }
-
 
 /* Utilities */
 .container {
@@ -170,14 +169,13 @@ img {
   padding: 1rem;
   text-align: center;
   margin: 0.7rem 0;
-max-width: 600px;
+  max-width: 600px;
 }
 
 .card-background {
   background-color: rgba(230, 230, 230, 0.7);
 }
-.card-img-top-right
-{
+.card-img-top-right {
   position: absolute;
   top: 0;
   right: 0;
@@ -185,14 +183,12 @@ max-width: 600px;
   left: 0;
   height: 12rem;
   width: 10rem;
-  margin-left:5rem;
-  background: url(./components/pages/kuva.jpg)  no-repeat;
+  margin-left: 5rem;
+  background: url(./components/pages/kuva.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  transition: transform .2s;
-
+  transition: transform 0.2s;
 }
-
 
 /* List */
 .list {
@@ -492,9 +488,47 @@ a.navbar-brand img {
 }
 
 .profilemenu {
-  margin: 0px;
+  margin: 0px !important;
   padding: 25px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
   text-align: center;
+}
+
+.navmenuright {
+  background-color: inherit;
+  align-self: right;
+}
+
+.contrast_button {
+  height: 1.7rem;
+  width: 1.7rem;
+  align-content: center;
+}
+
+.dropdownbutton {
+  background-color: inherit;
+  color: var(--dark-color);
+  border: 0px;
+}
+
+#dropdown-item-button {
+  background-color: inherit;
+  color: var(--dark-color);
+
+  padding: 0px !important;
+}
+
+#smalltext {
+  font-size: smaller;
+}
+
+#mediumtext {
+  font-size: medium;
+}
+
+#largetext {
+  font-size: large;
 }
 
 #asukas-link {
@@ -566,7 +600,6 @@ a.navbar-brand img {
   }
 
   // Mobile Hamburger
-
 
   /* Mobile Navbar */
   .navbar {

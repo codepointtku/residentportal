@@ -1,36 +1,73 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Dropdown, DropdownButton } from "react-bootstrap";
+import contrastButtonIcon from "./images/contrast_button.png";
 
 const NavbarRight = () => {
+  const [lang, setLang] = useState("FI");
+
   return (
     <div>
-      <nav className="navmenu">
-        <ul className="navlinks">
-          <Link
-            to="/"
-            className="navmenu font-weight-bold ml-5"
-            aria-label="Asukasportaali"
-          >
+      <nav className="navmenuright">
+        <ul className="navlinksright">
+          <a className="navmenuright font-weight-bold" aria-label="Kontrasti ">
             Kontrasti
-          </Link>
+          </a>
+          <button
+            aria-label="vaihda kontrastia"
+            aria-pressed="false"
+            className="contrast_button"
+            id="contrastButton"
+            tabindex="0"
+            type="button"
+          >
+            <img src={contrastButtonIcon} alt="contrast button" />
+          </button>
 
-          <Link
-            to="/"
-            className="navmenu font-weight-bold ml-5"
+          <a
+            className="navmenuright font-weight-bold"
             aria-label="Asukasportaali"
           >
             Tekstikoko
-          </Link>
-          <DropdownButton id="dropdown-item-button" title="FI">
-            <Dropdown.Item as="button">FI</Dropdown.Item>
-            <Dropdown.Item as="button">SV</Dropdown.Item>
-            <Dropdown.Item as="button">EN</Dropdown.Item>
+          </a>
+          <button id="smalltext">A</button>
+          <button id="mediumtext">A</button>
+          <button id="largetext">A</button>
+          <DropdownButton
+            id="dropdown-item-button"
+            title={lang}
+            className="navmenuright"
+          >
+            <Dropdown.Item
+              className="dropdownbutton"
+              as="button"
+              onClick={() => setLang("FI")}
+            >
+              FI
+            </Dropdown.Item>
+            <Dropdown.Item
+              className="dropdownbutton"
+              as="button"
+              onClick={() => setLang("SV")}
+            >
+              SV
+            </Dropdown.Item>
+            <Dropdown.Item
+              className="dropdownbutton"
+              as="button"
+              onClick={() => setLang("EN")}
+            >
+              EN
+            </Dropdown.Item>
           </DropdownButton>
 
-          <Link to="/about" className="navmenu" aria-label="Lisää tietoa">
-            Lisää tietoa
+          <Link
+            to="/logout"
+            className="navmenuright ml-1"
+            aria-label="Kirjaudu ulos"
+          >
+            Kirjaudu ulos
           </Link>
         </ul>
       </nav>
