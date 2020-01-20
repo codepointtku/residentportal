@@ -543,8 +543,10 @@ a.navbar-brand img {
     text-align: center;
   }
 
-  /* Mobile Navbar */
+  // Mobile Hamburger
 
+
+  /* Mobile Navbar */
   .navbar {
     display: block;
     text-align: left;
@@ -560,7 +562,6 @@ a.navbar-brand img {
     overflow: hidden;
     justify-content: center;
     align-content: center;
-    //padding: 1%;
   }
 
   .navbar ul {
@@ -574,10 +575,6 @@ a.navbar-brand img {
     width: 100%;
     justify-content: left;
     align-content: left;
-
-    //padding: 23px 20px;
-    //margin-top: -2rem;
-    //margin-bottom: -2rem;
   }
 
   a.navbar-brand img {
