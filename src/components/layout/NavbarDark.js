@@ -6,19 +6,19 @@ import logo from "./turkulogowhite.png";
 const NavbarDark = () => {
   return (
     <Fragment>
-      <nav className="navbar-dark">
+      <nav className="row navbar-dark">
         <div>
           <Link to="/" className="navbar-brand ml-5">
             <img src={logo} alt="logo" />
           </Link>
         </div>
       </nav>
-      <nav className="Navmenu">
-        <ul className="navlinks">
+      <nav className="container">
+        <ul className="row">
           <Link
             id="asukas-link"
             to="/asp"
-            className="navmenu font-weight-bold ml-5"
+            className="col-sm profilemenu"
             aria-label="Asukas"
           >
             Asukas{" "}
@@ -26,7 +26,7 @@ const NavbarDark = () => {
           <Link
             id="aspa-link"
             to="/about"
-            className="navmenu"
+            className="col-sm profilemenu"
             aria-label="Asiakaspalvelija"
           >
             Asiakaspalvelija{" "}
@@ -34,7 +34,7 @@ const NavbarDark = () => {
           <Link
             id="doctor-link"
             to="/about"
-            className="navmenu"
+            className="col-sm profilemenu"
             aria-label="Lääkäri"
           >
             Lääkäri{" "}
@@ -42,7 +42,7 @@ const NavbarDark = () => {
           <Link
             id="information-link"
             to="/about"
-            className="navmenu"
+            className="col-sm profilemenu"
             aria-label="Lisää tietoa"
           >
             Lisää tietoa{" "}
