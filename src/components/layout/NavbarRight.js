@@ -13,7 +13,37 @@ const NavbarRight = props => {
     }
     return <img src={contrastButtonBlack} alt="contrast button" />;
   }
-
+    function TextSizeButtons(props) {
+    const bgColor = props.bgcolor;
+    if (bgColor === "dark") {
+      return (
+        <div>
+        <button id="smalltext" className="textsize_button"> 
+        A
+        </button>
+        <button id="mediumtext" className="textsize_button">
+        A
+        </button>
+        <button id="largetext" className="textsize_button">
+        A
+        </button>
+        </div>
+        );
+    }
+    return (
+        <div>
+        <button id="smalltext" className="textsize_button"> 
+        A
+        </button>
+        <button id="mediumtext" className="textsize_button">
+        A
+        </button>
+        <button id="largetext" className="textsize_button">
+        A
+        </button>
+        </div>
+    );
+    }
   const [lang, setLang] = useState("FI");
 
   return (
