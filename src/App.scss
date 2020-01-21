@@ -456,6 +456,10 @@ table th {
     margin-left: 55rem;
     margin-top: 2rem;
   }
+  a {
+    color: var(--dark-color);
+    margin: 0 0.45rem;
+  }
 }
 .navbar-dark {
   display: flex;
@@ -473,14 +477,8 @@ table th {
   }
 }
 
-.navbar a {
-  color: var(--dark-color);
-  margin: 0 0.45rem;
-}
-
 a.navbar-brand {
   height: 100%;
-  width: 100%;
   padding: 23px 20px;
   margin-top: -2rem;
   margin-bottom: -2rem;
@@ -572,7 +570,6 @@ a.navbar-brand img {
 #dropdown-item-button {
   background-color: inherit;
   color: var(--dark-color);
-
   padding: 0px !important;
 }
 
@@ -656,8 +653,6 @@ a.navbar-brand img {
     text-align: center;
   }
 
-  // Mobile Hamburger
-
   /* Mobile Navbar */
   .navbar {
     display: block;
@@ -676,7 +671,7 @@ a.navbar-brand img {
     align-content: center;
   }
 
-  .navbar ul {
+  ul {
     text-align: center;
     justify-content: center;
   }
@@ -695,44 +690,6 @@ a.navbar-brand img {
   }
 }
 
-/* Burger*/
-.burger-menu,
-.burger-menu.open {
-  display: inline-block;
-  cursor: pointer;
-  position: fixed;
-  right: 100px;
-  top: -4px;
-  z-index: 9999;
-  padding: 20px;
-  border-radius: 15px;
-}
-
-.burger-menu .bar1,
-.bar2,
-.bar3 {
-  position: sticky;
-  width: 35px;
-  height: 2px;
-  background: rgba(240, 240, 240, 1);
-  margin: 5px;
-  transition: 0.4s;
-}
-
-.burger-menu.open .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
-  transform: rotate(-45deg) translate(-4px, 4px);
-}
-
-.burger-menu.open .bar2 {
-  opacity: 0;
-}
-
-.burger-menu.open .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -6px);
-  transform: rotate(45deg) translate(-6px, -6px);
-}
-
 /* Menu */
 .menu {
   width: 500px;
@@ -741,20 +698,20 @@ a.navbar-brand img {
   text-align: center;
   padding: 0px;
   height: max-content;
-}
-.menu ul {
-  position: relative;
-  top: 0px;
-  font-size: 24px;
-  padding: 0px;
-}
-.menu li {
-  list-style: outside none none;
-  margin: 20px 0px;
-  padding: 0;
-}
-.menu li:hover {
-  color: #ff0000;
+  ul {
+    position: relative;
+    top: 0px;
+    font-size: 24px;
+    padding: 0px;
+  }
+  li {
+    list-style: outside none none;
+    margin: 20px 0px;
+    padding: 0;
+  }
+  li:hover {
+    color: #ff0000;
+  }
 }
 
 /* Popup */
@@ -819,13 +776,6 @@ a.navbar-brand img {
   width: 109px;
 }
 
-// Navbar
-
-// Navbarin komponentti Topnav
-
-.nav navbar-nav navbar-right {
-  color: var(--dark-color);
-}
 .card-btn1 {
   position: right;
   left: 28rem;
