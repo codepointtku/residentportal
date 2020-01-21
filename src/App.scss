@@ -556,7 +556,7 @@ a.navbar-brand img {
   align-items: flex-end;
   border: 0px;
   background-color: inherit;
-  color: var (var(--light-color));
+  color: var(--light-color);
 }
 
 .dropdownbutton {
@@ -568,6 +568,12 @@ a.navbar-brand img {
 }
 
 #dropdown-item-button {
+  background-color: inherit;
+  color: var(--dark-color);
+  padding: 0px !important;
+}
+
+#dropdown-item-button_light {
   background-color: inherit;
   color: var(--dark-color);
   padding: 0px !important;
