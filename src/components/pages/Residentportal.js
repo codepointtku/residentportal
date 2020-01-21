@@ -1,5 +1,4 @@
-import React from "react";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import Logo from "./kuva.jpg";
 
 const Residentportal = () => {
@@ -7,12 +6,12 @@ const Residentportal = () => {
     <Fragment>
       <section>
         <div className="card-container">
-          <div class="card">
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="card-block">
-                  <h4 class="card-title">HENKILÖTIEDOT</h4>
-                  <table class="table table-striped">
+          <div className="card">
+            <div className="row">
+              <div className="col-sm-6">
+                <div className="card-block">
+                  <h4 className="card-title">HENKILÖTIEDOT</h4>
+                  <table className="table table-striped">
                     <tbody>
                       <tr>
                         <td className="font-weight-bold">Nimi</td>
@@ -55,7 +54,7 @@ const Residentportal = () => {
                 </div>
               </div>
 
-              <div class="col-sm-6">
+              <div className="col-sm-6">
                 <img src={Logo} alt="Kuva" className="card-img-top-right"></img>
                 <div className="card-text-right">
                   <button className="btn card-btn btn-primary text-aling-right">
@@ -75,12 +74,12 @@ const Residentportal = () => {
               </div>
             </div>
           </div>
-          <div class="card card-left">
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="card-block">
-                  <h4 class="card-title">HENKILÖTIEDOT</h4>
-                  <table class="table table-striped">
+          <div className="card card-left">
+            <div className="row">
+              <div className="col-sm-6">
+                <div className="card-block">
+                  <h4 className="card-title">HENKILÖTIEDOT</h4>
+                  <table className="table table-striped">
                     <tbody>
                       <tr>
                         <td className="font-weight-bold">Nimi</td>
@@ -123,7 +122,7 @@ const Residentportal = () => {
                 </div>
               </div>
 
-              <div class="col-sm-6">
+              <div className="col-sm-6">
                 <img src={Logo} alt="Kuva" className="card-img-top-right"></img>
                 <div className="card-text-right">
                   <button className="btn card-btn btn-primary text-aling-right">
