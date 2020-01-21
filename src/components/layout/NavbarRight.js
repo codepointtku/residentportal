@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Dropdown, DropdownButton } from "react-bootstrap";
@@ -19,7 +19,7 @@ const NavbarRight = () => {
             aria-pressed="false"
             className="contrast_button"
             id="contrastButton"
-            tabindex="0"
+            tabIndex="0"
             type="button"
           >
             <img src={contrastButtonIcon} alt="contrast button" />
@@ -31,9 +31,15 @@ const NavbarRight = () => {
           >
             Tekstikoko
           </a>
-          <button id="smalltext">A</button>
-          <button id="mediumtext">A</button>
-          <button id="largetext">A</button>
+          <button id="smalltext" className="textsize_button">
+            A
+          </button>
+          <button id="mediumtext" className="textsize_button">
+            A
+          </button>
+          <button id="largetext" className="textsize_button">
+            A
+          </button>
           <DropdownButton
             id="dropdown-item-button"
             title={lang}

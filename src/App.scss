@@ -495,20 +495,47 @@ a.navbar-brand img {
 }
 
 .navmenuright {
+  display: flex;
   background-color: inherit;
   align-self: right;
+  justify-content: flex-end;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+}
+
+.navlinksright {
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  text-align: right;
 }
 
 .contrast_button {
   height: 1.7rem;
   width: 1.7rem;
   align-content: center;
+  background-color: inherit;
+  border: 0px;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+}
+
+.textsize_button {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  align-items: flex-end;
+  border: 0px;
+  background-color: inherit;
 }
 
 .dropdownbutton {
   background-color: inherit;
   color: var(--dark-color);
   border: 0px;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
 }
 
 #dropdown-item-button {
@@ -768,15 +795,14 @@ a.navbar-brand img {
 .nav navbar-nav navbar-right {
   color: var(--dark-color);
 }
-.card-btn
-{
+.card-btn {
   position: relative;
   left: 20px;
   margin-top: 20rem;
   background-color: var(--link-color);
   min-width: 10rem;
 }
-.card-btn1{
+.card-btn1 {
   position: relative;
   left: 20px;
   margin-top: 2rem;
