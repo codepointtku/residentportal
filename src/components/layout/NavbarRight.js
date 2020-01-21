@@ -19,13 +19,13 @@ const NavbarRight = props => {
     if (bgColor === "dark") {
       return (
         <div>
-          <button id="smalltext" className="textsize_button ">
+          <button id="smalltext" className="textsize_button_light ">
             A
           </button>
-          <button id="mediumtext" className="textsize_button">
+          <button id="mediumtext" className="textsize_button_light">
             A
           </button>
-          <button id="largetext" className="textsize_button">
+          <button id="largetext" className="textsize_button_light">
             A
           </button>
         </div>
