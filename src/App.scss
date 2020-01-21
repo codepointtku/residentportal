@@ -547,6 +547,18 @@ a.navbar-brand img {
   background-color: inherit;
 }
 
+.textsize_button {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  align-items: flex-end;
+  border: 0px;
+  background-color: inherit;
+  color: var (var(--light-color));
+}
+
 .dropdownbutton {
   background-color: inherit;
   color: var(--dark-color);
