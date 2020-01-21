@@ -434,8 +434,11 @@ table th {
   width: 100%;
   opacity: 1;
   background-color: var(--light-color);
+  ul {
+    display: flex;
+    margin-left: 55rem;
+  }
 }
-
 .navbar-dark {
   display: flex;
   align-items: flex-start;
@@ -444,10 +447,6 @@ table th {
   width: 100%;
   opacity: 1;
   background-color: var(--primary-color);
-}
-
-.navbar ul {
-  display: flex;
 }
 
 .navbar a {
