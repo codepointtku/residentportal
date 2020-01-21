@@ -7,17 +7,14 @@ import NavbarRight from "./NavbarRight";
 const Navbar = () => {
   return (
     <div>
-    
       <nav className="navbar">
         <div className="navbar-container">
           <div className="navbar-container">
             <Link to="/" className="navbar-brand ml-5 navbar-container">
               <img src={logo} alt="logo" />
-            
             </Link>
-           
           </div>
-          <NavbarRight className="ml-5 ar-5"></NavbarRight>
+          <NavbarRight />
         </div>
       </nav>
       <nav className="navmenu">

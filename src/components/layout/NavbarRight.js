@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Dropdown, DropdownButton } from "react-bootstrap";
@@ -11,7 +11,7 @@ const NavbarRight = () => {
     <div>
       <nav className="navmenuright">
         <ul className="navlinksright">
-          <a className="navmenuright" aria-label="Kontrasti ">
+          <a href="/" className="navmenuright" aria-label="Kontrasti ">
             Kontrasti
           </a>
           <button
@@ -25,10 +25,7 @@ const NavbarRight = () => {
             <img src={contrastButtonIcon} alt="contrast button" />
           </button>
 
-          <a
-            className="navmenuright"
-            aria-label="Asukasportaali"
-          >
+          <a href="/" className="navmenuright" aria-label="Asukasportaali">
             Tekstikoko
           </a>
           <button id="smalltext">A</button>
