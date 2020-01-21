@@ -445,7 +445,6 @@ table th {
 .navbar {
   display: flex;
   align-items: flex-start;
-  z-index: 1;
   min-height: 105px;
   width: 100%;
   opacity: 1;
@@ -462,7 +461,6 @@ table th {
 .navbar-dark {
   display: flex;
   align-items: flex-start;
-  z-index: 1;
   min-height: 105px;
   width: 100%;
   opacity: 1;
@@ -572,12 +570,14 @@ a.navbar-brand img {
   background-color: inherit;
   color: var(--dark-color);
   padding: 0px !important;
+  z-index: 999;
 }
 
 #dropdown-item-button_light {
   background-color: inherit;
   color: var(--light-color);
   padding: 0px !important;
+  z-index: 999;
 }
 
 #smalltext {
