@@ -11,7 +11,7 @@ const NavbarRight = () => {
     <div>
       <nav className="navmenuright">
         <ul className="navlinksright">
-          <a className="navmenuright font-weight-bold" aria-label="Kontrasti ">
+          <a className="navmenuright" aria-label="Kontrasti ">
             Kontrasti
           </a>
           <button
@@ -26,7 +26,7 @@ const NavbarRight = () => {
           </button>
 
           <a
-            className="navmenuright font-weight-bold"
+            className="navmenuright"
             aria-label="Asukasportaali"
           >
             Tekstikoko

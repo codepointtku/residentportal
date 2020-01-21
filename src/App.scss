@@ -497,6 +497,7 @@ a.navbar-brand img {
 .navmenuright {
   background-color: inherit;
   align-self: right;
+  text-align: right;
 }
 
 .contrast_button {
@@ -768,15 +769,14 @@ a.navbar-brand img {
 .nav navbar-nav navbar-right {
   color: var(--dark-color);
 }
-.card-btn
-{
+.card-btn {
   position: relative;
   left: 20px;
   margin-top: 20rem;
   background-color: var(--link-color);
   min-width: 10rem;
 }
-.card-btn1{
+.card-btn1 {
   position: relative;
   left: 20px;
   margin-top: 2rem;
