@@ -70,15 +70,7 @@ const NavbarRight = props => {
           <a href="/" className="navmenuright" aria-label="Asukasportaali">
             Tekstikoko
           </a>
-          <button id="smalltext" className="textsize_button ">
-            A
-          </button>
-          <button id="mediumtext" className="textsize_button">
-            A
-          </button>
-          <button id="largetext" className="textsize_button">
-            A
-          </button>
+          <TextSizeButtons></TextSizeButtons>
           <DropdownButton
             id="dropdown-item-button"
             title={lang}
