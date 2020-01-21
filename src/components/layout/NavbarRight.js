@@ -12,6 +12,41 @@ const NavbarRight = props => {
       return <img src={contrastButtonWhite} alt="contrast button" />;
     }
     return <img src={contrastButtonBlack} alt="contrast button" />;
+    }
+  function LanguageDropdown(props) {
+    const bgColor = props.bgcolor;
+    if (bgColor === "dark") {
+      return (
+        <div>
+        <DropdownButton
+        id="dropdown-item-button"
+        title={lang}
+        className="navmenuright"
+      >
+        <Dropdown.Item
+          className="dropdownbutton"
+          as="button"
+          onClick={() => setLang("FI")}
+        >
+          FI
+        </Dropdown.Item>
+        <Dropdown.Item
+          className="dropdownbutton"
+          as="button"
+          onClick={() => setLang("SV")}
+        >
+          SV
+        </Dropdown.Item>
+        <Dropdown.Item
+          className="dropdownbutton"
+          as="button"
+          onClick={() => setLang("EN")}
+        >
+          EN
+        </Dropdown.Item>
+      </DropdownButton>
+        </div>
+      );
   }
 
   function LanguageDropdown(props) {
@@ -114,7 +149,7 @@ const NavbarRight = props => {
       </div>
     );
   }
-
+  
   const [lang, setLang] = useState("FI");
 
   return (
