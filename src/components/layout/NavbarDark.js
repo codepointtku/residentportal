@@ -6,7 +6,7 @@ import NavbarRight from "./NavbarRight";
 
 const NavbarDark = () => {
   return (
-    <Fragment className="container">
+    <Fragment>
       <nav className="row navbar-dark">
         <div className="col-6">
           <Link to="/" className="navbar-brand">

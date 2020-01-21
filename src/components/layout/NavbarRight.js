@@ -19,7 +19,7 @@ const NavbarRight = () => {
             aria-pressed="false"
             className="contrast_button"
             id="contrastButton"
-            tabindex="0"
+            tabIndex="0"
             type="button"
           >
             <img src={contrastButtonIcon} alt="contrast button" />
