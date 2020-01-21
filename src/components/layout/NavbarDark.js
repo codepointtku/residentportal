@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "../layout/images/turkulogowhite.png";
-import NavbarRight from "./NavbarRight";
+import Accessibility from "./Accessibility";
 
 const NavbarDark = () => {
   return (
@@ -13,7 +13,7 @@ const NavbarDark = () => {
             <img src={logo} alt="logo" />
           </Link>
         </div>
-        <NavbarRight className="col-6" bgcolor="dark"></NavbarRight>
+        <Accessibility className="col-6" bgcolor="dark"></Accessibility>
       </nav>
       <nav className="container">
         <ul className="row">

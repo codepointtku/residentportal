@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "../layout/images/turkulogo.png";
-import NavbarRight from "./NavbarRight";
+import Accessibility from "./Accessibility";
 
 const Navbar = () => {
   return (
@@ -14,7 +14,7 @@ const Navbar = () => {
               <img src={logo} alt="logo" />
             </Link>
             <div className="col-6">
-              <NavbarRight />
+              <Accessibility />
             </div>
           </div>
         </div>

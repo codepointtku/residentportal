@@ -5,7 +5,7 @@ import { Dropdown, DropdownButton } from "react-bootstrap";
 import contrastButtonBlack from "./images/contrast_button.png";
 import contrastButtonWhite from "./images/contrast_button_white.png";
 
-const NavbarRight = props => {
+const Accessibility = props => {
   function ContrastButton(props) {
     const bgColor = props.bgcolor;
     if (bgColor === "dark") {
@@ -153,14 +153,14 @@ const NavbarRight = props => {
   );
 };
 
-NavbarRight.defaultProps = {
+Accessibility.defaultProps = {
   title: "Turku Asukasportaali",
   icon: "turku-logo"
 };
 
-NavbarRight.propTypes = {
+Accessibility.propTypes = {
   title: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired
 };
 
-export default NavbarRight;
+export default Accessibility;
