@@ -13,7 +13,7 @@ const NavbarDark = () => {
             <img src={logo} alt="logo" />
           </Link>
         </div>
-        <NavbarRight className="col-6"></NavbarRight>
+        <NavbarRight className="col-6" bgcolor="dark"></NavbarRight>
       </nav>
       <nav className="container">
         <ul className="row">

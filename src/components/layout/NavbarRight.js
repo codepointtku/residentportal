@@ -2,9 +2,18 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Dropdown, DropdownButton } from "react-bootstrap";
-import contrastButtonIcon from "./images/contrast_button.png";
+import contrastButtonBlack from "./images/contrast_button.png";
+import contrastButtonWhite from "./images/contrast_button_white.png";
 
-const NavbarRight = () => {
+const NavbarRight = props => {
+  function ContrastButton(props) {
+    const bgColor = props.bgcolor;
+    if (bgColor === "dark") {
+      return <img src={contrastButtonWhite} alt="contrast button" />;
+    }
+    return <img src={contrastButtonBlack} alt="contrast button" />;
+  }
+
   const [lang, setLang] = useState("FI");
 
   return (
@@ -22,7 +31,7 @@ const NavbarRight = () => {
             tabIndex="0"
             type="button"
           >
-            <img src={contrastButtonIcon} alt="contrast button" />
+            <ContrastButton bgcolor={props.bgcolor} />
           </button>
 
           <a href="/" className="navmenuright" aria-label="Asukasportaali">
