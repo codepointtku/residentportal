@@ -62,7 +62,6 @@ a:visited {
 }
 
 ul {
-  list-style: none;
   margin-bottom: 0rem;
 }
 
@@ -453,7 +452,6 @@ table th {
   background-color: var(--light-color);
   ul {
     display: flex;
-    margin-left: 55rem;
     margin-top: 2rem;
   }
   a {
@@ -471,9 +469,11 @@ table th {
   background-color: var(--primary-color);
   ul {
     display: flex;
-    margin-left: 55rem;
-    margin-top: -3rem;
-    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+  }
+    a {
+    color: var(--light-color);
+    margin: 0 0.45rem;
   }
 }
 
@@ -512,18 +512,10 @@ a.navbar-brand img {
 }
 
 .navmenuright {
-  display: flex;
+  display: inline-block;
   background-color: inherit;
-  align-self: right;
-  justify-content: flex-end;
-  padding-right: 0.1rem;
-  padding-left: 0.1rem;
-}
-
-.navlinksright {
   padding-right: 0.2rem;
   padding-left: 0.2rem;
-  text-align: right;
 }
 
 .contrast_button {

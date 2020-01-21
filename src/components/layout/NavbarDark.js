@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "../layout/images/turkulogowhite.png";
@@ -6,14 +6,14 @@ import Accessibility from "./Accessibility";
 
 const NavbarDark = () => {
   return (
-    <Fragment>
-      <nav className="row navbar-dark">
-        <div className="col-6">
-          <Link to="/" className="navbar-brand">
+    <div>
+      <nav className="navbar navbar-dark">
+        <div className="container">
+          <Link to="/" className="col-4 navbar-brand navbar-container">
             <img src={logo} alt="logo" />
           </Link>
+          <Accessibility className="col-6" bgcolor="dark" />
         </div>
-        <Accessibility className="col-6" bgcolor="dark"></Accessibility>
       </nav>
       <nav className="container">
         <ul className="row">
@@ -51,7 +51,7 @@ const NavbarDark = () => {
           </Link>
         </ul>
       </nav>
-    </Fragment>
+    </div>
   );
 };
 
