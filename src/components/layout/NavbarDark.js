@@ -2,23 +2,25 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "../layout/images/turkulogowhite.png";
+import NavbarRight from "./NavbarRight";
 
 const NavbarDark = () => {
   return (
     <Fragment>
       <nav className="row navbar-dark">
-        <div>
-          <Link to="/" className="navbar-brand ml-5">
+        <div className="col-6">
+          <Link to="/" className="navbar-brand">
             <img src={logo} alt="logo" />
           </Link>
         </div>
+        <NavbarRight className="col-6" bgcolor="dark"></NavbarRight>
       </nav>
       <nav className="container">
         <ul className="row">
           <Link
             id="asukas-link"
             to="/asp"
-            className="col-sm profilemenu"
+            className="col-sm-3 profilemenu"
             aria-label="Asukas"
           >
             Asukas{" "}
@@ -26,7 +28,7 @@ const NavbarDark = () => {
           <Link
             id="aspa-link"
             to="/about"
-            className="col-sm profilemenu"
+            className="col-sm-3 profilemenu"
             aria-label="Asiakaspalvelija"
           >
             Asiakaspalvelija{" "}
@@ -34,7 +36,7 @@ const NavbarDark = () => {
           <Link
             id="doctor-link"
             to="/about"
-            className="col-sm profilemenu"
+            className="col-sm-3 profilemenu"
             aria-label="Lääkäri"
           >
             Lääkäri{" "}
@@ -42,7 +44,7 @@ const NavbarDark = () => {
           <Link
             id="information-link"
             to="/about"
-            className="col-sm profilemenu"
+            className="col-sm-3 profilemenu"
             aria-label="Lisää tietoa"
           >
             Lisää tietoa{" "}

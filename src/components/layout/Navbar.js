@@ -8,13 +8,15 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-container">
-          <div className="navbar-container">
-            <Link to="/" className="navbar-brand ml-5 navbar-container">
+        <div className="container">
+          <div className="row">
+            <Link to="/" className="col-4 navbar-brand  navbar-container">
               <img src={logo} alt="logo" />
             </Link>
+            <div className="col-6">
+              <NavbarRight />
+            </div>
           </div>
-          <NavbarRight>APUVA</NavbarRight>
         </div>
       </nav>
       <nav className="navmenu">

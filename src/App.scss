@@ -9,7 +9,7 @@
   --light-color: #ffffff;
   --danger-color: #dc3545;
   --success-color: #28a745;
-  --info-color: #ffc233;
+  --info-color: #00aeef;
   --link-color: #7dcdc8;
   --symbol-color: #ed0c6e;
   --picture-color: #c3c4b7;
@@ -451,8 +451,12 @@ table th {
   width: 100%;
   opacity: 1;
   background-color: var(--light-color);
+  ul {
+    display: flex;
+    margin-left: 55rem;
+    margin-top: 2rem;
+  }
 }
-
 .navbar-dark {
   display: flex;
   align-items: flex-start;
@@ -461,15 +465,17 @@ table th {
   width: 100%;
   opacity: 1;
   background-color: var(--primary-color);
-}
-
-.navbar ul {
-  display: flex;
+  ul {
+    display: flex;
+    margin-left: 55rem;
+    margin-top: -3rem;
+    margin-bottom: 2.5rem;
+  }
 }
 
 .navbar a {
   color: var(--dark-color);
-  margin: 0 0.25rem;
+  margin: 0 0.45rem;
 }
 
 a.navbar-brand {
@@ -500,9 +506,74 @@ a.navbar-brand img {
 }
 
 .profilemenu {
-  margin: 0px;
+  margin: 0px !important;
   padding: 25px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
   text-align: center;
+}
+
+.navmenuright {
+  display: flex;
+  background-color: inherit;
+  align-self: right;
+  justify-content: flex-end;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+}
+
+.navlinksright {
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  text-align: right;
+}
+
+.contrast_button {
+  height: 1.7rem;
+  width: 1.7rem;
+  align-content: center;
+  background-color: inherit;
+  border: 0px;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+}
+
+.textsize_button {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  align-items: flex-end;
+  border: 0px;
+  background-color: inherit;
+}
+
+.dropdownbutton {
+  background-color: inherit;
+  color: var(--dark-color);
+  border: 0px;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+}
+
+#dropdown-item-button {
+  background-color: inherit;
+  color: var(--dark-color);
+
+  padding: 0px !important;
+}
+
+#smalltext {
+  font-size: smaller;
+}
+
+#mediumtext {
+  font-size: medium;
+}
+
+#largetext {
+  font-size: large;
 }
 
 #asukas-link {
