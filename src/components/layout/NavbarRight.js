@@ -12,8 +12,74 @@ const NavbarRight = props => {
       return <img src={contrastButtonWhite} alt="contrast button" />;
     }
     return <img src={contrastButtonBlack} alt="contrast button" />;
+    }
+  function LanguageDropdown(props) {
+    const bgColor = props.bgcolor;
+    if (bgColor === "dark") {
+      return (
+        <div>
+        <DropdownButton
+        id="dropdown-item-button"
+        title={lang}
+        className="navmenuright"
+      >
+        <Dropdown.Item
+          className="dropdownbutton"
+          as="button"
+          onClick={() => setLang("FI")}
+        >
+          FI
+        </Dropdown.Item>
+        <Dropdown.Item
+          className="dropdownbutton"
+          as="button"
+          onClick={() => setLang("SV")}
+        >
+          SV
+        </Dropdown.Item>
+        <Dropdown.Item
+          className="dropdownbutton"
+          as="button"
+          onClick={() => setLang("EN")}
+        >
+          EN
+        </Dropdown.Item>
+      </DropdownButton>
+        </div>
+      );
   }
-
+    return (
+        <div>
+        <DropdownButton
+        id="dropdown-item-button"
+        title={lang}
+        className="navmenuright"
+      >
+        <Dropdown.Item
+          className="dropdownbutton"
+          as="button"
+          onClick={() => setLang("FI")}
+        >
+          FI
+        </Dropdown.Item>
+        <Dropdown.Item
+          className="dropdownbutton"
+          as="button"
+          onClick={() => setLang("SV")}
+        >
+          SV
+        </Dropdown.Item>
+        <Dropdown.Item
+          className="dropdownbutton"
+          as="button"
+          onClick={() => setLang("EN")}
+        >
+          EN
+        </Dropdown.Item>
+      </DropdownButton>
+        </div>
+    );
+}
   function TextSizeButtons(props) {
     const bgColor = props.bgcolor;
     if (bgColor === "dark") {
@@ -46,7 +112,7 @@ const NavbarRight = props => {
       </div>
     );
   }
-
+  
   const [lang, setLang] = useState("FI");
 
   return (
@@ -70,35 +136,8 @@ const NavbarRight = props => {
           <a href="/" className="navmenuright" aria-label="Asukasportaali">
             Tekstikoko
           </a>
-          <TextSizeButtons></TextSizeButtons>
-          <DropdownButton
-            id="dropdown-item-button"
-            title={lang}
-            className="navmenuright"
-          >
-            <Dropdown.Item
-              className="dropdownbutton"
-              as="button"
-              onClick={() => setLang("FI")}
-            >
-              FI
-            </Dropdown.Item>
-            <Dropdown.Item
-              className="dropdownbutton"
-              as="button"
-              onClick={() => setLang("SV")}
-            >
-              SV
-            </Dropdown.Item>
-            <Dropdown.Item
-              className="dropdownbutton"
-              as="button"
-              onClick={() => setLang("EN")}
-            >
-              EN
-            </Dropdown.Item>
-          </DropdownButton>
-
+          <TextSizeButtons bgcolor={props.bgcolor}></TextSizeButtons>
+          <LanguageDropdown bgcolor={props.bgcolor}></LanguageDropdown>
           <Link
             to="/logout"
             className="navmenuright ml-1"
