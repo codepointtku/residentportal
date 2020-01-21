@@ -13,8 +13,8 @@ const Navbar = () => {
             <Link to="/" className="navbar-brand ml-5 navbar-container">
               <img src={logo} alt="logo" />
             </Link>
-            <NavbarRight className="ml-5 ar-5"></NavbarRight>
           </div>
+          <NavbarRight />
         </div>
       </nav>
       <nav className="navmenu">

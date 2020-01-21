@@ -11,7 +11,7 @@ const NavbarRight = () => {
     <div>
       <nav className="navmenuright">
         <ul className="navlinksright">
-          <a className="navmenuright font-weight-bold" aria-label="Kontrasti ">
+          <a href="/" className="navmenuright" aria-label="Kontrasti ">
             Kontrasti
           </a>
           <button
@@ -25,10 +25,7 @@ const NavbarRight = () => {
             <img src={contrastButtonIcon} alt="contrast button" />
           </button>
 
-          <a
-            className="navmenuright font-weight-bold"
-            aria-label="Asukasportaali"
-          >
+          <a href="/" className="navmenuright" aria-label="Asukasportaali">
             Tekstikoko
           </a>
           <button id="smalltext" className="textsize_button">

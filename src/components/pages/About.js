@@ -5,9 +5,9 @@ const About = () => {
   return (
     <Fragment>
       <Navbar></Navbar>
-      <div className="container1">
+      <div className="card-container">
         <div className="">
-          <div className="container1">
+          <div className="card-container">
             <div className="text-left ml-5 mt-5">
               <div className="p-5 mt-5">
                 <h1 className=" text-center mb-2 text-shadow-header">
@@ -20,9 +20,9 @@ const About = () => {
                 </p>
 
                 <p>
-                  Asukasportaali on testausvaiheessa, eikä
-                  pilottikäytössä olevassa versiossa ole vielä kaikkia
-                  suunnitteilla olevia ominaisuuksia ja toiminnallisuuksia.
+                  Asukasportaali on testausvaiheessa, eikä pilottikäytössä
+                  olevassa versiossa ole vielä kaikkia suunnitteilla olevia
+                  ominaisuuksia ja toiminnallisuuksia.
                 </p>
 
                 <p>

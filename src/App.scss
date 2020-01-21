@@ -9,7 +9,7 @@
   --light-color: #ffffff;
   --danger-color: #dc3545;
   --success-color: #28a745;
-  --info-color: #ffc233;
+  --info-color: #00aeef;
   --link-color: #7dcdc8;
   --symbol-color: #ed0c6e;
   --picture-color: #c3c4b7;
@@ -167,7 +167,7 @@ img {
 .card {
   padding: 1rem;
   text-align: center;
-  margin: 0.7rem 0;
+  margin: 0.7rem;
   max-width: 600px;
 }
 
@@ -176,17 +176,13 @@ img {
 }
 .card-img-top-right {
   position: absolute;
-  top: 0;
+  top: 2.5rem;
   right: 0;
   bottom: 0;
   left: 0;
   height: 12rem;
   width: 10rem;
   margin-left: 5rem;
-  background: url(./components/pages/kuva.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  transition: transform 0.2s;
 }
 
 /* List */
