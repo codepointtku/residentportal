@@ -11,7 +11,7 @@ const Residentportal = () => {
   return (
     <Container className="container1">
       <Row>
-        <Col sm={8}>
+        <Col sm={5}>
           <Table striped bordered hover className="table1">
             <tbody>
               <thead>
@@ -86,8 +86,8 @@ const Residentportal = () => {
             </Button>
           </ButtonGroup>
         </Col>
-        <Col sm={4}>
-          <Card border="dark" style={{ width: "25rem" }}>
+        <Col sm={5}>
+          <Card border="dark" style={{ width: "35rem" }}>
             <Card.Header>Header</Card.Header>
             <Card.Body>
               <Card.Title>Dark Card Title</Card.Title>
@@ -99,7 +99,7 @@ const Residentportal = () => {
           </Card>
           <br />
 
-          <Card border="light" style={{ width: "25rem" }}>
+          <Card border="light" style={{ width: "35rem" }}>
             <Card.Header>Header</Card.Header>
             <Card.Body>
               <Card.Title>Light Card Title</Card.Title>
