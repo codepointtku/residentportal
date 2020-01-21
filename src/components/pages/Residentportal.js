@@ -1,110 +1,123 @@
 import React from "react";
-import { Fragment } from "react";
-import Logo from "./kuva.jpg";
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Table from "react-bootstrap/Table";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 const Residentportal = () => {
   return (
-    <Fragment>
-      <section>
-        <div className="card-container">
-          <div class="card">
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="card-block">
-                  <h4 class="card-title">HENKILÖTIEDOT</h4>
-                  <table class="table table-striped">
-                    <tbody>
-                      <tr>
-                        <td scope="row" className="font-weight-bold">
-                          Nimi
-                        </td>
-                        <td>Minna Aliisa Föri</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Henkilötunnus</th>
-                        <td>010180-xxxx</td>
-                      </tr>
-                      <tr>
-                        <td scope="row" className="font-weight-bold">
-                          Sukupuoli
-                        </td>
-                        <td>Nainen</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Sivilisääty</th>
-                        <td>naimisissa</td>
-                      </tr>
-                      <tr>
-                        <td scope="row" className="font-weight-bold">
-                          Kotiosoite
-                        </td>
-                        <td>Förikatu 1, 20810 Turku</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Sähköposti</th>
-                        <td>minna@gmail.com</td>
-                      </tr>
-                      <tr>
-                        <td scope="row" className="font-weight-bold">
-                          Puhelin
-                        </td>
-                        <td>+358 50 123 4567</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Kansalaisuus</th>
-                        <td>Suomen</td>
-                      </tr>
-                      <tr>
-                        <td scope="row " className="font-weight-bold">
-                          Äidinkieli
-                        </td>
-                        <td>Suomi</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
+    <Container className="container1">
+      <Row>
+        <Col sm={8}>
+          <Table striped bordered hover className="table1">
+            <tbody>
+              <thead>
+                <tr>
+                  <th> Nimi</th>
+                  <th className="font-weight-normal">Minna Aliisa Föri</th>
+                </tr>
+              </thead>
 
-              <div class="col-sm-6">
-                <div class="card-img-top-right "></div>
-                <div className="card-text-right">
-                  <button className="btn card-btn btn-primary text-aling-right">
-                    <a href="#">Tietoluvat </a>
-                  </button>
-                </div>
-                <div className="card-text-right">
-                  <button className="btn card-btn1 btn-primary text-aling-right">
-                    <a href="#">valtuutukset</a>
-                  </button>
-                </div>
-                <div className="card-text-right">
-                  <button className="btn card-btn1 btn-primary text-aling-right">
-                    <a href="#">Henkilötiedot</a>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card float-right ">
-            <img
-              className="card-img-top-right"
-              src="..."
-              alt="Card image cap"
-            ></img>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
-              <p className="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </Fragment>
+              <thead>
+                <tr>
+                  <td className="font-weight-bold">Henkilötunnus</td>
+                  <td className="font-weight-normal">010180-xxxx</td>
+                </tr>
+              </thead>
+              <thead>
+                <tr>
+                  <th>Sukupuoli</th>
+                  <th className="font-weight-normal">Nainen</th>
+                </tr>
+              </thead>
+              <thead>
+                <tr>
+                  <td className="font-weight-bold">Sivilisääty</td>
+                  <td className="font-weight-normal">Naimisissa</td>
+                </tr>
+              </thead>
+              <thead>
+                <tr>
+                  <th> Kotiosoite</th>
+                  <th className="font-weight-normal">
+                    Förikatu 1, 20810 Turku
+                  </th>
+                </tr>
+              </thead>
+              <thead>
+                <tr>
+                  <td className="font-weight-bold">Sähköposti</td>
+                  <td className="font-weight-normal">minna@gmail.com</td>
+                </tr>
+              </thead>
+              <thead>
+                <tr>
+                  <th> Puhelin</th>
+                  <th className="font-weight-normal">+358 50 123 4567</th>
+                </tr>
+              </thead>
+              <thead>
+                <tr>
+                  <td className="font-weight-bold">Kansalaisuus</td>
+                  <td className="font-weight-normal">Suomen</td>
+                </tr>
+              </thead>
+              <thead>
+                <tr>
+                  <th>Äidinkieli</th>
+                  <th className="font-weight-normal">Suomi</th>
+                </tr>
+              </thead>
+            </tbody>
+          </Table>
+          <div className="card-img-top-right "></div>
+          <ButtonGroup vertical>
+            <Button className="card-btn1 ">
+              <a href="/">Tietoluvat </a>
+            </Button>
+            <Button className="card-btn ">
+              <a href="/">valtuutukset</a>
+            </Button>
+            <Button className="card-btn">
+              <a href="/">Henkilötiedot</a>
+            </Button>
+          </ButtonGroup>
+        </Col>
+        <Col sm={4}>
+          <Card border="dark" style={{ width: "25rem" }}>
+            <Card.Header>Header</Card.Header>
+            <Card.Body>
+              <Card.Title>Dark Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <br />
+
+          <Card border="light" style={{ width: "25rem" }}>
+            <Card.Header>Header</Card.Header>
+            <Card.Body>
+              <Card.Title>Light Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <br />
+        </Col>
+      </Row>
+      <Row>
+        <Col sm>sm=true</Col>
+        <Col sm>sm=true</Col>
+        <Col sm>sm=true</Col>
+      </Row>
+    </Container>
   );
 };
 
