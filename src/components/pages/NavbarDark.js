@@ -19,7 +19,7 @@ const NavbarDark = () => {
         <ul className="row">
           <Link
             id="asukas-link"
-            to="/asp"
+            to="/login"
             className="col-sm-4 profilemenu"
             aria-label="Asukas"
           >
