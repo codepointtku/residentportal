@@ -468,7 +468,7 @@ table th {
     display: flex;
     margin-top: 2rem;
   }
-    a {
+  a {
     color: var(--light-color);
     margin: 0 0.45rem;
   }
@@ -547,12 +547,6 @@ a.navbar-brand img {
   color: var(--light-color);
   background-color: inherit;
 }
-
-#textsizebuttons {
-  display: contents !important;
-  
-}
-
 
 .dropdownbutton {
   background-color: inherit;
