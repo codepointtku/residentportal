@@ -95,8 +95,7 @@ img {
   background-position-y: center;
 }
 .container1 {
-  background-color: var(--secondary-color);
-  margin-top: 2rem;
+  background-color: var(--light-color);
 }
 /* Text Styles*/
 .x-large {
@@ -180,27 +179,12 @@ img {
   background-color: rgba(230, 230, 230, 0.7);
 }
 .card-img-top-right {
-  position: absolute;
-  top: 40px;
-  right: 60px;
-  bottom: 0;
-  left: 0;
-  height: 12rem;
-  width: 10rem;
-  margin-left: 29rem;
-  background: url(./components/pages/kuva.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  transition: transform 0.2s;
+ position: relative;
+  width: 9rem;
+ align-self: center;
+ margin: 1rem;
 }
-.cardgroup {
-  padding: 1rem;
-  text-align: center;
-  margin: 0.7rem 0;
-  max-width: max-content;
-  right: 20px;
-  padding-left: 5rem;
-}
+
 
 /* List */
 .list {
@@ -432,15 +416,7 @@ button {
   font: inherit;
 }
 
-table th,
-table td {
-  padding: 1rem;
-  text-align: left;
-}
 
-table th {
-  background: var(--light-color);
-}
 
 /* Navbar */
 .navbar {
@@ -467,7 +443,6 @@ table th {
   background-color: var(--primary-color);
   ul {
     display: flex;
-    margin-left: 55rem;
     margin-top: -3rem;
     margin-bottom: 2.5rem;
   }
@@ -815,23 +790,35 @@ a.navbar-brand img {
   color: var(--dark-color);
 }
 .card-btn1 {
-  position: right;
-  left: 28rem;
-  top: -14rem;
   background-color: var(--link-color);
-  min-width: 10rem;
   margin-bottom: 15px;
+  position: initial !important;
 }
 .card-btn {
-  position: right;
-  left: 28rem;
-  top: -14rem;
   background-color: var(--link-color);
-  min-width: 10rem;
   margin-bottom: 15px;
+  position: initial !important;
 }
-.table1 {
+.table {
   margin-top: 1rem;
   background-color: #ffffff;
   padding-left: 5rem;
+  border:0;
+
+}
+.table th,
+.table td {
+  padding: 1rem;
+  text-align: center;
+
+}
+
+.table th {
+  background: var(--light-color);
+}
+.jumbotron{
+  background-color: #ffffff;
+  margin-left: 2rem;
+  margin-top: 15px;
+ 
 }
