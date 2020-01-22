@@ -281,10 +281,15 @@ li {
   grid-gap: 1rem;
 }
 
+.grid-accessibility-text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .btn {
   display: inline-block;
   background: var(--light-color);
-  color: #333;
+  color: var(--middle-color);
   padding: 0.4rem 1.3rem;
   font-size: 1rem;
   border: none;
@@ -293,12 +298,6 @@ li {
   margin-right: 0.5rem;
   transition: opacity 0.2s ease-in;
   outline: none;
-}
-
-.btn-link {
-  background: none;
-  padding: 0;
-  margin: 0;
 }
 
 .btn-block {
@@ -319,7 +318,7 @@ li {
   text-align: center;
   margin: 0.3rem;
   background: var(--light-color);
-  color: #333;
+  color: var(--primary-color);
   border-radius: 5px;
 }
 
@@ -328,7 +327,7 @@ li {
   margin: 1rem 0;
   opacity: 0.9;
   background: var(--light-color);
-  color: #333;
+  color: var(--primary-color);
 }
 
 .btn-primary,
@@ -479,7 +478,7 @@ a.navbar-brand {
   height: 100%;
   padding: 23px 20px;
   margin-top: -2rem;
-  margin-bottom: -2rem;
+  margin-bottom: -3rem;
 }
 
 a.navbar-brand img {
