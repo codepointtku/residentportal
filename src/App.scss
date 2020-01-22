@@ -74,7 +74,6 @@ img {
 .container {
   max-width: 2400px;
   margin: auto;
-
   padding: 0;
   padding-bottom: 1rem;
   align-content: center;
@@ -538,6 +537,10 @@ a.navbar-brand img {
   border: 0px;
   color: var(--light-color);
   background-color: inherit;
+}
+
+#textsizebuttons {
+  display: contents !important;
 }
 
 .dropdownbutton {
