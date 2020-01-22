@@ -26,18 +26,17 @@ const About = () => {
                 </p>
 
                 <p>
-                  Asukasportaalin pilottikäyttö tehdään Konsernitasoinen
-                  resurssienvarausten kehittäminen projektissa, joka on osa
-                  Smart and Wise Turku kärkihanketta. Yhtenä tavoitteena
-                  kärkihankkeessa on palvelujen kustannustehokas järjestäminen
-                  uudistamalla kaupungin toimintatapoja ja hyödyntämällä
-                  digitalisaation ja sen tuottaman datan mahdollisuuksia. Tähän
-                  pohjautuen projektin tavoitteena on mm. tilojen ja muiden
+                  Asukasportaalin pilottikäyttö tehdään konsernitasoisessa
+                  kehittämisrojektissa, joka on osa Smart and Wise Turku 
+                  kärkihanketta. Yhtenä tavoitteena kärkihankkeessa on palvelujen 
+                  kustannustehokas järjestäminen uudistamalla kaupungin toimintatapoja 
+                  ja hyödyntämällä digitalisaation ja sen tuottaman datan mahdollisuuksia. 
+                  Tähän pohjautuen projektin tavoitteena on mm. tilojen ja muiden
                   resurssien käytön tehostaminen, käyttöastetietojen kerääminen
                   ja hyödyntäminen, saavutettavuuden parantaminen ja käyttöön
                   liittyvien kustannusten alentaminen kaupungin varauskäytäntöjä
                   yhtenäistämällä. Pilotoinnilla ja keräämällä
-                  käyttäjäkokemuksia pyritään saamaan tietoa Asukasportaalin
+                  käyttäjäkokemuksia pyritään saamaan tietoa asukasportaalin
                   käytettävyydestä, vaikka se onkin kehitteillä.
                 </p>
 
@@ -52,18 +51,15 @@ const About = () => {
                   alla olevista osoitteista.
                 </p>
 
-                <p>www.turku.fi/tietosuoja</p>
-
-                <p>
-                  https://rekisteri.turku.fi (Varaus- ja tietokantarekisteri
-                  Varaamo ja respa)
-                </p>
-
-                <p>
-                  Vahvaan tunnistautumiseen käytämme Suomi.fi-tunnistusta jonka
-                  tietosuojaselosteen löydät osoitteesta
-                  www.suomi.fi/tietosuojaseloste
-                </p>
+                <a href="https://www.turku.fi/tietosuoja">Tietosuojaseloste</a>
+                <br></br>
+                <br></br>
+                <a href="https://rekisteri.turku.fi">Varaus- ja tietokantarekisteri</a>
+                <br></br>
+                <br></br>
+                <a href="https://www.suomi.fi/tietosuojaseloste">Suomi.fi-tunnuksen tietosuojaseloste</a>
+                <br></br>
+                <br></br>
               </div>
             </div>
           </div>
