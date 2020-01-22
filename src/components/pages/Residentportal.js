@@ -3,7 +3,7 @@ import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Button from "react-bootstrap/Button";
 import logo from "../layout/images/profile_photo.png";
 import Image from "react-bootstrap/Image";
-import CardDeck from "react-bootstrap/CardDeck";
+import CardGroup from "react-bootstrap/CardGroup";
 import Card from "react-bootstrap/Card";
 import CardGroup from 'react-bootstrap/CardGroup'
 

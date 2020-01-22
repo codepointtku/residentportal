@@ -37,6 +37,7 @@ h1 {
 
 h2 {
   opacity: 100%;
+  font-weight: bold;
 }
 
 h3 {
@@ -173,6 +174,7 @@ img {
   border:0px;
   margin-top: 1rem;
   max-width: 600px;
+  border: 0px;
 }
 
 .card-background {
@@ -377,6 +379,7 @@ li {
 .btn:hover {
   opacity: 0.8;
 }
+
 
 .bg-light,
 .badge-light {
@@ -597,6 +600,10 @@ a.navbar-brand img {
     font-size: 3rem;
   }
 
+  /* .container {
+    display: initial !important;
+  }
+*/
   .large {
     font-size: 2rem;
   }
@@ -644,7 +651,6 @@ a.navbar-brand img {
   }
 
   .navbar-container {
-    display: flex;
     max-width: 1100px;
     margin: 0px !important;
     padding: 0px !important;
@@ -654,14 +660,13 @@ a.navbar-brand img {
   }
 
   ul {
-    text-align: center;
     justify-content: center;
   }
 
   a.navbar-brand {
-    display: flex;
     height: 100%;
     width: 100%;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -669,6 +674,11 @@ a.navbar-brand img {
   a.navbar-brand img {
     height: 109px;
     width: 155px;
+  }
+
+  #tkulogo {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

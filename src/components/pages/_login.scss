@@ -1,0 +1,60 @@
+
+//Login
+
+.Loginform {
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  border-radius: 25px;
+  h1 {
+    font-weight: bold;
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+    button {
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: var(--tertiary-color);
+    text-align: left;
+    font-size: 21px;
+   
+      
+  }}
+
+  .Loginlink {
+    font-size: 15px;
+  
+  a:visited {
+    color: var(--tertiary-color);
+  }}
+
+.LoginMainform {
+  background-color: var(--secondary-color);
+  padding: 40px;
+  min-width: -webkit-fill-available;
+}
+
+#Tunnistamologo {
+  width: 280px;
+  float: right;
+}
+
+.Loginh2col {
+  align-self: center;
+}
+
+
+
+.LoginCheckbox {
+  color: grey;
+  font-size: 17px;
+  margin-left: 1.3rem;
+}
+
+.Loginkirjaudu {
+  font-size: 19px;
+}
