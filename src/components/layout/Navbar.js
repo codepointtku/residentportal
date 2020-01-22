@@ -9,11 +9,14 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <div className="container">
-            <Link to="/" className="col-4 navbar-brand  navbar-container">
-              <img src={logo} alt="logo" />
-            </Link>
-            <Accessibility className="col-6" />
-          </div>
+          <Link
+            to="/"
+            className="col-md-4 col-xs-12 navbar-brand navbar-container"
+          >
+            <img src={logo} alt="logo" />
+          </Link>
+          <Accessibility className="col-md-6 col-xs-12" />
+        </div>
       </nav>
       <nav className="navmenu">
         <ul className="navlinks">
