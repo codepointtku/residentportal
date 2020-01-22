@@ -20,7 +20,7 @@ const NavbarDark = () => {
           <Link
             id="asukas-link"
             to="/asp"
-            className="col-sm-3 profilemenu"
+            className="col-sm-4 profilemenu"
             aria-label="Asukas"
           >
             Asukas{" "}
@@ -28,23 +28,15 @@ const NavbarDark = () => {
           <Link
             id="aspa-link"
             to="/about"
-            className="col-sm-3 profilemenu"
+            className="col-sm-4 profilemenu"
             aria-label="Asiakaspalvelija"
-          >
-            Asiakaspalvelija{" "}
-          </Link>
-          <Link
-            id="doctor-link"
-            to="/about"
-            className="col-sm-3 profilemenu"
-            aria-label="Lääkäri"
           >
             Lääkäri{" "}
           </Link>
           <Link
             id="information-link"
             to="/about"
-            className="col-sm-3 profilemenu"
+            className="col-sm-4 profilemenu"
             aria-label="Lisää tietoa"
           >
             Lisää tietoa{" "}
