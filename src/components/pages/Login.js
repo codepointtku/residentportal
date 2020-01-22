@@ -35,42 +35,46 @@ const Login = () => {
               <Form.Group as={Row} controlId="formHorizontalCheck inline">
                 <Col>
                   <Form.Check label="Muista minut tällä laitteella" />
-                  <p className="LoginCheckbox">Jos olet yhteiskäyttökoneella, älä ruksi tätä.</p>
+                  <p className="LoginCheckbox">
+                    Jos olet yhteiskäyttökoneella, älä ruksi tätä.
+                  </p>
                 </Col>
               </Form.Group>
             </Col>
           </Row>
           <Row className="LoginFormrow">
             <Col>
-            <Link to="/residentportal">
-              <Button className="Login" variant="primary" size="lg" block>
-               Mobiilivarmenne
-              </Button>
+              <Link to="/residentportal">
+                <Button className="Login" variant="primary" size="lg" block>
+                  Mobiilivarmenne
+                </Button>
               </Link>
             </Col>
           </Row>
           <Row className="LoginFormrow">
             <Col>
-            <Link to="/Aspa">
-              <Button className="Login" variant="primary" size="lg" block>
-               Varmennekortti
-              </Button>
+              <Link to="/Aspa">
+                <Button className="Login" variant="primary" size="lg" block>
+                  Varmennekortti
+                </Button>
               </Link>
             </Col>
           </Row>
           <Row className="LoginFormrow">
             <Col>
-            <Link to="/About">
-              <Button className="Login" variant="primary" size="lg" block>
-               Pankkisi tunnistautumispalvelu
-              </Button>
+              <Link to="/About">
+                <Button className="Login" variant="primary" size="lg" block>
+                  Pankkisi tunnistautumispalvelu
+                </Button>
               </Link>
             </Col>
           </Row>
           <Row>
             <Col>
               <Nav.Item className="Loginlink">
-                <Nav.Link href="/home">&#8592; Palaa asiointipalveluun</Nav.Link>
+                <Nav.Link href="/home">
+                  &#8592; Palaa asiointipalveluun
+                </Nav.Link>
               </Nav.Item>
             </Col>
             <Col>
