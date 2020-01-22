@@ -9,10 +9,13 @@ const NavbarDark = () => {
     <div>
       <nav className="navbar navbar-dark">
         <div className="container">
-          <Link to="/" className="col-4 navbar-brand navbar-container">
-            <img src={logo} alt="logo" />
+          <Link
+            to="/"
+            className="col-md-4 col-xs-12 navbar-brand navbar-container"
+          >
+            <img src={logo} alt="logo" id="tkulogo" />
           </Link>
-          <Accessibility className="col-6" bgcolor="dark" />
+          <Accessibility className="col-md-6 col-xs-12" bgcolor="dark" />
         </div>
       </nav>
       <nav className="container">
