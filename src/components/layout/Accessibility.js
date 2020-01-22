@@ -86,7 +86,7 @@ const Accessibility = props => {
     const bgColor = props.bgcolor;
     if (bgColor === "dark") {
       return (
-        <div>
+        <div className="grid-accessibility-text">
           <button id="smalltext" className="textsize_button_light ">
             A
           </button>
