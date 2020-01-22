@@ -1,15 +1,61 @@
 import React from "react";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
+import Button from "react-bootstrap/Button";
+import logo from "./kuva.jpg";
+import Image from "react-bootstrap/Image";
+import CardDeck from "react-bootstrap/CardDeck";
+import Card from "react-bootstrap/Card";
 
 const Residentportal = () => {
   return (
-    <div className="container">
-      <div className="p-5">
-        <div className="container">
-          <div className="text-left ml-1 mt-5">
-            <div className="p-5 mt-5"></div>
+    <div fluid="True" className="container1">
+      <CardDeck>
+        <Card>
+          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Body>
+            <Card.Title>Card title</Card.Title>
+            <Card.Text>
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </Card.Footer>
+        </Card>
+        <Card>
+          <div className="card-img-top-right">
+            <Image src={logo} fluid alt="Responsive image" />
           </div>
-        </div>
-      </div>
+          <ButtonGroup vertical>
+            <Button className="card-btn1">
+              <a href="/">Tietoluvat </a>
+            </Button>
+            <Button className="card-btn">
+              <a href="/">valtuutukset</a>
+            </Button>
+            <Button className="card-btn">
+              <a href="/">Henkilötiedot</a>
+            </Button>
+          </ButtonGroup>
+        </Card>
+
+        <Card>
+          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Body>
+            <Card.Title>Card title</Card.Title>
+            <Card.Text>
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </Card.Footer>
+        </Card>
+      </CardDeck>
     </div>
   );
 };

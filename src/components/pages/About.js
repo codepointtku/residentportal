@@ -5,9 +5,9 @@ const About = () => {
   return (
     <Fragment>
       <Navbar></Navbar>
-      <div className="container1">
+      <div className="card-container">
         <div className="">
-          <div className="container1">
+          <div className="card-container">
             <div className="text-left ml-5 mt-5">
               <div className="p-5 mt-5">
                 <h1 className=" text-center mb-2 text-shadow-header">
@@ -20,13 +20,13 @@ const About = () => {
                 </p>
 
                 <p>
-                  Tilavarausjärjestelmä on testausvaiheessa, eikä
-                  pilottikäytössä olevassa versiossa ole vielä kaikkia
-                  suunnitteilla olevia ominaisuuksia ja toiminnallisuuksia.
+                  Asukasportaali on testausvaiheessa, eikä pilottikäytössä
+                  olevassa versiossa ole vielä kaikkia suunnitteilla olevia
+                  ominaisuuksia ja toiminnallisuuksia.
                 </p>
 
                 <p>
-                  Varaamon pilottikäyttö tehdään Konsernitasoinen
+                  Asukasportaalin pilottikäyttö tehdään Konsernitasoinen
                   resurssienvarausten kehittäminen projektissa, joka on osa
                   Smart and Wise Turku kärkihanketta. Yhtenä tavoitteena
                   kärkihankkeessa on palvelujen kustannustehokas järjestäminen
@@ -37,7 +37,7 @@ const About = () => {
                   ja hyödyntäminen, saavutettavuuden parantaminen ja käyttöön
                   liittyvien kustannusten alentaminen kaupungin varauskäytäntöjä
                   yhtenäistämällä. Pilotoinnilla ja keräämällä
-                  käyttäjäkokemuksia pyritään saamaan tietoa Varaamon
+                  käyttäjäkokemuksia pyritään saamaan tietoa Asukasportaalin
                   käytettävyydestä, vaikka se onkin kehitteillä.
                 </p>
 

@@ -2,18 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "../layout/images/turkulogo.png";
+import Accessibility from "./Accessibility";
 
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-container">
-          <div className="navbar-container">
-            <Link to="/" className="navbar-brand ml-5 navbar-container">
+        <div className="container">
+            <Link to="/" className="col-4 navbar-brand  navbar-container">
               <img src={logo} alt="logo" />
             </Link>
+            <Accessibility className="col-6" />
           </div>
-        </div>
       </nav>
       <nav className="navmenu">
         <ul className="navlinks">
