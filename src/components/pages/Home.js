@@ -17,7 +17,7 @@ const Home = img => {
               lääkäriasiointisi ja bussikorttisi voimassaoloajat.
             </h5>
             <Link
-              to="/residentportal"
+              to="/login"
               role="button"
               type="button"
               className="ml-1 mt-5 btn btn-dark active text-uppercase text-shadow"
