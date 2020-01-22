@@ -41,6 +41,9 @@ function App() {
           <Route exact path="/about" component={About} />
         </Switch>
         <Switch>
+        <Route exact path="/about" component={Foot} />
+        </Switch>
+        <Switch>
           <Route path="/residentportal" component={Residentalportal} />
         </Switch>
         <Switch>
