@@ -146,6 +146,9 @@ img {
 
 .text-left {
   text-align: left;
+  a:visited {
+    color: var(--middle-color);
+  }
 }
 
 .text-shadow {
@@ -171,6 +174,9 @@ img {
 .card {
   text-align: center;
   border: 0px;
+  padding: 0rem;
+  text-align: center;
+  margin: 0rem;
   margin-top: 1rem;
   max-width: 600px;
   border: 0px;
@@ -360,7 +366,7 @@ li {
 .badge-info,
 .alert-info {
   background: var(--info-color);
-  color: rgb(15, 15, 15);
+  color: #fff;
 }
 
 .btn-white,
@@ -472,7 +478,7 @@ a.navbar-brand img {
 .navmenu {
   background-color: var(--primary-color);
   color: var(--light-color);
-  padding: 25px;
+  padding: 10px;
 }
 
 .profilemenu {
@@ -595,6 +601,10 @@ a.navbar-brand img {
     font-size: 3rem;
   }
 
+  /* .container {
+    display: initial !important;
+  }
+*/
   .large {
     font-size: 2rem;
   }
@@ -697,6 +707,15 @@ a.navbar-brand img {
   }
 }
 
+/* Popup */
+.popup-content {
+  width: auto;
+  position: relative;
+  display: inline-block;
+  background-color: rgba(200, 200, 200, 0);
+  border: none;
+}
+
 // väliaikaisia lisäyksiä:
 // tärkeitä: .cont:issa määritellyt display: flex ja flex-direction: column;
 
@@ -779,14 +798,8 @@ a.navbar-brand img {
 .table th {
   background: var(--light-color);
 }
-
 .jumbotron {
   background-color: #ffffff;
   margin-left: 2rem;
   margin-top: 15px;
-}
-.img-chat{
-  width: 300px;
-  align-self: center;
-  margin-top: 2rem;
 }
