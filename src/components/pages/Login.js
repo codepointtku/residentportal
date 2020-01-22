@@ -6,7 +6,7 @@ import "./_login.scss";
 
 const Login = () => {
   return (
-    <Container className="LoginMainform" style = {{height:"100vh"}}>
+    <Container className="LoginMainform">
       <Form>
         <Container className="Loginform">
           <Row>
