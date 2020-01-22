@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "../layout/images/turkulogo.png";
-import Accessibility from "./Accessibility";
+import Accessibility from "../layout/accessibility/Accessibility";
 
 const Navbar = () => {
   return (

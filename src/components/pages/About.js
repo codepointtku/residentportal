@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Navbar from "../layout/Navbar";
+import Navbar from "./Navbar";
 
 const About = () => {
   return (

@@ -37,6 +37,7 @@ h1 {
 
 h2 {
   opacity: 100%;
+  font-weight: bold;
 }
 
 h3 {
@@ -93,7 +94,9 @@ img {
   background-position-y: center;
 }
 .container1 {
-  background-color: var(--light-color);
+  background-color: var(--secondary-color);
+  padding: 1.3rem;
+  align-self: center;
 }
 /* Text Styles*/
 .x-large {
@@ -483,8 +486,7 @@ a.navbar-brand img {
 .navmenuright {
   display: inline-block;
   background-color: inherit;
-  padding-right: 0.2rem;
-  padding-left: 0.2rem;
+  align-self: flex-end;
 }
 
 .contrast_button {
@@ -630,6 +632,11 @@ a.navbar-brand img {
     text-align: center;
   }
 
+  .navmenuright {
+    display: none;
+    background-color: inherit;
+  }
+
   /* Mobile Navbar */
   .navbar {
     display: block;
@@ -656,6 +663,8 @@ a.navbar-brand img {
     height: 100%;
     width: 100%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   a.navbar-brand img {
