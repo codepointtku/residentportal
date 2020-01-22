@@ -5,50 +5,44 @@ import logo from "../layout/images/profile_photo.png";
 import Image from "react-bootstrap/Image";
 import CardGroup from "react-bootstrap/CardGroup";
 import Card from "react-bootstrap/Card";
-
+import Chat from "../layout/images/chat.png";
 
 const Residentportal = () => {
   return (
     <div fluid="True" className="container1">
-     <CardGroup>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  
+      <CardGroup>
+        <Card>
+          <h3>HENKILÖTIEDOT</h3>
+        </Card>
+
         <Card>
           <div className="card-img-top-right">
             <Image src={logo} fluid alt="Responsive image" />
           </div>
-          <ButtonGroup vertical className='btn-vertical'>
-            <Button className="card-btn1">
-              <a href="/">Tietoluvat </a>
+          <p className="font-weight-bold">Hallinnoi</p>
+          <ButtonGroup vertical className="btn-vertical">
+            <Button className="card-btn1  ">
+              <a className="text-dark" href="/">
+                Tietoluvat{" "}
+              </a>
             </Button>
             <Button className="card-btn">
-              <a href="/">valtuutukset</a>
+              <a className="text-dark" href="/">
+                Valtuutukset
+              </a>
             </Button>
             <Button className="card-btn">
-              <a href="/">Henkilötiedot</a>
+              <a className="text-dark" href="/">
+                Henkilötiedot
+              </a>
             </Button>
           </ButtonGroup>
         </Card>
 
         <Card>
-        <Image src={logo} fluid className='' alt="Responsive image" />
-        
-            
-  </Card>
-  
-</CardGroup>
+          <Image src={Chat} fluid className="img-chat" alt="Responsive image" />
+        </Card>
+      </CardGroup>
     </div>
   );
 };

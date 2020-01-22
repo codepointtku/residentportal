@@ -364,7 +364,7 @@ li {
 .badge-info,
 .alert-info {
   background: var(--info-color);
-  color: #fff;
+  color: rgb(15, 15, 15);
 }
 
 .btn-white,
@@ -772,7 +772,6 @@ a.navbar-brand img {
   background-color: var(--link-color);
   margin-bottom: 15px;
   position: initial !important;
-
 }
 .card-btn {
   background-color: var(--link-color);
@@ -803,4 +802,9 @@ a.navbar-brand img {
   background-color: #ffffff;
   margin-left: 2rem;
   margin-top: 15px;
+}
+.img-chat{
+  width: 300px;
+  align-self: center;
+  margin-top: 2rem;
 }
