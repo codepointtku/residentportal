@@ -177,12 +177,11 @@ img {
   background-color: rgba(230, 230, 230, 0.7);
 }
 .card-img-top-right {
- position: relative;
+  position: relative;
   width: 9rem;
- align-self: center;
- margin: 1rem;
+  align-self: center;
+  margin: 1rem;
 }
-
 
 /* List */
 .list {
@@ -413,8 +412,6 @@ button {
   font: inherit;
 }
 
-
-
 /* Navbar */
 .navbar {
   display: flex;
@@ -491,8 +488,7 @@ a.navbar-brand img {
 }
 
 .contrast_button {
-  height: 1.7rem;
-  width: 1.7rem;
+  width: 1.5rem;
   align-content: center;
   background-color: inherit;
   border: 0px;
@@ -767,22 +763,19 @@ a.navbar-brand img {
   margin-top: 1rem;
   background-color: #ffffff;
   padding-left: 5rem;
-  border:0;
-
+  border: 0;
 }
 .table th,
 .table td {
   padding: 1rem;
   text-align: center;
-
 }
 
 .table th {
   background: var(--light-color);
 }
-.jumbotron{
+.jumbotron {
   background-color: #ffffff;
   margin-left: 2rem;
   margin-top: 15px;
- 
 }
