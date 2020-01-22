@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../layout/images/turkulogo.png";
 import { Form, Container, Row, Col, Nav, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./_login.scss";
 
 const Login = () => {
@@ -41,23 +42,29 @@ const Login = () => {
           </Row>
           <Row className="LoginFormrow">
             <Col>
+            <Link to="/residentportal">
               <Button className="Login" variant="primary" size="lg" block>
-                Mobiilivarmenne
+               Mobiilivarmenne
               </Button>
+              </Link>
             </Col>
           </Row>
           <Row className="LoginFormrow">
             <Col>
+            <Link to="/Aspa">
               <Button className="Login" variant="primary" size="lg" block>
-                Varmennekortti
+               Varmennekortti
               </Button>
+              </Link>
             </Col>
           </Row>
           <Row className="LoginFormrow">
             <Col>
+            <Link to="/About">
               <Button className="Login" variant="primary" size="lg" block>
-                Pankkisi tunnistautumispalvelu
+               Pankkisi tunnistautumispalvelu
               </Button>
+              </Link>
             </Col>
           </Row>
           <Row>
