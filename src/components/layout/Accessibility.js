@@ -138,7 +138,7 @@ const Accessibility = props => {
           <a href="/" className="navmenuright" aria-label="Asukasportaali">
             Tekstikoko
           </a>
-          <TextSizeButtons bgcolor={props.bgcolor}></TextSizeButtons>
+          <TextSizeButtons id="textsizebuttons"bgcolor={props.bgcolor}></TextSizeButtons>
           <LanguageDropdown bgcolor={props.bgcolor}></LanguageDropdown>
           <Link
             to="/logout"

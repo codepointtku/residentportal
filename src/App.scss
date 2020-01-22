@@ -529,10 +529,10 @@ a.navbar-brand img {
 .textsize_button {
   padding-right: 0.1rem;
   padding-left: 0.1rem;
-  display: flex;
-  height: fit-content;
-  width: fit-content;
-  align-items: flex-end;
+  //display: flex;
+  //height: fit-content;
+  //width: fit-content;
+  //align-items: flex-end;
   border: 0px;
   background-color: inherit;
 }
@@ -540,14 +540,20 @@ a.navbar-brand img {
 .textsize_button_light {
   padding-right: 0.1rem;
   padding-left: 0.1rem;
-  display: flex;
-  height: fit-content;
-  width: fit-content;
-  align-items: flex-end;
+  //display: flex;
+  //height: fit-content;
+  //width: fit-content;
+  //align-items: flex-end;
   border: 0px;
   color: var(--light-color);
   background-color: inherit;
 }
+
+#textsizebuttons {
+  display: contents !important;
+  
+}
+
 
 .dropdownbutton {
   background-color: inherit;
