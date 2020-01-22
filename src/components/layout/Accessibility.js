@@ -101,7 +101,7 @@ const Accessibility = props => {
     }
 
     return (
-      <div>
+      <div className="grid-accessibility-text">
         <button id="smalltext" className="textsize_button ">
           A
         </button>
@@ -135,7 +135,7 @@ const Accessibility = props => {
             <ContrastButton bgcolor={props.bgcolor} />
           </button>
 
-          <a href="/" className="navmenuright" aria-label="Asukasportaali">
+          <a href="/" className="navmenuright" aria-label="Fonttikoko">
             Tekstikoko
           </a>
           <TextSizeButtons bgcolor={props.bgcolor}></TextSizeButtons>
