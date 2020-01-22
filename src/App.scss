@@ -169,9 +169,8 @@ img {
 
 /* Cards */
 .card {
- 
   text-align: center;
-  border:0px;
+  border: 0px;
   margin-top: 1rem;
   max-width: 600px;
   border: 0px;
@@ -185,9 +184,6 @@ img {
   width: 9rem;
   align-self: center;
   margin: 1rem;
-}
-.card-deck{
-
 }
 
 /* List */
@@ -379,7 +375,6 @@ li {
 .btn:hover {
   opacity: 0.8;
 }
-
 
 .bg-light,
 .badge-light {
@@ -600,10 +595,6 @@ a.navbar-brand img {
     font-size: 3rem;
   }
 
-  /* .container {
-    display: initial !important;
-  }
-*/
   .large {
     font-size: 2rem;
   }
@@ -706,15 +697,6 @@ a.navbar-brand img {
   }
 }
 
-/* Popup */
-.popup-content {
-  width: auto;
-  position: relative;
-  display: inline-block;
-  background-color: rgba(200, 200, 200, 0);
-  border: none;
-}
-
 // väliaikaisia lisäyksiä:
 // tärkeitä: .cont:issa määritellyt display: flex ja flex-direction: column;
 
@@ -778,10 +760,9 @@ a.navbar-brand img {
   margin-bottom: 15px;
   position: initial !important;
 }
-.btn-vertical{
-  width:144px;
+.btn-vertical {
+  width: 144px;
   align-self: center;
-
 }
 .table {
   margin-top: 1rem;
@@ -798,6 +779,7 @@ a.navbar-brand img {
 .table th {
   background: var(--light-color);
 }
+
 .jumbotron {
   background-color: #ffffff;
   margin-left: 2rem;
