@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navbar from "./components/layout/Navbar";
-import NavbarDark from "./components/layout/NavbarDark";
-import Foot from "./components/layout/Foot";
+import Navbar from "./components/pages/Navbar";
+import NavbarDark from "./components/pages/NavbarDark";
+import Foot from "./components/pages/Foot";
 import "./App.scss";
 //Pages
 import Home from "./components/pages/Home";
