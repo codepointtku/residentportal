@@ -23,14 +23,14 @@ const Navbar = () => {
         <ul className="row navlinks">
           <Link
             to="/"
-            className="col-sm-4 col-md-2 navmenu font-weight-bold"
+            className="col-sm-3 col-md-3 col-lg-2 navmenu font-weight-bold"
             aria-label="Asukasportaali"
           >
             Asukasportaali
           </Link>
           <Link
             to="/about"
-            className="col-sm-4 col-md-9 navmenu"
+            className="col-sm-6 col-md-9 col-lg-10 navmenu"
             aria-label="Lisää tietoa"
           >
             Lisää tietoa
