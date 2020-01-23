@@ -169,9 +169,7 @@ const Residentportal = () => {
               <h5 className="font-weight-bold">OMAT PAIKAT</h5>
             </Card.Title>
             <Card.Text>
-              <div className="cardtext">
-                <p>Koti</p>
-              </div>
+                Koti
             </Card.Text>
             <GoogleMap />
           </Card>
