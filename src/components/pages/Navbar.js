@@ -30,7 +30,7 @@ const Navbar = () => {
           </Link>
           <Link
             to="/about"
-            className="col-sm-4 col-md-9 navmenu"
+            className="col-sm-4 col-md-10 navmenu"
             aria-label="Lisää tietoa"
           >
             Lisää tietoa
