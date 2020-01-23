@@ -22,12 +22,16 @@ const Navbar = () => {
         <ul className="navlinks">
           <Link
             to="/"
-            className="navmenu font-weight-bold ml-5"
+            className="col-sm-3 col-md-3 col-lg-2 navmenu font-weight-bold"
             aria-label="Asukasportaali"
           >
             Asukasportaali
           </Link>
-          <Link to="/about" className="navmenu" aria-label="Lisää tietoa">
+          <Link
+            to="/about"
+            className="col-sm-6 col-md-9 col-lg-10 navmenu"
+            aria-label="Lisää tietoa"
+          >
             Lisää tietoa
           </Link>
         </ul>
