@@ -82,7 +82,22 @@ const Residentportal = () => {
           </ButtonGroup>
         </Card>
         <Card>
-          <Image src={Chat} fluid className="img-chat" alt="Responsive image" />
+          <Image
+            src={Chat}
+            fluid
+            className="img-chat"
+            alt="Responsive image"
+            usemap="#mapname"
+          ></Image>
+
+          <map name="mapname">
+            <area
+              shape="rect"
+              coords="90,240,215,290"
+              href="./about"
+              alt="picture area"
+            ></area>
+          </map>
         </Card>
       </CardGroup>
       {/* kortit vaihtuu */}
