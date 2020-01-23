@@ -104,7 +104,7 @@ const Residentportal = () => {
       <div fluid="True">
         <CardGroup>
           <Card>
-            <h3 className="cardtitle font-weight-bold">PERHE JA MUUT ROOLIT</h3>
+            <h3 className="cardtitle">PERHE JA MUUT ROOLIT</h3>
             <Container>
               <Row className="cardRow">
                 <Col>
@@ -160,7 +160,7 @@ const Residentportal = () => {
           </Card>
           <Card>
             <Card.Title className="cardtitle1">
-              <h3 className="font-weight-bold">OMAT PAIKAT</h3>
+              <h3>OMAT PAIKAT</h3>
             </Card.Title>
             <Card.Text>
               <div className="cardtext">
@@ -175,7 +175,7 @@ const Residentportal = () => {
       <div fluid="True" className="container1 ">
         <Card>
           <Card.Body>
-            <h3 className="cardtitle font-weight-bold">ASIOINNIT </h3>
+            <h3 className="cardtitle ">ASIOINNIT </h3>
           </Card.Body>
         </Card>
         {/* kortit vaihtuu */}
