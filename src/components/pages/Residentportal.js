@@ -15,7 +15,7 @@ const Residentportal = () => {
     <div fluid="True" className="container1 ">
       <CardGroup>
         <Card>
-          <h3  className='cardtitle'>HENKILÖTIEDOT</h3>
+          <h3 className="cardtitle font-weight-bold">HENKILÖTIEDOT</h3>
         </Card>
 
         <Card>
@@ -50,7 +50,7 @@ const Residentportal = () => {
       <div fluid="True">
         <CardGroup>
           <Card>
-            <h3  className='cardtitle'>PERHE JA MUUT ROOLIT</h3>
+            <h3 className="cardtitle font-weight-bold">PERHE JA MUUT ROOLIT</h3>
             <Container>
               <Row>
                 <p className="font-weight-bold">Aviomies</p>
@@ -100,19 +100,115 @@ const Residentportal = () => {
             </Card.Body>
           </Card>
           <Card>
-            <Card.Title className='cardtitle'>
-              <h3>OMAT PAIKAT</h3>
+            <Card.Title className="cardtitle1">
+              <h3 className="font-weight-bold">OMAT PAIKAT</h3>
             </Card.Title>
             <Card.Text>
-            <div className="">
-              <p>Koti</p>
-            </div>
-    </Card.Text>
-        
-          
+              <div className="cardtext">
+                <p>Koti</p>
+              </div>
+            </Card.Text>
             <GoogleMap />
           </Card>
         </CardGroup>
+      </div>
+      {/* kortit vaihtuu */}
+      <div fluid="True" className="container1 ">
+        <Card>
+          <Card.Body>
+            <h3 className="cardtitle font-weight-bold">ASIOINNIT </h3>
+          </Card.Body>
+        </Card>
+          {/* kortit vaihtuu */}
+        <CardGroup>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+      
+      </Card.Text>
+    </Card.Body>
+   
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+       
+      </Card.Text>
+    </Card.Body>
+  </Card>
+    {/* kortit vaihtuu */}
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+       
+      </Card.Text>
+    </Card.Body>
+  </Card>
+</CardGroup>
+  {/* kortit vaihtuu */}
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+       
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+      
+      </Card.Text>
+    </Card.Body>
+  </Card>
+</CardGroup>
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+       
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+       
+      </Card.Text>
+    </Card.Body>
+  </Card>
+</CardGroup>
       </div>
     </div>
   );
