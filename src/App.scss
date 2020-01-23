@@ -79,6 +79,7 @@ img {
   padding-bottom: 1rem;
   align-content: center;
 }
+
 .card-container {
   margin: initial;
   overflow: hidden;
@@ -105,6 +106,7 @@ img {
   background-repeat: no-repeat;
   background-position-y: center;
 }
+
 .container1 {
   background-color: var(--secondary-color);
   padding: 1.3rem;
@@ -198,11 +200,9 @@ img {
   border: 0px;
   max-width: 600px;
   border: 0px;
+  border-radius: 0rem;
 }
 
-.card-background {
-  background-color: rgba(230, 230, 230, 0.7);
-}
 .card-img-top-right {
   position: relative;
   width: 9rem;
@@ -701,6 +701,15 @@ a.navbar-brand img {
   #tkulogo {
     margin-left: auto;
     margin-right: auto;
+  }
+  .text-left {
+    text-align: left;
+    a:visited {
+      color: var(--middle-color);
+    }
+    th {
+      text-indent: 0rem;
+    }
   }
 }
 

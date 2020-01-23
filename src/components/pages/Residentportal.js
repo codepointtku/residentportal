@@ -13,50 +13,56 @@ import Col from "react-bootstrap/Col";
 
 const Residentportal = () => {
   return (
-    <div fluid="True" className="container1 ">
+    <div fluid="True" className="container1">
       <CardGroup>
         <Card>
-          <h6 className="cardtitle">HENKILÖTIEDOT</h6>
-          <table className="ml-3">
-            <thead>
-              <tr className="text-left">
-                <th>Nimi</th>
-                <th className="font-weight-normal">Minna Aliisa Föri</th>
-              </tr>
-              <tr className="text-left">
-                <th>Henkilötunnus</th>
-                <th className="font-weight-normal">010180-XXX</th>
-              </tr>
-              <tr className="text-left">
-                <th>Sukupuoli</th>
-                <th className="font-weight-normal">Nainen</th>
-              </tr>
-              <tr className="text-left">
-                <th>Siviilisääty</th>
-                <th className="font-weight-normal">Naimisissa</th>
-              </tr>
-              <tr className="text-left">
-                <th>Kotiosoite</th>
-                <th className="font-weight-normal">Förikatu 1, 20810 Turku</th>
-              </tr>
-              <tr className="text-left">
-                <th>Sähköposti</th>
-                <th className="font-weight-normal">Minna Aliisa Föri</th>
-              </tr>
-              <tr className="text-left">
-                <th>Puhelin</th>
-                <th className="font-weight-normal">+358 50 123 4567</th>
-              </tr>
-              <tr className="text-left">
-                <th>Äidinkieli</th>
-                <th className="font-weight-normal">Suomi</th>
-              </tr>
-              <tr className="text-left">
-                <th>Kansalaisuus</th>
-                <th className="font-weight-normal">Suomen</th>
-              </tr>
-            </thead>
-          </table>
+          <div className="m-1">
+            <h5 className="mt-4 p-3 ml-5 text-left font-weight-bold">
+              HENKILÖTIEDOT
+            </h5>
+            <table className="ml-3">
+              <thead>
+                <tr className="text-left">
+                  <th className="pb-3">Nimi</th>
+                  <th className="pb-3 font-weight-normal">Minna Aliisa Föri</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Henkilötunnus</th>
+                  <th className="pb-3 font-weight-normal">010180-XXX</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Sukupuoli</th>
+                  <th className="pb-3 font-weight-normal">Nainen</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Siviilisääty</th>
+                  <th className="pb-3 font-weight-normal">Naimisissa</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Kotiosoite</th>
+                  <th className="pb-3 font-weight-normal">
+                    Förikatu 1, 20810 Turku
+                  </th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Sähköposti</th>
+                  <th className="pb-3 font-weight-normal">Minna Aliisa Föri</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Puhelin</th>
+                  <th className="pb-3 font-weight-normal">+358 50 123 4567</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Äidinkieli</th>
+                  <th className="pb-3 font-weight-normal">Suomi</th>
+                </tr>
+                <tr className="text-left">
+                  <th>Kansalaisuus</th>
+                  <th className="font-weight-normal">Suomen</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
         </Card>
         <Card>
           <div className="card-img-top-right">
@@ -87,7 +93,7 @@ const Residentportal = () => {
             fluid
             className="img-chat"
             alt="Responsive image"
-            usemap="#mapname"
+            useMap="#mapname"
           ></Image>
 
           <map name="mapname">
@@ -104,7 +110,7 @@ const Residentportal = () => {
       <div fluid="True">
         <CardGroup>
           <Card>
-            <h3 className="cardtitle">PERHE JA MUUT ROOLIT</h3>
+            <h5 className="cardtitle font-weight-bold">PERHE JA MUUT ROOLIT</h5>
             <Container>
               <Row className="cardRow">
                 <Col>
@@ -153,7 +159,6 @@ const Residentportal = () => {
           <Card>
             <Card.Body>
               <Card.Title>
-                {" "}
                 <p className="font-weight-bold">Rahastonhoitaja</p>
               </Card.Title>
               <Card.Text>Turun pystykorvat RY </Card.Text>
@@ -161,13 +166,9 @@ const Residentportal = () => {
           </Card>
           <Card>
             <Card.Title className="cardtitle1">
-              <h3>OMAT PAIKAT</h3>
+              <h5 className="font-weight-bold">OMAT PAIKAT</h5>
             </Card.Title>
-            <Card.Text>
-              <div className="cardtext">
-                <p>Koti</p>
-              </div>
-            </Card.Text>
+            <Card.Text>Koti</Card.Text>
             <div id="googleMap_parent">
               <GoogleMap id="googleMap" />
             </div>
@@ -178,30 +179,26 @@ const Residentportal = () => {
       <div fluid="True" className="container1 ">
         <Card>
           <Card.Body>
-            <h3 className="cardtitle ">ASIOINNIT </h3>
+            <h5 className="cardtitle font-weight-bold ">ASIOINNIT </h5>
           </Card.Body>
         </Card>
         {/* kortit vaihtuu */}
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <h5 className="font-weight-bold">AKTIVITEETTI</h5>
+
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           {/* kortit vaihtuu */}
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
@@ -209,46 +206,36 @@ const Residentportal = () => {
         {/* kortit vaihtuu */}
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
         </CardGroup>
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <h5 className="font-weight-bold">SINUA VOISI KIINNOSTAA</h5>
+
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
