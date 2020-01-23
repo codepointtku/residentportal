@@ -3,7 +3,7 @@
 .Loginform {
   margin: auto;
   background-color: white;
-  width: 800px;
+  width: max-content;
   border-radius: 25px;
   
   h1 {
@@ -63,7 +63,7 @@
     width: auto;
     padding: 10px;
     min-width: -webkit-fill-available;
-    height: 140vh;
+    height: max-content;
   }
   .Loginform {
     width: auto;
@@ -74,6 +74,12 @@
     #Tunnistamologo {
       width: 280px;
       float: none;
+      
+    }
+    .Loginh2 {
+      font-size: 45px;
+      font-weight: bold;
+      
     }
   }
 }

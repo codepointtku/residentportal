@@ -64,7 +64,7 @@ const Login = () => {
             <Col>
               <Link to="/About">
                 <Button className="Login" variant="primary" size="lg" block>
-                  Pankkisi tunnistautumispalvelu
+                  Pankkitunnukset
                 </Button>
               </Link>
             </Col>
