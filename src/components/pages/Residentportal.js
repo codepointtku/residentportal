@@ -93,7 +93,7 @@ const Residentportal = () => {
             fluid
             className="img-chat"
             alt="Responsive image"
-            usemap="#mapname"
+            useMap="#mapname"
           ></Image>
 
           <map name="mapname">
