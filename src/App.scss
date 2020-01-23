@@ -140,10 +140,6 @@ img {
   color: var(--danger-color);
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-right {
   text-align: right;
 }
@@ -152,6 +148,9 @@ img {
   text-align: left;
   a:visited {
     color: var(--middle-color);
+  }
+  th {
+    text-indent: 3rem;
   }
 }
 

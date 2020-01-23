@@ -15,9 +15,48 @@ const Residentportal = () => {
     <div fluid="True" className="container1 ">
       <CardGroup>
         <Card>
-          <h3  className='cardtitle'>HENKILÖTIEDOT</h3>
+          <h6 className="cardtitle">HENKILÖTIEDOT</h6>
+          <table className="ml-3">
+            <thead>
+              <tr className="text-left">
+                <th>Nimi</th>
+                <th className="font-weight-normal">Minna Aliisa Föri</th>
+              </tr>
+              <tr className="text-left">
+                <th>Henkilötunnus</th>
+                <th className="font-weight-normal">010180-XXX</th>
+              </tr>
+              <tr className="text-left">
+                <th>Sukupuoli</th>
+                <th className="font-weight-normal">Nainen</th>
+              </tr>
+              <tr className="text-left">
+                <th>Siviilisääty</th>
+                <th className="font-weight-normal">Naimisissa</th>
+              </tr>
+              <tr className="text-left">
+                <th>Kotiosoite</th>
+                <th className="font-weight-normal">Förikatu 1, 20810 Turku</th>
+              </tr>
+              <tr className="text-left">
+                <th>Sähköposti</th>
+                <th className="font-weight-normal">Minna Aliisa Föri</th>
+              </tr>
+              <tr className="text-left">
+                <th>Puhelin</th>
+                <th className="font-weight-normal">+358 50 123 4567</th>
+              </tr>
+              <tr className="text-left">
+                <th>Äidinkieli</th>
+                <th className="font-weight-normal">Suomi</th>
+              </tr>
+              <tr className="text-left">
+                <th>Kansalaisuus</th>
+                <th className="font-weight-normal">Suomen</th>
+              </tr>
+            </thead>
+          </table>
         </Card>
-
         <Card>
           <div className="card-img-top-right">
             <Image src={logo} fluid alt="Responsive image" />
@@ -41,7 +80,6 @@ const Residentportal = () => {
             </Button>
           </ButtonGroup>
         </Card>
-
         <Card>
           <Image src={Chat} fluid className="img-chat" alt="Responsive image" />
         </Card>
@@ -50,7 +88,7 @@ const Residentportal = () => {
       <div fluid="True">
         <CardGroup>
           <Card>
-            <h3  className='cardtitle'>PERHE JA MUUT ROOLIT</h3>
+            <h3 className="cardtitle">PERHE JA MUUT ROOLIT</h3>
             <Container>
               <Row>
                 <p className="font-weight-bold">Aviomies</p>
@@ -100,16 +138,15 @@ const Residentportal = () => {
             </Card.Body>
           </Card>
           <Card>
-            <Card.Title className='cardtitle'>
+            <Card.Title className="cardtitle">
               <h3>OMAT PAIKAT</h3>
             </Card.Title>
             <Card.Text>
-            <div className="">
-              <p>Koti</p>
-            </div>
-    </Card.Text>
-        
-          
+              <div className="">
+                <p>Koti</p>
+              </div>
+            </Card.Text>
+
             <GoogleMap />
           </Card>
         </CardGroup>
