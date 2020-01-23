@@ -13,10 +13,10 @@ import Col from "react-bootstrap/Col";
 
 const Residentportal = () => {
   return (
-    <div fluid="True" className="container1 ">
+    <div fluid="True" className="container1">
       <CardGroup>
         <Card>
-          <h5 className="cardtitle font-weight-bold">HENKILÖTIEDOT</h5>
+          <h5 className="text-left font-weight-bold">HENKILÖTIEDOT</h5>
           <table className="ml-3">
             <thead>
               <tr className="text-left">
@@ -153,7 +153,6 @@ const Residentportal = () => {
           <Card>
             <Card.Body>
               <Card.Title>
-                {" "}
                 <p className="font-weight-bold">Rahastonhoitaja</p>
               </Card.Title>
               <Card.Text>Turun pystykorvat RY </Card.Text>
