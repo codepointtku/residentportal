@@ -146,6 +146,9 @@ img {
 
 .text-left {
   text-align: left;
+  a:visited {
+    color: var(--middle-color);
+  }
 }
 
 .text-shadow {
@@ -169,9 +172,11 @@ img {
 
 /* Cards */
 .card {
- 
   text-align: center;
-  border:0px;
+  border: 0px;
+  padding: 0rem;
+  text-align: center;
+  margin: 0rem;
   margin-top: 1rem;
   max-width: 600px;
   border: 0px;
@@ -185,9 +190,6 @@ img {
   width: 9rem;
   align-self: center;
   margin: 1rem;
-}
-.card-deck{
-
 }
 
 /* List */
@@ -380,7 +382,6 @@ li {
   opacity: 0.8;
 }
 
-
 .bg-light,
 .badge-light {
   border: #ccc solid 1px;
@@ -477,7 +478,7 @@ a.navbar-brand img {
 .navmenu {
   background-color: var(--primary-color);
   color: var(--light-color);
-  padding: 25px;
+  padding: 10px;
 }
 
 .profilemenu {
@@ -772,17 +773,15 @@ a.navbar-brand img {
   background-color: var(--link-color);
   margin-bottom: 15px;
   position: initial !important;
-
 }
 .card-btn {
   background-color: var(--link-color);
   margin-bottom: 15px;
   position: initial !important;
 }
-.btn-vertical{
-  width:144px;
+.btn-vertical {
+  width: 144px;
   align-self: center;
-
 }
 .table {
   margin-top: 1rem;

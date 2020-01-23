@@ -18,16 +18,21 @@ const Navbar = () => {
           <Accessibility className="col-md-6 col-xs-12" />
         </div>
       </nav>
-      <nav className="navmenu">
-        <ul className="navlinks">
+
+      <nav className="container navmenu">
+        <ul className="row navlinks">
           <Link
             to="/"
-            className="navmenu font-weight-bold ml-5"
+            className="col-sm-4 col-md-2 navmenu font-weight-bold"
             aria-label="Asukasportaali"
           >
             Asukasportaali
           </Link>
-          <Link to="/about" className="navmenu" aria-label="Lisää tietoa">
+          <Link
+            to="/about"
+            className="col-sm-4 col-md-9 navmenu"
+            aria-label="Lisää tietoa"
+          >
             Lisää tietoa
           </Link>
         </ul>

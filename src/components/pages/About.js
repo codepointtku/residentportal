@@ -46,8 +46,7 @@ const About = () => {
                 </p>
 
                 <p>
-                  Tietosuojaseloste Tietoa Turun kaupungin henkilötietojen
-                  käsittelystä sekä tämän palvelun rekisteriselosteet löydät
+                  Tietoa Turun kaupungin henkilötietojen käsittelystä sekä tämän palvelun rekisteriselosteet löydät
                   alla olevista osoitteista.
                 </p>
 
