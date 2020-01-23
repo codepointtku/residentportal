@@ -110,7 +110,7 @@ const Residentportal = () => {
       <div fluid="True">
         <CardGroup>
           <Card>
-            <h3 className="cardtitle">PERHE JA MUUT ROOLIT</h3>
+            <h5 className="cardtitle font-weight-bold">PERHE JA MUUT ROOLIT</h5>
             <Container>
               <Row className="cardRow">
                 <Col>
@@ -166,7 +166,7 @@ const Residentportal = () => {
           </Card>
           <Card>
             <Card.Title className="cardtitle1">
-              <h3>OMAT PAIKAT</h3>
+              <h5 className="font-weight-bold">OMAT PAIKAT</h5>
             </Card.Title>
             <Card.Text>
               <div className="cardtext">
@@ -181,30 +181,26 @@ const Residentportal = () => {
       <div fluid="True" className="container1 ">
         <Card>
           <Card.Body>
-            <h3 className="cardtitle ">ASIOINNIT </h3>
+            <h5 className="cardtitle font-weight-bold ">ASIOINNIT </h5>
           </Card.Body>
         </Card>
         {/* kortit vaihtuu */}
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <h5 className="font-weight-bold">AKTIVITEETTI</h5>
+
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           {/* kortit vaihtuu */}
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
@@ -212,46 +208,36 @@ const Residentportal = () => {
         {/* kortit vaihtuu */}
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
         </CardGroup>
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <h5 className="font-weight-bold">SINUA VOISI KIINNOSTAA</h5>
+
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
