@@ -112,6 +112,17 @@ img {
   padding: 1.3rem;
   align-self: center;
 }
+.cardRow {
+  .col {
+    min-width: max-content;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  p {
+    text-align-last: center;
+    margin-bottom: 0px;
+
+}}
 /* Text Styles*/
 .x-large {
   font-size: 4rem;
@@ -150,10 +161,6 @@ img {
   color: var(--danger-color);
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-right {
   text-align: right;
 }
@@ -162,6 +169,9 @@ img {
   text-align: left;
   a:visited {
     color: var(--middle-color);
+  }
+  th {
+    text-indent: 3rem;
   }
 }
 
@@ -489,6 +499,10 @@ a.navbar-brand img {
   background-color: var(--primary-color);
   color: var(--light-color);
   padding: 10px;
+}
+
+.navlinks {
+  margin-left: 30px;
 }
 
 .profilemenu {
