@@ -21,47 +21,53 @@ const Residentportal = () => {
     <div fluid="True" className="container1">
       <CardGroup>
         <Card>
-          <h5 className="text-left font-weight-bold">HENKILÖTIEDOT</h5>
-          <table className="ml-3">
-            <thead>
-              <tr className="text-left">
-                <th>Nimi</th>
-                <th className="font-weight-normal">Minna Aliisa Föri</th>
-              </tr>
-              <tr className="text-left">
-                <th>Henkilötunnus</th>
-                <th className="font-weight-normal">010180-XXX</th>
-              </tr>
-              <tr className="text-left">
-                <th>Sukupuoli</th>
-                <th className="font-weight-normal">Nainen</th>
-              </tr>
-              <tr className="text-left">
-                <th>Siviilisääty</th>
-                <th className="font-weight-normal">Naimisissa</th>
-              </tr>
-              <tr className="text-left">
-                <th>Kotiosoite</th>
-                <th className="font-weight-normal">Förikatu 1, 20810 Turku</th>
-              </tr>
-              <tr className="text-left">
-                <th>Sähköposti</th>
-                <th className="font-weight-normal">Minna Aliisa Föri</th>
-              </tr>
-              <tr className="text-left">
-                <th>Puhelin</th>
-                <th className="font-weight-normal">+358 50 123 4567</th>
-              </tr>
-              <tr className="text-left">
-                <th>Äidinkieli</th>
-                <th className="font-weight-normal">Suomi</th>
-              </tr>
-              <tr className="text-left">
-                <th>Kansalaisuus</th>
-                <th className="font-weight-normal">Suomen</th>
-              </tr>
-            </thead>
-          </table>
+          <div className="m-1">
+            <h5 className="mt-4 p-3 ml-5 text-left font-weight-bold">
+              HENKILÖTIEDOT
+            </h5>
+            <table className="ml-3">
+              <thead>
+                <tr className="text-left">
+                  <th className="pb-3">Nimi</th>
+                  <th className="pb-3 font-weight-normal">Minna Aliisa Föri</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Henkilötunnus</th>
+                  <th className="pb-3 font-weight-normal">010180-XXX</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Sukupuoli</th>
+                  <th className="pb-3 font-weight-normal">Nainen</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Siviilisääty</th>
+                  <th className="pb-3 font-weight-normal">Naimisissa</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Kotiosoite</th>
+                  <th className="pb-3 font-weight-normal">
+                    Förikatu 1, 20810 Turku
+                  </th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Sähköposti</th>
+                  <th className="pb-3 font-weight-normal">Minna Aliisa Föri</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Puhelin</th>
+                  <th className="pb-3 font-weight-normal">+358 50 123 4567</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3">Äidinkieli</th>
+                  <th className="pb-3 font-weight-normal">Suomi</th>
+                </tr>
+                <tr className="text-left">
+                  <th>Kansalaisuus</th>
+                  <th className="font-weight-normal">Suomen</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
         </Card>
         <Card>
           <div className="card-img-top-right">
@@ -92,7 +98,7 @@ const Residentportal = () => {
             fluid
             className="img-chat"
             alt="Responsive image"
-            usemap="#mapname"
+            useMap="#mapname"
           ></Image>
 
           <map name="mapname">
@@ -167,12 +173,10 @@ const Residentportal = () => {
             <Card.Title className="cardtitle1">
               <h5 className="font-weight-bold">OMAT PAIKAT</h5>
             </Card.Title>
-            <Card.Text>
-              <div className="cardtext">
-                <p>Koti</p>
-              </div>
-            </Card.Text>
-            <GoogleMap />
+            <Card.Text>Koti</Card.Text>
+            <div id="googleMap_parent">
+              <GoogleMap id="googleMap" />
+            </div>
           </Card>
         </CardGroup>
       </div>
