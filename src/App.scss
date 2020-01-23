@@ -89,6 +89,16 @@ img {
 .cardtitle{
   margin-top: 30px;
   margin-bottom: 40px;
+  text-align:left;
+}
+.cardtitle1{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align:left;
+}
+.cardtext{
+  text-align: left,
+  
 }
 
 .container-img {
@@ -102,6 +112,17 @@ img {
   padding: 1.3rem;
   align-self: center;
 }
+.cardRow {
+  .col {
+    min-width: max-content;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  p {
+    text-align-last: center;
+    margin-bottom: 0px;
+
+}}
 /* Text Styles*/
 .x-large {
   font-size: 4rem;
@@ -140,10 +161,6 @@ img {
   color: var(--danger-color);
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-right {
   text-align: right;
 }
@@ -152,6 +169,9 @@ img {
   text-align: left;
   a:visited {
     color: var(--middle-color);
+  }
+  th {
+    text-indent: 3rem;
   }
 }
 
