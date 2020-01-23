@@ -102,6 +102,17 @@ img {
   padding: 1.3rem;
   align-self: center;
 }
+.cardRow {
+  .col {
+    min-width: max-content;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  p {
+    text-align-last: center;
+    margin-bottom: 0px;
+
+}}
 /* Text Styles*/
 .x-large {
   font-size: 4rem;

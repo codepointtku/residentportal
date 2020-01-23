@@ -9,6 +9,7 @@ import Chat from "../layout/images/chat.png";
 import GoogleMap from "./GoogleMap";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
 
 const Residentportal = () => {
   return (
@@ -90,7 +91,8 @@ const Residentportal = () => {
           <Card>
             <h3 className="cardtitle">PERHE JA MUUT ROOLIT</h3>
             <Container>
-              <Row>
+              <Row className="cardRow">
+                <Col>
                 <p className="font-weight-bold">Aviomies</p>
                 <Image
                   className="card-img-top-right"
@@ -102,7 +104,9 @@ const Residentportal = () => {
                   Kari Föri <br />
                   010187-XXXX
                 </p>
-                <p className="font-weight-bold">lapsi</p>
+                </Col>
+                <Col>
+                <p className="font-weight-bold">Lapsi</p>
                 <Image
                   className="card-img-top-right"
                   src={logo}
@@ -113,6 +117,8 @@ const Residentportal = () => {
                   Lotta Föri <br />
                   010110-XXXX
                 </p>
+                </Col>
+                <Col>
                 <p className="font-weight-bold">Lapsi</p>
 
                 <Image
@@ -125,6 +131,7 @@ const Residentportal = () => {
                   Paavo Föri <br />
                   010110-XXXX
                 </p>
+                </Col>
               </Row>
             </Container>
           </Card>
