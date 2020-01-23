@@ -18,9 +18,8 @@ const Navbar = () => {
           <Accessibility className="col-md-6 col-xs-12" />
         </div>
       </nav>
-
-      <nav className="container navmenu">
-        <ul className="row navlinks">
+      <nav className="navmenu">
+        <ul className="navlinks">
           <Link
             to="/"
             className="col-sm-3 col-md-3 col-lg-2 navmenu font-weight-bold"

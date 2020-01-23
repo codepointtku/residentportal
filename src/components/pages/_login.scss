@@ -5,7 +5,7 @@
   background-color: white;
   width: 800px;
   border-radius: 25px;
-  
+  height: 100vh;
   h1 {
     font-weight: bold;
     font-size: 60px;
@@ -36,7 +36,6 @@
   background-color: var(--secondary-color);
   padding: 40px;
   min-width: -webkit-fill-available;
-  height: 100vh;
 }
 
 #Tunnistamologo {
@@ -67,13 +66,8 @@
   }
   .Loginform {
     width: auto;
+    padding: 10px;
     min-width: -webkit-fill-available;
     height: auto;
-    text-align: center;
-    
-    #Tunnistamologo {
-      width: 280px;
-      float: none;
-    }
   }
 }

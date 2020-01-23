@@ -86,6 +86,10 @@ img {
   align-content: center;
   background-color: var(--light-color);
 }
+.cardtitle{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
 
 .container-img {
   background-image: url("./components/layout/images/aurajokiranta_kuva-vesa-aaltonen.png");
@@ -174,10 +178,6 @@ img {
 .card {
   text-align: center;
   border: 0px;
-  padding: 0rem;
-  text-align: center;
-  margin: 0rem;
-  margin-top: 1rem;
   max-width: 600px;
   border: 0px;
 }
@@ -739,6 +739,10 @@ a.navbar-brand img {
   background-color: rgba(167, 165, 165, 0);
 }
 
+.navlinks {
+  margin-left: 35px !important;
+}
+
 .col1 {
   flex-shrink: 1;
   background-color: var(--light-color);
@@ -805,4 +809,9 @@ a.navbar-brand img {
   background-color: #ffffff;
   margin-left: 2rem;
   margin-top: 15px;
+}
+.img-chat{
+  width: 300px;
+  align-self: center;
+  margin-top: 2rem;
 }
