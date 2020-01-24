@@ -162,12 +162,14 @@ const Residentportal = () => {
             </Container>
           </Card>
           <Card>
-            <Card.Body>
-              <Card.Title>
-                <p className="font-weight-bold">Rahastonhoitaja</p>
-              </Card.Title>
-              <Card.Text>Turun pystykorvat RY </Card.Text>
-            </Card.Body>
+            <Container>
+              <Card.Body>
+                <Card.Title>
+                  <p className="font-weight-bold">Rahastonhoitaja</p>
+                </Card.Title>
+                <Card.Text>Turun pystykorvat RY </Card.Text>
+              </Card.Body>
+            </Container>
           </Card>
           <Card>
             <Card.Title className="cardtitle1">
@@ -181,18 +183,23 @@ const Residentportal = () => {
         </CardGroup>
       </div>
       {/* kortit vaihtuu */}
-      <div fluid="True" className="container1 ">
-        <Card>
-          <Card.Body>
-            <h5 className="cardtitle font-weight-bold ">ASIOINNIT </h5>
-          </Card.Body>
-        </Card>
+      <div fluid="True" className="mt-3 pt-3">
+        <CardGroup>
+          <Card>
+            <Card.Body>
+              <h5 className="cardtitle font-weight-bold ">ASIOINNIT </h5>
+            </Card.Body>
+          </Card>
+          <Card><Card.Body></Card.Body></Card>
+          <Card></Card>
+        </CardGroup>
         {/* kortit vaihtuu */}
         <CardGroup>
           <Card>
             <h5 className="font-weight-bold">AKTIVITEETTI</h5>
 
             <Card.Body>
+              <Row>
               <Col>
                 <Image
                   className="card-img-top-right"
@@ -204,6 +211,8 @@ const Residentportal = () => {
                   Kuukauden tavoite <br />
                   300km
                 </p>
+                </Col>
+                <Col>
                 <Image
                   className="card-img-top-right"
                   src={logo3}
@@ -215,10 +224,14 @@ const Residentportal = () => {
                   150km
                 </p>
               </Col>
+              </Row>
             </Card.Body>
           </Card>
           <Card>
+          <Container className="cardContainer">
             <Card.Body>
+              <Row>
+              <Col>
               <Image
                 className="card-img-top-right"
                 src={logo4}
@@ -229,13 +242,18 @@ const Residentportal = () => {
                 Kuukauden tavoite <br />
                 100km
               </p>
+              </Col>
+              <Col>
               <Image
                 className="card-img-top-right"
                 src={logo5}
                 fluid
                 alt="Responsive image"
               />
+              </Col>
+            </Row>
             </Card.Body>
+            </Container>
           </Card>
           {/* kortit vaihtuu */}
           <Card>
