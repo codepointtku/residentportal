@@ -2,6 +2,11 @@ import React from "react";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Button from "react-bootstrap/Button";
 import logo from "../layout/images/profile_photo.png";
+import logo2 from "../layout/images/symbol_walking.png";
+import logo3 from "../layout/images/symbol_bicycling.png";
+import logo4 from "../layout/images/symbol_running.png";
+import logo5 from "../layout/images/BMI.png";
+import logo6 from "../layout/images/aktiivisuusmittari.png";
 import Image from "react-bootstrap/Image";
 import CardGroup from "react-bootstrap/CardGroup";
 import Card from "react-bootstrap/Card";
@@ -157,12 +162,14 @@ const Residentportal = () => {
             </Container>
           </Card>
           <Card>
+            <Container>
             <Card.Body>
               <Card.Title>
                 <p className="font-weight-bold">Rahastonhoitaja</p>
               </Card.Title>
               <Card.Text>Turun pystykorvat RY </Card.Text>
             </Card.Body>
+            </Container>
           </Card>
           <Card>
             <Card.Title className="cardtitle1">
@@ -188,12 +195,48 @@ const Residentportal = () => {
             <h5 className="font-weight-bold">AKTIVITEETTI</h5>
 
             <Card.Body>
-              <Card.Text></Card.Text>
+              <Col>
+                <Image
+                  className="card-img-top-right"
+                  src={logo2}
+                  fluid
+                  alt="Responsive image"
+                />
+                <p>
+                  Kuukauden tavoite <br />
+                  300km
+                </p>
+                <Image
+                  className="card-img-top-right"
+                  src={logo3}
+                  fluid
+                  alt="Responsive image"
+                />
+                <p>
+                  Kuukauden tavoite <br />
+                  150km
+                </p>
+              </Col>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
-              <Card.Text></Card.Text>
+              <Image
+                className="card-img-top-right"
+                src={logo4}
+                fluid
+                alt="Responsive image"
+              />
+              <p>
+                Kuukauden tavoite <br />
+                100km
+              </p>
+              <Image
+                className="card-img-top-right"
+                src={logo5}
+                fluid
+                alt="Responsive image"
+              />
             </Card.Body>
           </Card>
           {/* kortit vaihtuu */}
@@ -207,17 +250,28 @@ const Residentportal = () => {
         <CardGroup>
           <Card>
             <Card.Body>
-              <Card.Text></Card.Text>
+              <Image
+                className="card-img-top-right"
+                src={logo6}
+                fluid
+                alt="Responsive image"
+              />
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
-              <Card.Text></Card.Text>
+              <Card.Text>
+                Olet kohta palkintotasolla 4. <br />
+                Mahtavasti tsempattu
+              </Card.Text>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
-              <Card.Text></Card.Text>
+              <ButtonGroup vertical >
+                <Button className="card-btn">Button</Button>
+                <Button className="card-btn">Button</Button>
+              </ButtonGroup>
             </Card.Body>
           </Card>
         </CardGroup>
@@ -226,17 +280,23 @@ const Residentportal = () => {
             <h5 className="font-weight-bold">SINUA VOISI KIINNOSTAA</h5>
 
             <Card.Body>
-              <Card.Text></Card.Text>
+              <div >
+              <button type="button" className="btn btn-info  btn-block">Large button</button>
+              </div>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
-              <Card.Text></Card.Text>
+              <div >
+              <button type="button" className="btn btn-symbol  btn-block">Large button</button>
+              </div>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
-              <Card.Text></Card.Text>
+              <div>
+              <button type="button" className="btn btn-info  btn-block">Large button</button>
+              </div>
             </Card.Body>
           </Card>
         </CardGroup>
