@@ -219,21 +219,21 @@ const Residentportal = () => {
                     </th>
                   </tr>
                   <tr className="text-left">
-                    <th className="pb-3 font-weight-normal">6.9.2018</th>
+                    <th className="pb-3 font-weight-normal"><span className="circle"/>6.9.2018</th>
                     <th className="pb-3 font-weight-normal">
                       Varaus, Palloiluhalli
                     </th>
                     <th className="pb-3 font-weight-normal">Käsittelyssä</th>
                   </tr>
                   <tr className="text-left">
-                    <th className="pb-3 font-weight-normal">5.9.2018</th>
+                    <th className="pb-3 font-weight-normal"><span className="circle1"/>5.9.2018</th>
                     <th className="pb-3 font-weight-normal">
                       Terveystarkastus, Mäntymäki
                     </th>
                     <th className="pb-3 font-weight-normal">Valmis</th>
                   </tr>
                   <tr className="text-left">
-                    <th className="pb-3 font-weight-normal">3.8.2018</th>
+                    <th className="pb-3 font-weight-normal"><span className="circle2"/>3.8.2018</th>
                     <th className="pb-3 font-weight-normal">
                       Hakemus, Velkaneuvonta
                     </th>
@@ -242,14 +242,14 @@ const Residentportal = () => {
                     </th>
                   </tr>
                   <tr className="text-left">
-                    <th className="pb-3 font-weight-normal">2.8.2018</th>
+                    <th className="pb-3 font-weight-normal"><span className="circle3"/>2.8.2018</th>
                     <th className="pb-3 font-weight-normal">
                       Hakemus, Alakoulu
                     </th>
                     <th className="pb-3 font-weight-normal">Luonnos</th>
                   </tr>
                   <tr className="text-left">
-                    <th className="pb-3 font-weight-normal">1.7.2018</th>
+                    <th className="pb-3 font-weight-normal"><span className="circle4"/>1.7.2018</th>
                     <th className="pb-3 font-weight-normal">
                       Aineistovaraus, Kirjasto
                     </th>
