@@ -179,7 +179,7 @@ const Residentportal = () => {
             </Card.Title>
 
             <Card.Body>
-              <table className="ml-1" style={{ display: "grid" }}>
+              <table className="ml-1 cardmap" style={{ display: "grid" }}>
                 <tbody>
                   <tr className="">
                     <th className="pb-3 font-weight-normal">Koti</th>
