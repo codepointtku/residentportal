@@ -117,7 +117,7 @@ const Residentportal = () => {
           <Card>
             <h5 className="mt-5 ml-5 p-3 text-left font-weight-bold">PERHE JA MUUT ROOLIT</h5>
             <Container>
-              <Row className="ml-4 cardRow">
+              <Row className="ml-4 mb-3 cardRow">
                 <Col>
                   <p className="font-weight-bold">Aviomies</p>
                   <Image
