@@ -10,6 +10,7 @@
   --danger-color: #dc3545;
   --success-color: #28a745;
   --info-color: #00aeef;
+  --secondinfo-color: #ffc233;
   --link-color: #7dcdc8;
   --symbol-color: #ed0c6e;
   --picture-color: #c3c4b7;
@@ -906,4 +907,32 @@ a.navbar-brand img {
   width: 300px;
   align-self: center;
   margin-top: 2rem;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: var(--success-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-yellow {
+  height: 15px;
+  width: 15px;
+  background-color: var(--secondinfo-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-red {
+  height: 15px;
+  width: 15px;
+  background-color: var(--danger-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-blue {
+  height: 15px;
+  width: 15px;
+  background-color: var(--tertiary-color);
+  border-radius: 50%;
+  display: inline-block;
 }
