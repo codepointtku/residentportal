@@ -187,11 +187,46 @@ const Residentportal = () => {
         <CardGroup>
           <Card>
             <Card.Body>
-              <h5 className="cardtitle font-weight-bold ">ASIOINNIT </h5>
+              <h5 className="text-left ml-5 mt-4 mb-4 font-weight-bold ">
+                ASIOINNIT{" "}
+              </h5>
+              <tr className="ml-3">
+                <thead>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">Pvm.</th>
+                    <th className="pb-3 font-weight-normal">Aihe</th>
+                    <th className="pb-3 font-weight-normal">Tila</th>
+                    <th className="pb-3 font-weight-normal">Yksityisyys Muokkaa Arkistoi Poista</th>
+                  </tr>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">6.9.2018</th>
+                    <th className="pb-3 font-weight-normal">Varaus, Palloiluhalli</th>
+                    <th className="pb-3 font-weight-normal">Käsittelyssä</th>
+                  </tr>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">5.9.2018</th>
+                    <th className="pb-3 font-weight-normal">Terveystarkastus, Mäntymäki</th>
+                    <th className="pb-3 font-weight-normal">Valmis</th>
+                  </tr>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">3.8.2018</th>
+                    <th className="pb-3 font-weight-normal">Hakemus, Velkaneuvonta</th>
+                    <th className="pb-3 font-weight-normal">Odottaa lisätietoa</th>
+                  </tr>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">2.8.2018</th>
+                    <th className="pb-3 font-weight-normal">Hakemus, Alakoulu</th>
+                    <th className="pb-3 font-weight-normal">Luonnos</th>
+                  </tr>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">1.7.2018</th>
+                    <th className="pb-3 font-weight-normal">Aineistovaraus, Kirjasto</th>
+                    <th className="pb-3 font-weight-normal">Valmis</th>
+                  </tr>
+                </thead>
+              </tr>
             </Card.Body>
           </Card>
-          <Card><Card.Body></Card.Body></Card>
-          <Card></Card>
         </CardGroup>
         {/* kortit vaihtuu */}
         <CardGroup>
@@ -200,59 +235,59 @@ const Residentportal = () => {
 
             <Card.Body>
               <Row>
-              <Col>
-                <Image
-                  className="card-img-top-right"
-                  src={logo2}
-                  fluid
-                  alt="Responsive image"
-                />
-                <p>
-                  Kuukauden tavoite <br />
-                  300km
-                </p>
+                <Col>
+                  <Image
+                    className="card-img-top-right"
+                    src={logo2}
+                    fluid
+                    alt="Responsive image"
+                  />
+                  <p>
+                    Kuukauden tavoite <br />
+                    300km
+                  </p>
                 </Col>
                 <Col>
-                <Image
-                  className="card-img-top-right"
-                  src={logo3}
-                  fluid
-                  alt="Responsive image"
-                />
-                <p>
-                  Kuukauden tavoite <br />
-                  150km
-                </p>
-              </Col>
+                  <Image
+                    className="card-img-top-right"
+                    src={logo3}
+                    fluid
+                    alt="Responsive image"
+                  />
+                  <p>
+                    Kuukauden tavoite <br />
+                    150km
+                  </p>
+                </Col>
               </Row>
             </Card.Body>
           </Card>
           <Card>
-          <Container className="cardContainer">
-            <Card.Body>
-              <Row>
-              <Col>
-              <Image
-                className="card-img-top-right"
-                src={logo4}
-                fluid
-                alt="Responsive image"
-              />
-              <p>
-                Kuukauden tavoite <br />
-                100km
-              </p>
-              </Col>
-              <Col>
-              <Image
-                className="card-img-top-right"
-                src={logo5}
-                fluid
-                alt="Responsive image"
-              />
-              </Col>
-            </Row>
-            </Card.Body>
+            <Container className="cardContainer">
+              <Card.Body>
+                <Row>
+                  <Col>
+                    <Image
+                      className="card-img-top-right"
+                      src={logo4}
+                      fluid
+                      alt="Responsive image"
+                    />
+                    <p>
+                      Kuukauden tavoite <br />
+                      100km
+                    </p>
+                  </Col>
+                  <Col>
+                    <Image
+                      className="card-img-top-right"
+                      src={logo5}
+                      fluid
+                      alt="Responsive image"
+                    />
+                  </Col>
+                </Row>
+              </Card.Body>
             </Container>
           </Card>
           {/* kortit vaihtuu */}
