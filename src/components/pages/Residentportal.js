@@ -162,12 +162,14 @@ const Residentportal = () => {
             </Container>
           </Card>
           <Card>
+            <Container>
             <Card.Body>
               <Card.Title>
                 <p className="font-weight-bold">Rahastonhoitaja</p>
               </Card.Title>
               <Card.Text>Turun pystykorvat RY </Card.Text>
             </Card.Body>
+            </Container>
           </Card>
           <Card>
             <Card.Title className="cardtitle1">
