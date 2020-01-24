@@ -219,6 +219,12 @@ img {
   align-self: center;
   margin: 1rem;
 }
+.card-img1{
+  position: relative;
+  width: 20rem;
+  align-self: center;
+  margin: 6rem;
+}
 
 /* List */
 .list {
@@ -824,6 +830,12 @@ a.navbar-brand img {
   margin-bottom: 15px;
   position: initial !important;
 }
+.card-btn5 {
+  background-color: var(--link-color);
+  margin-bottom: 15px;
+  position: initial !important;
+  margin-top: 5rem;
+}
 .card-btn4 {
   background-color: var(--secondary-color);
   margin-bottom: 15px;
@@ -850,6 +862,7 @@ a.navbar-brand img {
   height: 200px;
   position: initial !important;
 }
+
 .btn-vertical {
   width: 144px;
   align-self: center;

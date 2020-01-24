@@ -267,7 +267,7 @@ const Residentportal = () => {
           <Card>
             <Card.Body>
               <Image
-                className="card-img-top-right"
+                className="card-img1"
                 src={logo6}
                 fluid
                 alt="Responsive image"
@@ -276,17 +276,17 @@ const Residentportal = () => {
           </Card>
           <Card>
             <Card.Body>
-              <Card.Text>
-                Olet kohta palkintotasolla 4. <br />
-                Mahtavasti tsempattu
-              </Card.Text>
+             
+                 <p className='mt-5 pt-5 font-weight-bold'>Olet kohta palkintotasolla 4. <br />
+                Mahtavasti tsempattu</p>
+         
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
               <ButtonGroup vertical >
-                <Button className="card-btn1 text-dark">Lunasta aktiivisuuspalkkio</Button>
-                <Button className="card-btn1 text-dark">Muokkaa asetuksia</Button>
+                <Button className="card-btn5 text-dark">Lunasta aktiivisuuspalkkio</Button>
+                <Button className="card-btn5 text-dark">Muokkaa asetuksia</Button>
               </ButtonGroup>
             </Card.Body>
           </Card>
