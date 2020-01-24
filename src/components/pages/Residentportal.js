@@ -172,35 +172,32 @@ const Residentportal = () => {
             </Container>
           </Card>
           <Card>
-            <div className="m-1">
-              <Card.Title className="cardtitle1">
-                <h5 className="font-weight-bold float">OMAT PAIKAT</h5>
-                <table className="ml-3">
-                  <thead>
-                    <tr className="text-left">
-                      <th className="pb-3 font-weight-normal">Koti</th>
-                    </tr>
-                    <tr className="text-left">
-                      <th className="pb-3 font-weight-normal">Työ, Minna</th>
-                    </tr>
-                    <tr className="text-left">
-                      <th className="pb-3 font-weight-normal">Työ, Kari</th>
-                    </tr>
-                    <tr className="text-left">
-                      <th className="pb-3 font-weight-normal">
-                        Seikkailupuisto
-                      </th>
-                    </tr>
-                    <tr className="text-left">
-                      <th className="pb-3 font-weight-normal">Päiväkoti</th>
-                    </tr>
-                  </thead>
-                </table>
-              </Card.Title>
-              <div id="googleMap_parent">
-                <GoogleMap id="googleMap" />
-              </div>
-            </div>
+            <Card.Title className="cardtitle2 font-weight-bold">
+              OMAT PAIKAT
+            </Card.Title>
+
+            <Card.Body>
+              <table className="ml-1" style={{ display: "grid" }}>
+                <tr className="">
+                  <th className="pb-3 font-weight-normal">Koti</th>
+                  <td rowspan="6">
+                    <GoogleMap id="googleMap" />
+                  </td>
+                </tr>
+                <tr className="">
+                  <th className="pb-3 font-weight-normal">Työ, Minna</th>
+                </tr>
+                <tr className="">
+                  <th className="pb-3 font-weight-normal">Työ, Kari</th>
+                </tr>
+                <tr className="">
+                  <th className="pb-3 font-weight-normal">Seikkailupuisto</th>
+                </tr>
+                <tr className="">
+                  <th className="pb-3 font-weight-normal">Päiväkoti</th>
+                </tr>
+              </table>
+            </Card.Body>
           </Card>
         </CardGroup>
       </div>

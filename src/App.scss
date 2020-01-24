@@ -101,6 +101,13 @@ img {
   margin-bottom: 40px;
   text-align: left;
 }
+.cardtitle2 {
+  margin-left: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
 .cardtext {
   text-align: left;
 }
@@ -329,7 +336,6 @@ li {
   padding: 0.3rem 1rem;
   margin-right: 0.2rem;
 }
-
 
 .badge {
   display: inline-block;
@@ -828,25 +834,25 @@ a.navbar-brand img {
   background-color: var(--secondary-color);
   margin-bottom: 15px;
   margin-left: 100px;
-  width:300px;
+  width: 300px;
   height: 200px;
   position: initial !important;
 }
 .card-btn2 {
   background-color: var(--symbol-color);
   margin-bottom: 15px;
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 100px;
-  width:300px;
+  width: 300px;
   height: 200px;
   position: initial !important;
 }
 .card-btn3 {
   background-color: var(--link-color);
   margin-bottom: 50px;
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 100px;
-  width:300px;
+  width: 300px;
   height: 200px;
   position: initial !important;
 }
