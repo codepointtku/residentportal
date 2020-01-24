@@ -743,7 +743,37 @@ a.navbar-brand img {
       text-indent: 0rem;
     }
   }
-}
+  .img-chat {
+    display: none !important;
+    }
+    /* Mobile cards */
+       
+    .card-btn4 {
+      background-color: var(--secondary-color);
+      height: 200px;
+      margin-bottom: 0px !important;
+      margin-left: 0px !important;
+      width: auto !important;
+      position: initial !important;
+    }
+    .card-btn2 {
+      background-color: var(--symbol-color);  
+      height: 200px;
+      margin-bottom: 0px !important;
+      margin-left: 0px !important;
+      width: auto !important;
+      position: initial !important;
+    }
+    .card-btn3 {
+      background-color: var(--link-color);    
+      height: 200px;
+      margin-bottom: 0px !important;
+      margin-left: 0px !important;
+      width: auto !important;
+      position: initial !important;
+    }
+  }
+
 
 /* Menu */
 .menu {
