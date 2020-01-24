@@ -214,6 +214,7 @@ img {
 /* Cards */
 .card {
   text-align: center;
+  max-width: none !important;
   border: 0px;
   max-width: 600px;
   border: 0px;
@@ -225,6 +226,18 @@ img {
   width: 9rem;
   align-self: center;
   margin: 1rem;
+}
+.card-img-family {
+  position: relative;
+  width: 6rem;
+  align-self: center;
+  margin: 1rem;
+}
+.card-img-activity {
+  position: relative;
+  width: 16rem;
+  align-self: center;
+  margin: 2rem;
 }
 
 /* List */
@@ -628,7 +641,9 @@ a.navbar-brand img {
   .hide-sm {
     display: none;
   }
-
+  .card {
+    margin-bottom: 0 !important;
+  }
   .grid-2,
   .grid-3,
   .grid-4 {
@@ -830,6 +845,12 @@ a.navbar-brand img {
   margin-bottom: 15px;
   position: initial !important;
 }
+.card-btn5 {
+  background-color: var(--link-color);
+  margin-bottom: 15px;
+  position: initial !important;
+  margin-top: 1rem;
+}
 .card-btn4 {
   background-color: var(--secondary-color);
   margin-bottom: 15px;
@@ -856,6 +877,7 @@ a.navbar-brand img {
   height: 200px;
   position: initial !important;
 }
+
 .btn-vertical {
   width: 144px;
   align-self: center;

@@ -115,13 +115,15 @@ const Residentportal = () => {
       <div fluid="True">
         <CardGroup>
           <Card>
-            <h5 className="cardtitle font-weight-bold">PERHE JA MUUT ROOLIT</h5>
+            <h5 className="mt-5 ml-5 p-3 text-left font-weight-bold">
+              PERHE JA MUUT ROOLIT
+            </h5>
             <Container>
-              <Row className="cardRow">
+              <Row className="ml-4 mb-3 cardRow">
                 <Col>
                   <p className="font-weight-bold">Aviomies</p>
                   <Image
-                    className="card-img-top-right"
+                    className="card-img-family"
                     src={logo}
                     fluid
                     alt="Responsive image"
@@ -134,7 +136,7 @@ const Residentportal = () => {
                 <Col>
                   <p className="font-weight-bold">Lapsi</p>
                   <Image
-                    className="card-img-top-right"
+                    className="card-img-family"
                     src={logo}
                     fluid
                     alt="Responsive image"
@@ -148,7 +150,7 @@ const Residentportal = () => {
                   <p className="font-weight-bold">Lapsi</p>
 
                   <Image
-                    className="card-img-top-right"
+                    className="card-img-family"
                     src={logo}
                     fluid
                     alt="Responsive image"
@@ -206,24 +208,72 @@ const Residentportal = () => {
         <CardGroup>
           <Card>
             <Card.Body>
-              <h5 className="cardtitle font-weight-bold ">ASIOINNIT </h5>
+              <h5 className="text-left ml-5 mt-4 mb-4 font-weight-bold ">
+                ASIOINNIT{" "}
+              </h5>
+              <table className="ml-3">
+                <tbody>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">Pvm.</th>
+                    <th className="pb-3 font-weight-normal">Aihe</th>
+                    <th className="pb-3 font-weight-normal">Tila</th>
+                    <th className="pb-3 font-weight-normal">
+                      Yksityisyys Muokkaa Arkistoi Poista
+                    </th>
+                  </tr>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">6.9.2018</th>
+                    <th className="pb-3 font-weight-normal">
+                      Varaus, Palloiluhalli
+                    </th>
+                    <th className="pb-3 font-weight-normal">Käsittelyssä</th>
+                  </tr>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">5.9.2018</th>
+                    <th className="pb-3 font-weight-normal">
+                      Terveystarkastus, Mäntymäki
+                    </th>
+                    <th className="pb-3 font-weight-normal">Valmis</th>
+                  </tr>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">3.8.2018</th>
+                    <th className="pb-3 font-weight-normal">
+                      Hakemus, Velkaneuvonta
+                    </th>
+                    <th className="pb-3 font-weight-normal">
+                      Odottaa lisätietoa
+                    </th>
+                  </tr>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">2.8.2018</th>
+                    <th className="pb-3 font-weight-normal">
+                      Hakemus, Alakoulu
+                    </th>
+                    <th className="pb-3 font-weight-normal">Luonnos</th>
+                  </tr>
+                  <tr className="text-left">
+                    <th className="pb-3 font-weight-normal">1.7.2018</th>
+                    <th className="pb-3 font-weight-normal">
+                      Aineistovaraus, Kirjasto
+                    </th>
+                    <th className="pb-3 font-weight-normal">Valmis</th>
+                  </tr>
+                </tbody>
+              </table>
             </Card.Body>
           </Card>
-          <Card>
-            <Card.Body></Card.Body>
-          </Card>
-          <Card></Card>
         </CardGroup>
         {/* kortit vaihtuu */}
         <CardGroup>
           <Card>
-            <h5 className="font-weight-bold">AKTIVITEETTI</h5>
-
+            <h5 className="pl-3 ml-5 mt-4 text-left font-weight-bold">
+              AKTIVITEETTI
+            </h5>
             <Card.Body>
               <Row>
                 <Col>
                   <Image
-                    className="card-img-top-right"
+                    className="ml-4 card-img-top-right"
                     src={logo2}
                     fluid
                     alt="Responsive image"
@@ -249,7 +299,7 @@ const Residentportal = () => {
             </Card.Body>
           </Card>
           <Card>
-            <Container className="cardContainer">
+            <Container className="mt-4 cardContainer">
               <Card.Body>
                 <Row>
                   <Col>
@@ -288,7 +338,7 @@ const Residentportal = () => {
           <Card>
             <Card.Body>
               <Image
-                className="card-img-top-right"
+                className="card-img-activity"
                 src={logo6}
                 fluid
                 alt="Responsive image"
@@ -297,19 +347,19 @@ const Residentportal = () => {
           </Card>
           <Card>
             <Card.Body>
-              <Card.Text>
+              <p className="mt-4 pt-3 font-weight-bold">
                 Olet kohta palkintotasolla 4. <br />
                 Mahtavasti tsempattu
-              </Card.Text>
+              </p>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
               <ButtonGroup vertical>
-                <Button className="card-btn1 text-dark">
+                <Button className="card-btn5 text-dark">
                   Lunasta aktiivisuuspalkkio
                 </Button>
-                <Button className="card-btn1 text-dark">
+                <Button className="card-btn5 text-dark">
                   Muokkaa asetuksia
                 </Button>
               </ButtonGroup>
