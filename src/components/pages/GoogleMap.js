@@ -52,7 +52,7 @@ class MapContainer extends Component {
 const mapStyles = {
   position: "static",
   width: "40%",
-  height: "30%",
+  height: "60%",
   top: "-20px",
   right: "20px",
   left: "138px"
