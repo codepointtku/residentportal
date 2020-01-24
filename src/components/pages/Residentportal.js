@@ -172,12 +172,32 @@ const Residentportal = () => {
             </Container>
           </Card>
           <Card>
+          <div className="m-1">
             <Card.Title className="cardtitle1">
-              <h5 className="font-weight-bold">OMAT PAIKAT</h5>
+              <h5 className="font-weight-bold float">OMAT PAIKAT</h5>
+              <table className="ml-3">
+              <thead>
+                <tr className="text-left">
+                  <th className="pb-3 font-weight-normal">Koti</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3 font-weight-normal">Työ, Minna</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3 font-weight-normal">Työ, Kari</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3 font-weight-normal">Seikkailupuisto</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3 font-weight-normal">Päiväkoti</th>
+                </tr>
+                </thead>
+                </table>
             </Card.Title>
-            <Card.Text>Koti</Card.Text>
             <div id="googleMap_parent">
               <GoogleMap id="googleMap" />
+            </div>
             </div>
           </Card>
         </CardGroup>
