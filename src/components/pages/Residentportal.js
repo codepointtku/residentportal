@@ -178,8 +178,8 @@ const Residentportal = () => {
               OMAT PAIKAT
             </Card.Title>
 
-            <Card.Body>
-              <table className="ml-1" style={{ display: "grid" }}>
+            <Card.Body className="cardmap">
+              <table className="ml-1 " style={{ display: "grid" }}>
                 <tbody>
                   <tr className="">
                     <th className="pb-3 font-weight-normal">Koti</th>
@@ -222,48 +222,73 @@ const Residentportal = () => {
                     <th className="pb-3 font-weight-normal"></th>
                   </tr>
                   <tr className="text-left">
-                    <th className="pb-3 font-weight-normal"><span className="circle"/>6.9.2018</th>
+                    <th className="pb-3 font-weight-normal">
+                      <span className="circle" />
+                      6.9.2018
+                    </th>
                     <th className="pb-3 font-weight-normal">
                       Varaus, Palloiluhalli
                     </th>
                     <th className="pb-3 font-weight-normal">
-                      <span className="dot-yellow"><p>Käsittelyssä</p></span>
+                      <span className="dot-yellow">
+                        <p>Käsittelyssä</p>
+                      </span>
                     </th>
                   </tr>
                   <tr className="text-left">
-                    <th className="pb-3 font-weight-normal"><span className="circle1"/>5.9.2018</th>
+                    <th className="pb-3 font-weight-normal">
+                      <span className="circle1" />
+                      5.9.2018
+                    </th>
                     <th className="pb-3 font-weight-normal">
                       Terveystarkastus, Mäntymäki
                     </th>
                     <th className="pb-3 font-weight-normal">
-                      <span className="dot"><p>Valmis</p></span>
+                      <span className="dot">
+                        <p>Valmis</p>
+                      </span>
                     </th>
                   </tr>
                   <tr className="text-left">
-                    <th className="pb-3 font-weight-normal"><span className="circle2"/>3.8.2018</th>
+                    <th className="pb-3 font-weight-normal">
+                      <span className="circle2" />
+                      3.8.2018
+                    </th>
                     <th className="pb-3 font-weight-normal">
                       Hakemus, Velkaneuvonta
                     </th>
                     <th className="pb-3 font-weight-normal">
-                      <span className="dot-red"><p>Odottaa lisätietoa</p></span>
+                      <span className="dot-red">
+                        <p>Odottaa lisätietoa</p>
+                      </span>
                     </th>
                   </tr>
                   <tr className="text-left">
-                    <th className="pb-3 font-weight-normal"><span className="circle3"/>2.8.2018</th>
+                    <th className="pb-3 font-weight-normal">
+                      <span className="circle3" />
+                      2.8.2018
+                    </th>
                     <th className="pb-3 font-weight-normal">
                       Hakemus, Alakoulu
                     </th>
                     <th className="pb-3 font-weight-normal">
-                      <span className="dot-blue"><p>Luonnos</p></span>
+                      <span className="dot-blue">
+                        <p>Luonnos</p>
+                      </span>
                     </th>
                   </tr>
                   <tr className="text-left">
-                    <th className="pb-3 font-weight-normal"><span className="circle4"/>1.7.2018</th>
+                    <th className="pb-3 font-weight-normal">
+                      <span className="circle4" />
+                      1.7.2018
+                    </th>
                     <th className="pb-3 font-weight-normal">
                       Aineistovaraus, Kirjasto
                     </th>
                     <th className="pb-3 font-weight-normal">
-                      <span className="dot"><p>Valmis</p></span>
+                      <span className="dot">
+                        <p>Valmis</p>
+                      </span>
                     </th>
                   </tr>
                 </tbody>

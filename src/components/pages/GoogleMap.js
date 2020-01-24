@@ -55,10 +55,10 @@ class MapContainer extends Component {
 const mapStyles = {
   position: "static",
   width: "40%",
-  height: "50%",
-  top: "-70px",
+  height: "35%",
+  top: "-152px",
   right: "20px",
-  left: "138px"
+  left: "60px"
 };
 export default GoogleApiWrapper({
   apiKey: ""
