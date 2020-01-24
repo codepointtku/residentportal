@@ -803,15 +803,41 @@ a.navbar-brand img {
   height: 155px;
   width: 109px;
 }
+.card-btn {
+  background-color: var(--link-color);
+  margin-bottom: 15px;
+  position: initial !important;
+}
 
 .card-btn1 {
   background-color: var(--link-color);
   margin-bottom: 15px;
   position: initial !important;
 }
-.card-btn {
-  background-color: var(--link-color);
+.card-btn4 {
+  background-color: var(--secondary-color);
   margin-bottom: 15px;
+  margin-left: 100px;
+  width:300px;
+  height: 200px;
+  position: initial !important;
+}
+.card-btn2 {
+  background-color: var(--symbol-color);
+  margin-bottom: 15px;
+  margin-top:30px;
+  margin-left: 100px;
+  width:300px;
+  height: 200px;
+  position: initial !important;
+}
+.card-btn3 {
+  background-color: var(--link-color);
+  margin-bottom: 50px;
+  margin-top:30px;
+  margin-left: 100px;
+  width:300px;
+  height: 200px;
   position: initial !important;
 }
 .btn-vertical {

@@ -267,8 +267,8 @@ const Residentportal = () => {
           <Card>
             <Card.Body>
               <ButtonGroup vertical >
-                <Button className="card-btn">Button</Button>
-                <Button className="card-btn">Button</Button>
+                <Button className="card-btn1 text-dark">Lunasta aktiivisuuspalkkio</Button>
+                <Button className="card-btn1 text-dark">Muokkaa asetuksia</Button>
               </ButtonGroup>
             </Card.Body>
           </Card>
@@ -278,23 +278,32 @@ const Residentportal = () => {
             <h5 className="font-weight-bold">SINUA VOISI KIINNOSTAA</h5>
 
             <Card.Body>
-              <div >
-              <button type="button" className="btn btn-info  btn-block">Large button</button>
-              </div>
+            <Button className="card-btn4 btn-block font-weight-bold">
+              <a className="text-light" href="https://varaamo.turku.fi/">
+              Varaamo – <br/>
+Tilat ja laitteet varattavana
+Varaamosta voit varata julkisia tiloja ja laitteita omaan käyttöösi
+              </a>
+            </Button>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
-              <div >
-              <button type="button" className="btn btn-symbol  btn-block">Large button</button>
-              </div>
+            <Button className="card-btn2 btn-block font-weight-bold">
+              <a className="text-light" href="http://www.turkuamk.fi/fi/tutkinnot-ja-opiskelu/hakeminen/hakuohjeet/">
+               Turun Amk englannin kielisten koulutusten yhteishaku käynnissä 8-22.1.2020
+              </a>
+            </Button>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
-              <div>
-              <button type="button" className="btn btn-info  btn-block">Large button</button>
-              </div>
+            <Button className="card-btn3 btn-block font-weight-bold">
+              <a className="text-light" href="https://logomo.fi/tapahtuma/lauantaibrunssi-teatrossa-10">
+             Lauantaibrunssi Logomossa! <br/> 
+Lauantaina katamme runsaan brunssin Logomon Teatroon klo 12.00 – 15.00.
+              </a>
+            </Button>
             </Card.Body>
           </Card>
         </CardGroup>
