@@ -199,6 +199,7 @@ const Residentportal = () => {
             <h5 className="font-weight-bold">AKTIVITEETTI</h5>
 
             <Card.Body>
+              <Row>
               <Col>
                 <Image
                   className="card-img-top-right"
@@ -210,6 +211,8 @@ const Residentportal = () => {
                   Kuukauden tavoite <br />
                   300km
                 </p>
+                </Col>
+                <Col>
                 <Image
                   className="card-img-top-right"
                   src={logo3}
@@ -221,10 +224,14 @@ const Residentportal = () => {
                   150km
                 </p>
               </Col>
+              </Row>
             </Card.Body>
           </Card>
           <Card>
+          <Container className="cardContainer">
             <Card.Body>
+              <Row>
+              <Col>
               <Image
                 className="card-img-top-right"
                 src={logo4}
@@ -235,13 +242,18 @@ const Residentportal = () => {
                 Kuukauden tavoite <br />
                 100km
               </p>
+              </Col>
+              <Col>
               <Image
                 className="card-img-top-right"
                 src={logo5}
                 fluid
                 alt="Responsive image"
               />
+              </Col>
+            </Row>
             </Card.Body>
+            </Container>
           </Card>
           {/* kortit vaihtuu */}
           <Card>
