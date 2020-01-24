@@ -227,8 +227,7 @@ const Residentportal = () => {
                       Varaus, Palloiluhalli
                     </th>
                     <th className="pb-3 font-weight-normal">
-                      <span className="dot-yellow" />
-                      Käsittelyssä
+                      <span className="dot-yellow"><p>Käsittelyssä</p></span>
                     </th>
                   </tr>
                   <tr className="text-left">
@@ -237,8 +236,7 @@ const Residentportal = () => {
                       Terveystarkastus, Mäntymäki
                     </th>
                     <th className="pb-3 font-weight-normal">
-                      <span className="dot" />
-                      Valmis
+                      <span className="dot"><p>Valmis</p></span>
                     </th>
                   </tr>
                   <tr className="text-left">
@@ -247,8 +245,7 @@ const Residentportal = () => {
                       Hakemus, Velkaneuvonta
                     </th>
                     <th className="pb-3 font-weight-normal">
-                      <span className="dot-red" />
-                      Odottaa lisätietoa
+                      <span className="dot-red"><p>Odottaa lisätietoa</p></span>
                     </th>
                   </tr>
                   <tr className="text-left">
@@ -257,8 +254,7 @@ const Residentportal = () => {
                       Hakemus, Alakoulu
                     </th>
                     <th className="pb-3 font-weight-normal">
-                      <span className="dot-blue" />
-                      Luonnos
+                      <span className="dot-blue"><p>Luonnos</p></span>
                     </th>
                   </tr>
                   <tr className="text-left">
@@ -267,8 +263,7 @@ const Residentportal = () => {
                       Aineistovaraus, Kirjasto
                     </th>
                     <th className="pb-3 font-weight-normal">
-                      <span className="dot" />
-                      Valmis
+                      <span className="dot"><p>Valmis</p></span>
                     </th>
                   </tr>
                 </tbody>

@@ -979,30 +979,42 @@ a.navbar-brand img {
   margin-right: 15px;
 }
 .dot {
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   background-color: var(--success-color);
   border-radius: 50%;
   display: inline-block;
+  p {
+    width: 200px;
+  }
 }
 .dot-yellow {
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   background-color: var(--secondinfo-color);
   border-radius: 50%;
   display: inline-block;
+  p {
+    width: 200px;
+  }
 }
 .dot-red {
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   background-color: var(--danger-color);
   border-radius: 50%;
   display: inline-block;
+  p {
+    width: 200px;
+  }
 }
 .dot-blue {
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   background-color: var(--tertiary-color);
   border-radius: 50%;
   display: inline-block;
+  p {
+    width: 200px;
+  }
 }
