@@ -263,7 +263,7 @@ const Residentportal = () => {
         {/* kortit vaihtuu */}
         <CardGroup>
           <Card>
-            <h5 className="pl-3 ml-5 text-left font-weight-bold">
+            <h5 className="pl-3 ml-5 mt-4 text-left font-weight-bold">
               AKTIVITEETTI
             </h5>
             <Card.Body>
@@ -296,7 +296,7 @@ const Residentportal = () => {
             </Card.Body>
           </Card>
           <Card>
-            <Container className="cardContainer">
+            <Container className="mt-4 cardContainer">
               <Card.Body>
                 <Row>
                   <Col>
