@@ -13,9 +13,9 @@ class MapContainer extends Component {
         { latitude: 47.6307081, longitude: -122.1434325 },
         { latitude: 47.3084488, longitude: -122.2140121 },
         { latitude: 47.5524695, longitude: -122.0425407 },
-        { latitude: 60.448394, longitude: 22.249329},
-        { latitude: 60.449040, longitude: 22.268470},
-        { latitude: 60.450215, longitude: 22.271342}
+        { latitude: 60.448394, longitude: 22.249329 },
+        { latitude: 60.44904, longitude: 22.26847 },
+        { latitude: 60.450215, longitude: 22.271342 }
       ]
     };
   }
@@ -42,9 +42,7 @@ class MapContainer extends Component {
         google={this.props.google}
         zoom={12}
         style={mapStyles}
-        initialCenter={
-              { lat: 60.444095, lng: 22.231576 }
-        }
+        initialCenter={{ lat: 60.444095, lng: 22.231576 }}
       >
         {this.displayMarkers()}
       </Map>
@@ -52,10 +50,11 @@ class MapContainer extends Component {
   }
 }
 const mapStyles = {
-  width: "50%",
-  height: "40%",
+  position: "static",
+  width: "60%",
+  height: "60%",
   right: "20px",
-  left: "0px"
+  left: "80px"
 };
 export default GoogleApiWrapper({
   apiKey: ""

@@ -207,6 +207,7 @@ img {
 /* Cards */
 .card {
   text-align: center;
+  max-width: none !important;
   border: 0px;
   max-width: 600px;
   border: 0px;
@@ -219,11 +220,11 @@ img {
   align-self: center;
   margin: 1rem;
 }
-.card-img1{
+.card-img-family {
   position: relative;
-  width: 20rem;
+  width: 6rem;
   align-self: center;
-  margin: 6rem;
+  margin: 1rem;
 }
 
 /* List */
