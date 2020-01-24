@@ -174,9 +174,9 @@ const Residentportal = () => {
             </Container>
           </Card>
           <Card>
-            <Card.Title className="cardtitle2 font-weight-bold">
+            <h5 className="mt-5 ml-1 p-3 text-left font-weight-bold">
               OMAT PAIKAT
-            </Card.Title>
+            </h5>
 
             <Card.Body>
               <table className="ml-1 cardmap" style={{ display: "grid" }}>
