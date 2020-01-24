@@ -343,7 +343,6 @@ li {
   margin-right: 0.2rem;
 }
 
-
 .badge {
   display: inline-block;
   font-size: 0.8rem;
@@ -635,7 +634,9 @@ a.navbar-brand img {
   .hide-sm {
     display: none;
   }
-
+  .card {
+    margin-bottom: 0 !important;
+  }
   .grid-2,
   .grid-3,
   .grid-4 {
@@ -847,25 +848,25 @@ a.navbar-brand img {
   background-color: var(--secondary-color);
   margin-bottom: 15px;
   margin-left: 100px;
-  width:300px;
+  width: 300px;
   height: 200px;
   position: initial !important;
 }
 .card-btn2 {
   background-color: var(--symbol-color);
   margin-bottom: 15px;
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 100px;
-  width:300px;
+  width: 300px;
   height: 200px;
   position: initial !important;
 }
 .card-btn3 {
   background-color: var(--link-color);
   margin-bottom: 50px;
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 100px;
-  width:300px;
+  width: 300px;
   height: 200px;
   position: initial !important;
 }
