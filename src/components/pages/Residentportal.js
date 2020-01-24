@@ -172,72 +172,112 @@ const Residentportal = () => {
             </Container>
           </Card>
           <Card>
-            <Card.Title className="cardtitle font-weight-bold">
-              <h5 className="font-weight-bold">OMAT PAIKAT</h5>
-            </Card.Title>
-            <Card.Text>Koti</Card.Text>
-            <div id="googleMap_parent">
-              <GoogleMap id="googleMap" />
+            <div className="m-1">
+              <Card.Title className="cardtitle1">
+                <h5 className="font-weight-bold float">OMAT PAIKAT</h5>
+                <table className="ml-3">
+                  <thead>
+                    <tr className="text-left">
+                      <th className="pb-3 font-weight-normal">Koti</th>
+                    </tr>
+                    <tr className="text-left">
+                      <th className="pb-3 font-weight-normal">Työ, Minna</th>
+                    </tr>
+                    <tr className="text-left">
+                      <th className="pb-3 font-weight-normal">Työ, Kari</th>
+                    </tr>
+                    <tr className="text-left">
+                      <th className="pb-3 font-weight-normal">
+                        Seikkailupuisto
+                      </th>
+                    </tr>
+                    <tr className="text-left">
+                      <th className="pb-3 font-weight-normal">Päiväkoti</th>
+                    </tr>
+                  </thead>
+                </table>
+              </Card.Title>
+              <div id="googleMap_parent">
+                <GoogleMap id="googleMap" />
+              </div>
             </div>
           </Card>
         </CardGroup>
       </div>
       {/* kortit vaihtuu */}
-      <div fluid="True" className="container1 ">
-        <Card>
-          <Card.Body>
-            <h5 className="cardtitle font-weight-bold ">ASIOINNIT </h5>
-          </Card.Body>
-        </Card>
+      <div fluid="True" className="mt-3 pt-3">
+        <CardGroup>
+          <Card>
+            <Card.Body>
+              <h5 className="cardtitle font-weight-bold ">ASIOINNIT </h5>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body></Card.Body>
+          </Card>
+          <Card></Card>
+        </CardGroup>
         {/* kortit vaihtuu */}
         <CardGroup>
           <Card>
             <h5 className="font-weight-bold">AKTIVITEETTI</h5>
 
             <Card.Body>
-              <Col>
-                <Image
-                  className="card-img-top-right"
-                  src={logo2}
-                  fluid
-                  alt="Responsive image"
-                />
-                <p>
-                  Kuukauden tavoite <br />
-                  300km
-                </p>
-                <Image
-                  className="card-img-top-right"
-                  src={logo3}
-                  fluid
-                  alt="Responsive image"
-                />
-                <p>
-                  Kuukauden tavoite <br />
-                  150km
-                </p>
-              </Col>
+              <Row>
+                <Col>
+                  <Image
+                    className="card-img-top-right"
+                    src={logo2}
+                    fluid
+                    alt="Responsive image"
+                  />
+                  <p>
+                    Kuukauden tavoite <br />
+                    300km
+                  </p>
+                </Col>
+                <Col>
+                  <Image
+                    className="card-img-top-right"
+                    src={logo3}
+                    fluid
+                    alt="Responsive image"
+                  />
+                  <p>
+                    Kuukauden tavoite <br />
+                    150km
+                  </p>
+                </Col>
+              </Row>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Body>
-              <Image
-                className="card-img-top-right"
-                src={logo4}
-                fluid
-                alt="Responsive image"
-              />
-              <p>
-                Kuukauden tavoite <br />
-                100km
-              </p>
-              <Image
-                className="card-img-top-right"
-                src={logo5}
-                fluid
-                alt="Responsive image"
-              />
-            </Card.Body>
+            <Container className="cardContainer">
+              <Card.Body>
+                <Row>
+                  <Col>
+                    <Image
+                      className="card-img-top-right"
+                      src={logo4}
+                      fluid
+                      alt="Responsive image"
+                    />
+                    <p>
+                      Kuukauden tavoite <br />
+                      100km
+                    </p>
+                  </Col>
+                  <Col>
+                    <Image
+                      className="card-img-top-right"
+                      src={logo5}
+                      fluid
+                      alt="Responsive image"
+                    />
+                  </Col>
+                </Row>
+              </Card.Body>
+            </Container>
           </Card>
           {/* kortit vaihtuu */}
           <Card>
@@ -269,8 +309,12 @@ const Residentportal = () => {
           <Card>
             <Card.Body>
               <ButtonGroup vertical>
-                <Button className="card-btn">Button</Button>
-                <Button className="card-btn">Button</Button>
+                <Button className="card-btn1 text-dark">
+                  Lunasta aktiivisuuspalkkio
+                </Button>
+                <Button className="card-btn1 text-dark">
+                  Muokkaa asetuksia
+                </Button>
               </ButtonGroup>
             </Card.Body>
           </Card>
@@ -280,29 +324,40 @@ const Residentportal = () => {
             <h5 className="font-weight-bold">SINUA VOISI KIINNOSTAA</h5>
 
             <Card.Body>
-              <div>
-                <button type="button" className="btn btn-info  btn-block">
-                  Large button
-                </button>
-              </div>
+              <Button className="card-btn4 btn-block font-weight-bold">
+                <a className="text-light" href="https://varaamo.turku.fi/">
+                  Varaamo – <br />
+                  Tilat ja laitteet varattavana Varaamosta voit varata julkisia
+                  tiloja ja laitteita omaan käyttöösi
+                </a>
+              </Button>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
-              <div>
-                <button type="button" className="btn btn-symbol  btn-block">
-                  Large button
-                </button>
-              </div>
+              <Button className="card-btn2 btn-block font-weight-bold">
+                <a
+                  className="text-light"
+                  href="http://www.turkuamk.fi/fi/tutkinnot-ja-opiskelu/hakeminen/hakuohjeet/"
+                >
+                  Turun Amk englannin kielisten koulutusten yhteishaku käynnissä
+                  8-22.1.2020
+                </a>
+              </Button>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
-              <div>
-                <button type="button" className="btn btn-info  btn-block">
-                  Large button
-                </button>
-              </div>
+              <Button className="card-btn3 btn-block font-weight-bold">
+                <a
+                  className="text-light"
+                  href="https://logomo.fi/tapahtuma/lauantaibrunssi-teatrossa-10"
+                >
+                  Lauantaibrunssi Logomossa! <br />
+                  Lauantaina katamme runsaan brunssin Logomon Teatroon klo 12.00
+                  – 15.00.
+                </a>
+              </Button>
             </Card.Body>
           </Card>
         </CardGroup>
