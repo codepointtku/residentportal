@@ -117,11 +117,11 @@ const Residentportal = () => {
           <Card>
             <h5 className="mt-5 ml-5 p-3 text-left font-weight-bold">PERHE JA MUUT ROOLIT</h5>
             <Container>
-              <Row className="cardRow">
+              <Row className="ml-4 cardRow">
                 <Col>
                   <p className="font-weight-bold">Aviomies</p>
                   <Image
-                    className="card-img-top-right"
+                    className="card-img-family"
                     src={logo}
                     fluid
                     alt="Responsive image"
@@ -134,7 +134,7 @@ const Residentportal = () => {
                 <Col>
                   <p className="font-weight-bold">Lapsi</p>
                   <Image
-                    className="card-img-top-right"
+                    className="card-img-family"
                     src={logo}
                     fluid
                     alt="Responsive image"
@@ -148,7 +148,7 @@ const Residentportal = () => {
                   <p className="font-weight-bold">Lapsi</p>
 
                   <Image
-                    className="card-img-top-right"
+                    className="card-img-family"
                     src={logo}
                     fluid
                     alt="Responsive image"
