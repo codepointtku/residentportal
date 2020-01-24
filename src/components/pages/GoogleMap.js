@@ -15,7 +15,10 @@ class MapContainer extends Component {
         { latitude: 60.45212, longitude: 22.277926 },
         { latitude: 60.448394, longitude: 22.249329 },
         { latitude: 60.44904, longitude: 22.26847 },
-        { latitude: 60.450215, longitude: 22.271342 }
+        { latitude: 60.450215, longitude: 22.271342 },
+        { latitude: 60.448605, longitude: 22.25902 },
+        { latitude: 60.456877, longitude: 22.257752 },
+        { latitude: 60.441162, longitude: 22.247948 }
       ]
     };
   }
@@ -52,8 +55,8 @@ class MapContainer extends Component {
 const mapStyles = {
   position: "static",
   width: "40%",
-  height: "60%",
-  top: "-20px",
+  height: "70%",
+  top: "-70px",
   right: "20px",
   left: "138px"
 };

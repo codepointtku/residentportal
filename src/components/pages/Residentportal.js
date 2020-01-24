@@ -193,10 +193,10 @@ const Residentportal = () => {
                   <th className="pb-3 font-weight-normal">Työ, Kari</th>
                 </tr>
                 <tr className="">
-                  <th className="pb-3 font-weight-normal">Seikkailupuisto</th>
+                  <th className="pb-3 font-weight-normal">Logomo</th>
                 </tr>
                 <tr className="">
-                  <th className="pb-3 font-weight-normal">Päiväkoti</th>
+                  <th className="pb-3 font-weight-normal">Terveysasema</th>
                 </tr>
               </table>
             </Card.Body>
