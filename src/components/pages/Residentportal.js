@@ -263,13 +263,14 @@ const Residentportal = () => {
         {/* kortit vaihtuu */}
         <CardGroup>
           <Card>
-            <h5 className="font-weight-bold">AKTIVITEETTI</h5>
-
+            <h5 className="pl-3 ml-5 text-left font-weight-bold">
+              AKTIVITEETTI
+            </h5>
             <Card.Body>
               <Row>
                 <Col>
                   <Image
-                    className="card-img-top-right"
+                    className="ml-4 card-img-top-right"
                     src={logo2}
                     fluid
                     alt="Responsive image"
@@ -334,7 +335,7 @@ const Residentportal = () => {
           <Card>
             <Card.Body>
               <Image
-                className="card-img1"
+                className="card-img-activity"
                 src={logo6}
                 fluid
                 alt="Responsive image"
@@ -343,17 +344,21 @@ const Residentportal = () => {
           </Card>
           <Card>
             <Card.Body>
-             
-                 <p className='mt-5 pt-5 font-weight-bold'>Olet kohta palkintotasolla 4. <br />
-                Mahtavasti tsempattu</p>
-         
+              <p className="mt-4 pt-3 font-weight-bold">
+                Olet kohta palkintotasolla 4. <br />
+                Mahtavasti tsempattu
+              </p>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
-              <ButtonGroup vertical >
-                <Button className="card-btn5 text-dark">Lunasta aktiivisuuspalkkio</Button>
-                <Button className="card-btn5 text-dark">Muokkaa asetuksia</Button>
+              <ButtonGroup vertical>
+                <Button className="card-btn5 text-dark">
+                  Lunasta aktiivisuuspalkkio
+                </Button>
+                <Button className="card-btn5 text-dark">
+                  Muokkaa asetuksia
+                </Button>
               </ButtonGroup>
             </Card.Body>
           </Card>
