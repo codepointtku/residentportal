@@ -115,7 +115,9 @@ const Residentportal = () => {
       <div fluid="True">
         <CardGroup>
           <Card>
-            <h5 className="mt-5 ml-5 p-3 text-left font-weight-bold">PERHE JA MUUT ROOLIT</h5>
+            <h5 className="mt-5 ml-5 p-3 text-left font-weight-bold">
+              PERHE JA MUUT ROOLIT
+            </h5>
             <Container>
               <Row className="ml-4 mb-3 cardRow">
                 <Col>
@@ -172,34 +174,28 @@ const Residentportal = () => {
             </Container>
           </Card>
           <Card>
-            <div className="m-1">
-              <Card.Title className="cardtitle1">
-                <h5 className="font-weight-bold float">OMAT PAIKAT</h5>
-                <table className="ml-3">
-                  <thead>
-                    <tr className="text-left">
-                      <th className="pb-3 font-weight-normal">Koti</th>
-                    </tr>
-                    <tr className="text-left">
-                      <th className="pb-3 font-weight-normal">Työ, Minna</th>
-                    </tr>
-                    <tr className="text-left">
-                      <th className="pb-3 font-weight-normal">Työ, Kari</th>
-                    </tr>
-                    <tr className="text-left">
-                      <th className="pb-3 font-weight-normal">
-                        Seikkailupuisto
-                      </th>
-                    </tr>
-                    <tr className="text-left">
-                      <th className="pb-3 font-weight-normal">Päiväkoti</th>
-                    </tr>
-                  </thead>
-                </table>
-              </Card.Title>
-              <div id="googleMap_parent">
-                <GoogleMap id="googleMap" />
-              </div>
+            <h5 className="font-weight-bold float">OMAT PAIKAT</h5>
+            <table className="ml-3">
+              <thead>
+                <tr className="text-left">
+                  <th className="pb-3 font-weight-normal">Koti</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3 font-weight-normal">Työ, Minna</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3 font-weight-normal">Työ, Kari</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3 font-weight-normal">Seikkailupuisto</th>
+                </tr>
+                <tr className="text-left">
+                  <th className="pb-3 font-weight-normal">Päiväkoti</th>
+                </tr>
+              </thead>
+            </table>
+            <div id="googleMap_parent">
+              <GoogleMap id="googleMap" />
             </div>
           </Card>
         </CardGroup>
@@ -212,41 +208,55 @@ const Residentportal = () => {
               <h5 className="text-left ml-5 mt-4 mb-4 font-weight-bold ">
                 ASIOINNIT{" "}
               </h5>
-              <tr className="ml-3">
-                <thead>
+              <table className="ml-3">
+                <tbody>
                   <tr className="text-left">
                     <th className="pb-3 font-weight-normal">Pvm.</th>
                     <th className="pb-3 font-weight-normal">Aihe</th>
                     <th className="pb-3 font-weight-normal">Tila</th>
-                    <th className="pb-3 font-weight-normal">Yksityisyys Muokkaa Arkistoi Poista</th>
+                    <th className="pb-3 font-weight-normal">
+                      Yksityisyys Muokkaa Arkistoi Poista
+                    </th>
                   </tr>
                   <tr className="text-left">
                     <th className="pb-3 font-weight-normal">6.9.2018</th>
-                    <th className="pb-3 font-weight-normal">Varaus, Palloiluhalli</th>
+                    <th className="pb-3 font-weight-normal">
+                      Varaus, Palloiluhalli
+                    </th>
                     <th className="pb-3 font-weight-normal">Käsittelyssä</th>
                   </tr>
                   <tr className="text-left">
                     <th className="pb-3 font-weight-normal">5.9.2018</th>
-                    <th className="pb-3 font-weight-normal">Terveystarkastus, Mäntymäki</th>
+                    <th className="pb-3 font-weight-normal">
+                      Terveystarkastus, Mäntymäki
+                    </th>
                     <th className="pb-3 font-weight-normal">Valmis</th>
                   </tr>
                   <tr className="text-left">
                     <th className="pb-3 font-weight-normal">3.8.2018</th>
-                    <th className="pb-3 font-weight-normal">Hakemus, Velkaneuvonta</th>
-                    <th className="pb-3 font-weight-normal">Odottaa lisätietoa</th>
+                    <th className="pb-3 font-weight-normal">
+                      Hakemus, Velkaneuvonta
+                    </th>
+                    <th className="pb-3 font-weight-normal">
+                      Odottaa lisätietoa
+                    </th>
                   </tr>
                   <tr className="text-left">
                     <th className="pb-3 font-weight-normal">2.8.2018</th>
-                    <th className="pb-3 font-weight-normal">Hakemus, Alakoulu</th>
+                    <th className="pb-3 font-weight-normal">
+                      Hakemus, Alakoulu
+                    </th>
                     <th className="pb-3 font-weight-normal">Luonnos</th>
                   </tr>
                   <tr className="text-left">
                     <th className="pb-3 font-weight-normal">1.7.2018</th>
-                    <th className="pb-3 font-weight-normal">Aineistovaraus, Kirjasto</th>
+                    <th className="pb-3 font-weight-normal">
+                      Aineistovaraus, Kirjasto
+                    </th>
                     <th className="pb-3 font-weight-normal">Valmis</th>
                   </tr>
-                </thead>
-              </tr>
+                </tbody>
+              </table>
             </Card.Body>
           </Card>
         </CardGroup>
