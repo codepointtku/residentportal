@@ -10,6 +10,7 @@
   --danger-color: #dc3545;
   --success-color: #28a745;
   --info-color: #00aeef;
+  --secondinfo-color: #ffc233;
   --link-color: #7dcdc8;
   --symbol-color: #ed0c6e;
   --picture-color: #c3c4b7;
@@ -101,6 +102,13 @@ img {
   margin-bottom: 40px;
   text-align: left;
 }
+.cardtitle2 {
+  margin-left: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
 .cardtext {
   text-align: left;
 }
@@ -342,7 +350,6 @@ li {
   padding: 0.3rem 1rem;
   margin-right: 0.2rem;
 }
-
 
 .badge {
   display: inline-block;
@@ -635,7 +642,9 @@ a.navbar-brand img {
   .hide-sm {
     display: none;
   }
-
+  .card {
+    margin-bottom: 0 !important;
+  }
   .grid-2,
   .grid-3,
   .grid-4 {
@@ -735,7 +744,37 @@ a.navbar-brand img {
       text-indent: 0rem;
     }
   }
-}
+  .img-chat {
+    display: none !important;
+    }
+    /* Mobile cards */
+       
+    .card-btn4 {
+      background-color: var(--secondary-color);
+      height: 200px;
+      margin-bottom: 0px !important;
+      margin-left: 0px !important;
+      width: auto !important;
+      position: initial !important;
+    }
+    .card-btn2 {
+      background-color: var(--symbol-color);  
+      height: 200px;
+      margin-bottom: 0px !important;
+      margin-left: 0px !important;
+      width: auto !important;
+      position: initial !important;
+    }
+    .card-btn3 {
+      background-color: var(--link-color);    
+      height: 200px;
+      margin-bottom: 0px !important;
+      margin-left: 0px !important;
+      width: auto !important;
+      position: initial !important;
+    }
+  }
+
 
 /* Menu */
 .menu {
@@ -847,25 +886,25 @@ a.navbar-brand img {
   background-color: var(--secondary-color);
   margin-bottom: 15px;
   margin-left: 100px;
-  width:300px;
+  width: 300px;
   height: 200px;
   position: initial !important;
 }
 .card-btn2 {
   background-color: var(--symbol-color);
   margin-bottom: 15px;
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 100px;
-  width:300px;
+  width: 300px;
   height: 200px;
   position: initial !important;
 }
 .card-btn3 {
   background-color: var(--link-color);
   margin-bottom: 50px;
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 100px;
-  width:300px;
+  width: 300px;
   height: 200px;
   position: initial !important;
 }
@@ -938,4 +977,32 @@ a.navbar-brand img {
   height: 20px;
   width: 6px;
   margin-right: 15px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: var(--success-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-yellow {
+  height: 15px;
+  width: 15px;
+  background-color: var(--secondinfo-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-red {
+  height: 15px;
+  width: 15px;
+  background-color: var(--danger-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-blue {
+  height: 15px;
+  width: 15px;
+  background-color: var(--tertiary-color);
+  border-radius: 50%;
+  display: inline-block;
 }

@@ -174,29 +174,34 @@ const Residentportal = () => {
             </Container>
           </Card>
           <Card>
-            <h5 className="font-weight-bold float">OMAT PAIKAT</h5>
-            <table className="ml-3">
-              <thead>
-                <tr className="text-left">
-                  <th className="pb-3 font-weight-normal">Koti</th>
-                </tr>
-                <tr className="text-left">
-                  <th className="pb-3 font-weight-normal">Työ, Minna</th>
-                </tr>
-                <tr className="text-left">
-                  <th className="pb-3 font-weight-normal">Työ, Kari</th>
-                </tr>
-                <tr className="text-left">
-                  <th className="pb-3 font-weight-normal">Seikkailupuisto</th>
-                </tr>
-                <tr className="text-left">
-                  <th className="pb-3 font-weight-normal">Päiväkoti</th>
-                </tr>
-              </thead>
-            </table>
-            <div id="googleMap_parent">
-              <GoogleMap id="googleMap" />
-            </div>
+            <Card.Title className="cardtitle2 font-weight-bold">
+              OMAT PAIKAT
+            </Card.Title>
+
+            <Card.Body>
+              <table className="ml-1" style={{ display: "grid" }}>
+                <tbody>
+                  <tr className="">
+                    <th className="pb-3 font-weight-normal">Koti</th>
+                    <td rowSpan="6">
+                      <GoogleMap id="googleMap" />
+                    </td>
+                  </tr>
+                  <tr className="">
+                    <th className="pb-3 font-weight-normal">Työ, Minna</th>
+                  </tr>
+                  <tr className="">
+                    <th className="pb-3 font-weight-normal">Työ, Kari</th>
+                  </tr>
+                  <tr className="">
+                    <th className="pb-3 font-weight-normal">Logomo</th>
+                  </tr>
+                  <tr className="">
+                    <th className="pb-3 font-weight-normal">Terveysasema</th>
+                  </tr>
+                </tbody>
+              </table>
+            </Card.Body>
           </Card>
         </CardGroup>
       </div>
@@ -214,23 +219,27 @@ const Residentportal = () => {
                     <th className="pb-3 font-weight-normal">Pvm.</th>
                     <th className="pb-3 font-weight-normal">Aihe</th>
                     <th className="pb-3 font-weight-normal">Tila</th>
-                    <th className="pb-3 font-weight-normal">
-                      Yksityisyys Muokkaa Arkistoi Poista
-                    </th>
+                    <th className="pb-3 font-weight-normal"></th>
                   </tr>
                   <tr className="text-left">
                     <th className="pb-3 font-weight-normal"><span className="circle"/>6.9.2018</th>
                     <th className="pb-3 font-weight-normal">
                       Varaus, Palloiluhalli
                     </th>
-                    <th className="pb-3 font-weight-normal">Käsittelyssä</th>
+                    <th className="pb-3 font-weight-normal">
+                      <span className="dot-yellow" />
+                      Käsittelyssä
+                    </th>
                   </tr>
                   <tr className="text-left">
                     <th className="pb-3 font-weight-normal"><span className="circle1"/>5.9.2018</th>
                     <th className="pb-3 font-weight-normal">
                       Terveystarkastus, Mäntymäki
                     </th>
-                    <th className="pb-3 font-weight-normal">Valmis</th>
+                    <th className="pb-3 font-weight-normal">
+                      <span className="dot" />
+                      Valmis
+                    </th>
                   </tr>
                   <tr className="text-left">
                     <th className="pb-3 font-weight-normal"><span className="circle2"/>3.8.2018</th>
@@ -238,6 +247,7 @@ const Residentportal = () => {
                       Hakemus, Velkaneuvonta
                     </th>
                     <th className="pb-3 font-weight-normal">
+                      <span className="dot-red" />
                       Odottaa lisätietoa
                     </th>
                   </tr>
@@ -246,14 +256,20 @@ const Residentportal = () => {
                     <th className="pb-3 font-weight-normal">
                       Hakemus, Alakoulu
                     </th>
-                    <th className="pb-3 font-weight-normal">Luonnos</th>
+                    <th className="pb-3 font-weight-normal">
+                      <span className="dot-blue" />
+                      Luonnos
+                    </th>
                   </tr>
                   <tr className="text-left">
                     <th className="pb-3 font-weight-normal"><span className="circle4"/>1.7.2018</th>
                     <th className="pb-3 font-weight-normal">
                       Aineistovaraus, Kirjasto
                     </th>
-                    <th className="pb-3 font-weight-normal">Valmis</th>
+                    <th className="pb-3 font-weight-normal">
+                      <span className="dot" />
+                      Valmis
+                    </th>
                   </tr>
                 </tbody>
               </table>
