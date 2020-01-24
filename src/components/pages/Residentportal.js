@@ -115,7 +115,7 @@ const Residentportal = () => {
       <div fluid="True">
         <CardGroup>
           <Card>
-            <h5 className="cardtitle font-weight-bold">PERHE JA MUUT ROOLIT</h5>
+            <h5 className="mt-5 ml-5 p-3 text-left font-weight-bold">PERHE JA MUUT ROOLIT</h5>
             <Container>
               <Row className="cardRow">
                 <Col>
