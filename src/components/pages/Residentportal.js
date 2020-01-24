@@ -163,16 +163,16 @@ const Residentportal = () => {
           </Card>
           <Card>
             <Container>
-            <Card.Body>
-              <Card.Title>
-                <p className="font-weight-bold">Rahastonhoitaja</p>
-              </Card.Title>
-              <Card.Text>Turun pystykorvat RY </Card.Text>
-            </Card.Body>
+              <Card.Body>
+                <Card.Title>
+                  <p className="font-weight-bold">Rahastonhoitaja</p>
+                </Card.Title>
+                <Card.Text>Turun pystykorvat RY </Card.Text>
+              </Card.Body>
             </Container>
           </Card>
           <Card>
-            <Card.Title className="cardtitle1">
+            <Card.Title className="cardtitle font-weight-bold">
               <h5 className="font-weight-bold">OMAT PAIKAT</h5>
             </Card.Title>
             <Card.Text>Koti</Card.Text>
@@ -268,7 +268,7 @@ const Residentportal = () => {
           </Card>
           <Card>
             <Card.Body>
-              <ButtonGroup vertical >
+              <ButtonGroup vertical>
                 <Button className="card-btn">Button</Button>
                 <Button className="card-btn">Button</Button>
               </ButtonGroup>
@@ -280,22 +280,28 @@ const Residentportal = () => {
             <h5 className="font-weight-bold">SINUA VOISI KIINNOSTAA</h5>
 
             <Card.Body>
-              <div >
-              <button type="button" className="btn btn-info  btn-block">Large button</button>
-              </div>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Body>
-              <div >
-              <button type="button" className="btn btn-symbol  btn-block">Large button</button>
+              <div>
+                <button type="button" className="btn btn-info  btn-block">
+                  Large button
+                </button>
               </div>
             </Card.Body>
           </Card>
           <Card>
             <Card.Body>
               <div>
-              <button type="button" className="btn btn-info  btn-block">Large button</button>
+                <button type="button" className="btn btn-symbol  btn-block">
+                  Large button
+                </button>
+              </div>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <div>
+                <button type="button" className="btn btn-info  btn-block">
+                  Large button
+                </button>
               </div>
             </Card.Body>
           </Card>
