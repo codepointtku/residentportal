@@ -4,16 +4,16 @@ import Button from "react-bootstrap/Button";
 
 const Chatbox = () => {
 
-
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button id="chatbutton" variant="primary" onClick={handleShow}>
         Aloita chat
       </Button>
+
 
       <Modal
         show={show}
@@ -24,9 +24,6 @@ const Chatbox = () => {
         centered={true}
 
         scrollable={true}
-
-
-
       >
         <Modal.Header closeButton>
           <Modal.Title>Asukasportaalin chat</Modal.Title>
@@ -35,16 +32,8 @@ const Chatbox = () => {
           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. </Modal.Body>
+
+ </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Poistu chatista

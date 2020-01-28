@@ -1030,6 +1030,16 @@ a.navbar-brand img {
 }
 
 .modal {
+  top: 30%;
+  height: 85%;
   left: 70%;
   width: 30%;
+}
+
+#chatbutton {
+  background-color: var(--symbol-color);
+  z-index: 999;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
 }
