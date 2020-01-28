@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import logo from "../layout/images/turkulogowhite.png";
-import Accessibility from "../layout/accessibility/Accessibility";
+import logo from "../../layout/images/turkulogowhite.png";
+import Accessibility from "../../accessibility/Accessibility";
 
 const NavbarDark = () => {
   return (

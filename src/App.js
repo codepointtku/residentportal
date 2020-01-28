@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navbar from "./components/pages/Navbar";
-import NavbarDark from "./components/pages/NavbarDark";
-import Foot from "./components/pages/Foot";
+import Navbar from "./components/navbar/Navbar";
+import NavbarDark from "./components/navbar/navbarDark/NavbarDark";
+import Foot from "./components/footer/Foot";
 import "./App.scss";
 //Pages
-import Home from "./components/pages/Home";
-import Residentalportal from "./components/pages/Residentportal";
-import About from "./components/pages/About";
+import Home from "./components/home/Home";
+import Residentalportal from "./components/residentportal/Residentportal";
+import About from "./components/about/About";
 import Aspa from "./components/pages/Aspa";
-import Login from "./components/pages/Login";
+import Login from "./components/login/Login";
 
 function App() {
   return (
