@@ -1,33 +1,61 @@
-import React from "react";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
+import React, { useState } from "react";
+import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-import Image from "react-bootstrap/Image";
-import Row from "react-bootstrap/Row";
-import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
 
 const Chatbox = () => {
 
-function openForm() {
-document.getElementById("myForm").style.display = "block";
+
+  const [show, setShow] = useState(true);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  return (
+    <>
+      <Button variant="primary" onClick={handleShow}>
+        Aloita chat
+      </Button>
+
+      <Modal
+        show={show}
+        onHide={handleClose}
+        size="sm"
+        aria-labelledby="example-modal-sizes-title-sm"
+        animation={true}
+        centered={true}
+
+        scrollable={true}
+
+
+
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Asukasportaalin chat</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+           Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Poistu chatista
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Lähetä
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
+  );
 }
-      
-function closeForm() {
-document.getElementById("myForm").style.display = "none";
-}
-return (
-
-<div className="chat-popup" id="myForm">
-  <form action="/action_page.php" className="form-container">
-    <h1>Chat</h1>
-
-    <label for="msg"><b>Viesti</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
-
-    <button type="submit" className="btn">Lähetä</button>
-    <button type="button" className="btn cancel" onclick="closeForm()">Sulje</button>
-  </form>
-</div>
-)}
 
 export default Chatbox;

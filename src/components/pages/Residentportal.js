@@ -442,7 +442,10 @@ const Residentportal = () => {
             </Card.Body>
           </Card>
         </CardGroup>
-        <Chatbox></Chatbox>
+        <div>
+          <Chatbox open={false}></Chatbox>
+        </div>
+
       </div>
     </div>
   );

@@ -1031,6 +1031,10 @@ a.navbar-brand img {
 
 /* Chat pop-up*/
 /* Button used to open the chat form - fixed at the bottom of the page */
+#myForm {
+  box-sizing: border-box;
+}
+
 .open-button {
   background-color: #555;
   color: white;
@@ -1098,4 +1102,10 @@ a.navbar-brand img {
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+
+.modal {
+  left: 70%;
+  width: 30%;
 }
