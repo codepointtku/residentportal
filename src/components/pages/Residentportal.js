@@ -15,6 +15,7 @@ import GoogleMap from "./GoogleMap";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
+import Chatbox from "./Chatbox";
 
 const Residentportal = () => {
   return (
@@ -441,6 +442,7 @@ const Residentportal = () => {
             </Card.Body>
           </Card>
         </CardGroup>
+        <Chatbox></Chatbox>
       </div>
     </div>
   );
