@@ -11,7 +11,7 @@ const Chatbox = () => {
   const handleShow = () => setShow(true);
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button id="chatbutton" variant="primary" onClick={handleShow}>
         Aloita chat
       </Button>
 
