@@ -222,9 +222,16 @@ div.sc-launcher {
     content: url(../layout/images/palveluchat.png);
   }
   .sc-open-icon {
-    width: 140px;
-    height: 120px;
+    padding: 0px;
+    width: 60px;
+    height: 60px;
   }
+}
+
+div.sc-launcher-opened {
+  padding: 0px;
+  width: 60px;
+  height: 60px;
 }
 
 .sc-open-icon {
@@ -393,4 +400,13 @@ div.sc-user-input--text {
     width: auto !important;
     position: initial !important;
   }
+}
+
+.sc-launcher.opened:before {
+  width: 0px;
+  height: 0px;
+}
+
+.sc-chat-window {
+  z-index: 999;
 }
