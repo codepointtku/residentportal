@@ -17,6 +17,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Chatbox from "../pages/Chatbox";
 import "./residentportal.scss"
+import Chatwindow from "../pages/Chatwindow";
 
 const Residentportal = () => {
   return (
@@ -444,7 +445,7 @@ const Residentportal = () => {
           </Card>
         </CardGroup>
         <div>
-          <Chatbox open={false}></Chatbox>
+          <Chatwindow id="chatpopup"></Chatwindow>
         </div>
 
       </div>
