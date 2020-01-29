@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "../../layout/images/turkulogowhite.png";
 import Accessibility from "../../accessibility/Accessibility";
+import "./navbardark.scss"
 
 const NavbarDark = () => {
   return (
@@ -11,14 +12,14 @@ const NavbarDark = () => {
         <div className="container">
           <Link
             to="/"
-            className="col-md-4 col-xs-12 navbar-brand navbar-container"
+            className="navbar-brand navbar-container"
           >
             <img src={logo} alt="logo" id="tkulogo" />
           </Link>
           <Accessibility className="col-md-6 col-xs-12" bgcolor="dark" />
         </div>
       </nav>
-      <nav>
+      <nav className="navmenu">
         <ul className="row">
           <Link
             id="asukas-link"

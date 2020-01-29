@@ -1,6 +1,6 @@
 import React from "react";
-import {} from "react-bootstrap";
 import turkulogo from "../layout/images/turkufooterlogo2.png";
+import "./footer.scss"
 
 const Foot = () => {
   return (

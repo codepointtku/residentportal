@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import logo from "../layout/images/turkulogo.png";
 import Accessibility from "../accessibility/Accessibility";
+import "./navbar.scss"
 
 const Navbar = () => {
   return (
@@ -11,25 +12,25 @@ const Navbar = () => {
         <div className="container">
           <Link
             to="/"
-            className="col-md-4 col-xs-12 navbar-brand navbar-container"
+            className="navbar-brand navbar-container"
           >
             <img src={logo} alt="logo" />
           </Link>
-          <Accessibility className="col-md-6 col-xs-12" />
+          <Accessibility />
         </div>
       </nav>
       <nav className="navmenu">
         <ul className="navlinks">
           <Link
             to="/"
-            className="col-sm-3 col-md-4 col-lg-2 navmenu font-weight-bold"
+            className="navmenu font-weight-bold"
             aria-label="Asukasportaali"
           >
             Asukasportaali
           </Link>
           <Link
             to="/about"
-            className="col-sm-6 col-md-8 col-lg-10 navmenu"
+            className="navmenu"
             aria-label="Lisää tietoa"
           >
             Lisää tietoa
