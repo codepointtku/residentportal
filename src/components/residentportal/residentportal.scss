@@ -177,21 +177,30 @@ div.sc-launcher {
   border-radius: 21%;
   width: 120px;
   height: 120px;  
-  
+  .sc-closed-icon {
+    width: 190px;
+    height: 150px;
+    content:url(../layout/images/palveluchat.png);
+
+  }
+  .sc-open-icon {
+    width: 140px;
+    height: 120px;
+  }
 }
 
 .sc-open-icon {
   content:url(../layout/images/palveluchat.png);
   
   background-color:none;
-  width: 120px;
-  height: 120px;
+  width: 1px;
+  height: 1px;
 }
 
 .sc-closed-icon {
   content:url(../layout/images/palveluchat.png);
-  width: 120px;
-  height: 120px;
+  width: 190px;
+  height: 150px;
   background-color:none;
   
 }
