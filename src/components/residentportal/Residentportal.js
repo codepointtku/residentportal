@@ -16,7 +16,7 @@ import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import "./residentportal.scss"
-import Chatwindow from "../pages/Chatwindow";
+import Chatwindow from "./Chatwindow";
 
 const Residentportal = () => {
   return (
