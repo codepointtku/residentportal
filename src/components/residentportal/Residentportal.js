@@ -15,7 +15,7 @@ import GoogleMap from "../map/GoogleMap";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
-import Chatbox from "../pages/Chatbox";
+
 import Chatwindow from "../pages/Chatwindow";
 
 const Residentportal = () => {

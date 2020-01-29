@@ -1059,12 +1059,21 @@ div.sc-header {
 
 img.sc-header--img {
   width: 150px;
+  border-radius: 0%;
 }
 
+div.sc-header--team-name {
+  font-weight: bold;
+  padding-top: 24px;
+  margin-left: 46px !important;
+  color: var(--secondary-color);
+}
 
 div.sc-launcher {
   background-color: transparent;
   border-radius: 21%;
+  width: 120px;
+  height: 120px;  
   
 }
 
@@ -1072,12 +1081,27 @@ div.sc-launcher {
   content:url(./components/layout/images/chatkupla.png);
   
   background-color:none;
-  
+  width: 120px;
+  height: 120px;
 }
 
 .sc-closed-icon {
   content:url(./components/layout/images/chatkupla.png);
-  
+  width: 120px;
+  height: 120px;
   background-color:none;
   
 }
+
+form.sc-user-input {
+  background-color: #d2f3ff;
+  color: var(--middle-color);
+}
+
+div.sc-user-input--text {
+  color: var(--middle-color);
+  ::before {
+    color: var(--middle-color);
+  }
+}
+
