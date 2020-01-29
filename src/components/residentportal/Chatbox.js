@@ -24,13 +24,6 @@ const Chatbox = () => {
         <Modal.Header closeButton>
           <Modal.Title>Asukasportaalin chat</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt
-          chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt
-          chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-          Olet nyt chatissa.
-        </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Poistu chatista
