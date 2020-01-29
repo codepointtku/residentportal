@@ -444,7 +444,7 @@ const Residentportal = () => {
           </Card>
         </CardGroup>
         <div>
-          <Chatwindow></Chatwindow>
+          <Chatwindow id="chatpopup"></Chatwindow>
         </div>
 
       </div>

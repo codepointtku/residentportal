@@ -30,10 +30,10 @@ class Chatwindow extends Component {
  
   render() {
     return (<div>
-      <Launcher
+      <Launcher 
         agentProfile={{
-          teamName: 'react-chat-window',
-          imageUrl: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0001-34.png'
+          teamName: 'Asukasportaalin palveluchat',
+          imageUrl: 'https://www.videovisit.fi/wp-content/uploads/2018/11/turku_a-c2-a6ebo_300ppi_viiva_cyan-1030x726.png'
         }}
         onMessageWasSent={this._onMessageWasSent.bind(this)}
         messageList={this.state.messageList}
