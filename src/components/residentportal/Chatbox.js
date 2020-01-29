@@ -3,7 +3,6 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 
 const Chatbox = () => {
-
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -13,8 +12,6 @@ const Chatbox = () => {
       <Button id="chatbutton" variant="primary" onClick={handleShow}>
         Aloita chat
       </Button>
-
-
       <Modal
         show={show}
         onHide={handleClose}
@@ -22,18 +19,18 @@ const Chatbox = () => {
         aria-labelledby="example-modal-sizes-title-sm"
         animation={true}
         centered={true}
-
         scrollable={true}
       >
         <Modal.Header closeButton>
           <Modal.Title>Asukasportaalin chat</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
-
- </Modal.Body>
+        <Modal.Body>
+          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt
+          chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+          Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt
+          chatissa. Olet nyt chatissa. Olet nyt chatissa. Olet nyt chatissa.
+          Olet nyt chatissa.
+        </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Poistu chatista
@@ -45,6 +42,6 @@ const Chatbox = () => {
       </Modal>
     </>
   );
-}
+};
 
 export default Chatbox;
