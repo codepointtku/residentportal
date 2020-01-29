@@ -1059,11 +1059,11 @@ div.sc-header {
 
 img.sc-header--img {
   width: 150px;
-  color: transparent;
 }
 
 .sc-closed-icon {
   content:url(./components/layout/images/chatkupla.png);
-  background-color:none;
+  background-color:transparentize($color: white, $amount: 0);
+  color: transparent;
   
 }
