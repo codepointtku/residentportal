@@ -1,18 +1,19 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
+import "./about.scss"
 
 const About = () => {
   return (
     <div>
       <Navbar />
-      <div className="card-container">
-        <div className="card-container">
+      <div className="about">
+        <div className="about">
           <div className="text-left ml-5 mt-5">
             <div className="p-5 mt-5">
-              <h1 className=" text-center mb-2 text-shadow-header">
+              <h1 className="text-center mb-2 text-shadow-header">
                 Tietoa Asukasportaali.turku.fi –palvelusta
               </h1>
-              <p className="mt-5 ">
+              <p className="mt-5">
                 Asukasportaali on Turun kaupungin ylläpitämä verkkopalvelu,
                 jonka kautta voi varata kaupungin julkisia palveluita sekä
                 seurata hyvinvointia.

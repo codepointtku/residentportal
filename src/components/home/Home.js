@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./home.scss"
 
 const Home = img => {
   return (
-    <div className="container-img">
+    <div className="home-img">
       <div className="p-5">
         <div className="container">
           <div className="text-left ml-1 mt-5">

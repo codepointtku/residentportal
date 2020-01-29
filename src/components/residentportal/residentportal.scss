@@ -1,0 +1,151 @@
+@import "../styles/colors";
+
+.text-dark {
+  color: var(--dark-color);
+}
+.container1 {
+  background-color: var(--secondary-color);
+  padding: 1.3rem;
+  align-self: center;
+  .text-left {
+    text-align: left;
+    a:visited {
+      color: var(--middle-color);
+    }
+    th {
+      text-indent: 3rem;
+    }
+  }
+  .cardContainer {
+    padding-top: 30px;
+  }
+  .card {
+    text-align: center;
+    max-width: none !important;
+    border: 0px;
+    max-width: 600px;
+    border: 0px;
+    border-radius: 0rem;
+  }
+  .card-img-top-right {
+    position: relative;
+    width: 9rem;
+    align-self: center;
+    margin: 1rem;
+  }
+  .card-img-family {
+    position: relative;
+    width: 6rem;
+    align-self: center;
+    margin: 1rem;
+  }
+  .card-img-activity {
+    position: relative;
+    width: 16rem;
+    align-self: center;
+    margin: 2rem;
+  }
+  .btn {
+    display: inline-block;
+    background: var(--light-color);
+    color: var(--middle-color);
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: opacity 0.2s ease-in;
+    outline: none;
+  }
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  .btn-vertical {
+    width: 144px;
+    align-self: center;
+  }
+  .card-btn {
+    background-color: var(--link-color);
+    margin-bottom: 15px;
+    position: initial !important;
+  }
+  .card-btn1 {
+    background-color: var(--link-color);
+    margin-bottom: 15px;
+    position: initial !important;
+  }
+  .card-btn2 {
+    background-color: var(--symbol-color);
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    position: initial !important;
+  }
+  .card-btn3 {
+    background-color: var(--link-color);
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    position: initial !important;
+  }
+  .card-btn4 {
+    background-color: var(--secondary-color);
+    width: 300px;
+    height: 200px;
+    position: initial !important;
+  }
+  .card-btn5 {
+    background-color: var(--link-color);
+    margin-bottom: 15px;
+    position: initial !important;
+    margin-top: 1rem;
+  }
+  .cardmap {
+    text-align: initial;
+    border: 0px;
+    max-width: 0px;
+    font-size: 1rem;
+  }
+  .dot {
+    height: 20px;
+    width: 20px;
+    background-color: var(--success-color);
+    border-radius: 50%;
+    display: inline-block;
+    p {
+      width: 200px;
+    }
+  }
+  .dot-yellow {
+    height: 20px;
+    width: 20px;
+    background-color: var(--secondinfo-color);
+    border-radius: 50%;
+    display: inline-block;
+    p {
+      width: 200px;
+    }
+  }
+  .dot-red {
+    height: 20px;
+    width: 20px;
+    background-color: var(--danger-color);
+    border-radius: 50%;
+    display: inline-block;
+    p {
+      width: 200px;
+    }
+  }
+  .dot-blue {
+    height: 20px;
+    width: 20px;
+    background-color: var(--tertiary-color);
+    border-radius: 50%;
+    display: inline-block;
+    p {
+      width: 200px;
+    }
+  }
+}

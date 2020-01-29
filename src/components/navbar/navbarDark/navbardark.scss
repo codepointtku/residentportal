@@ -1,0 +1,88 @@
+@import "../../styles/colors";
+
+/* Navbar */
+
+.navbar-dark {
+  display: flex;
+  align-items: flex-start;
+  min-height: 105px;
+  width: 100%;
+  opacity: 1;
+  background-color: var(--primary-color);
+  ul {
+    display: flex;
+    margin-top: 2rem;
+  }
+  a {
+    color: var(--light-color);
+    margin: 0 0.45rem;
+  }
+}
+a.navbar-brand {
+  height: 100%;
+  padding: 23px 20px;
+  margin-top: -2rem;
+  margin-bottom: -3rem;
+}
+a.navbar-brand img {
+  height: 109px;
+  width: 155px;
+}
+.navmenu {
+  a {
+    color: var(--light-color);
+    margin: 0 0.45rem;
+  }
+}
+.profilemenu {
+  margin: 0px !important;
+  padding: 25px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align: center;
+}
+// Button / Colors
+#asukas-link {
+  background-color: var(--secondary-color);
+  margin: 0 !important;
+}
+#aspa-link {
+  background-color: var(--tertiary-color);
+}
+#doctor-link {
+  background-color: var(--picture-color);
+  color: var(--dark-color);
+}
+#information-link {
+  background-color: var(--middle-color);
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+  /* Mobile Text Styles */
+  .p-5 {
+    padding: 2% !important;
+  }
+  /* Mobile Navbar */
+  .navbar {
+    display: block;
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
+  }
+  ul {
+    justify-content: center;
+  }
+  a.navbar-brand {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
