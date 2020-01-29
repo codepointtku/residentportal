@@ -1061,8 +1061,23 @@ img.sc-header--img {
   width: 150px;
 }
 
+
+div.sc-launcher {
+  background-color: transparent;
+  border-radius: 21%;
+  
+}
+
+.sc-open-icon {
+  content:url(./components/layout/images/chatkupla.png);
+  
+  background-color:none;
+  
+}
+
 .sc-closed-icon {
   content:url(./components/layout/images/chatkupla.png);
+  
   background-color:none;
   
 }
