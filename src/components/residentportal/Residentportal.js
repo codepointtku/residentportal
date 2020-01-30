@@ -10,13 +10,13 @@ import logo6 from "../layout/images/aktiivisuusmittari.png";
 import Image from "react-bootstrap/Image";
 import CardGroup from "react-bootstrap/CardGroup";
 import Card from "react-bootstrap/Card";
-import Chat from "../layout/images/chat.png";
+
 import GoogleMap from "../map/GoogleMap";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import "./residentportal.scss";
-import Chatwindow from "./Chatwindow";
+import Chatwindow from "./../chatwindow/Chatwindow";
 
 const Residentportal = () => {
   return (
@@ -96,13 +96,7 @@ const Residentportal = () => {
           </ButtonGroup>
         </Card>
         <Card>
-          <Image
-            src={Chat}
-            fluid
-            className="img-chat"
-            alt="Responsive image"
-            useMap="#mapname"
-          ></Image>
+
 
           <map name="mapname">
             <area
