@@ -215,7 +215,8 @@ div.sc-launcher {
   background-color: transparent;
   border-radius: 21%;
   width: 120px;
-  height: 120px;
+  height: 120px;  
+  z-index: 999;
   .sc-closed-icon {
     width: 190px;
     height: 150px;
