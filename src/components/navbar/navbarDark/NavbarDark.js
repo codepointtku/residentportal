@@ -19,7 +19,7 @@ const NavbarDark = () => {
           <Accessibility className="col-md-6 col-xs-12" bgcolor="dark" />
         </div>
       </nav>
-      <nav className="navmenu">
+      <nav className="navmenudark">
         <ul className="row">
           <Link
             id="asukas-link"
