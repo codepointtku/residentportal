@@ -15,12 +15,13 @@ import GoogleMap from "../map/GoogleMap";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
-import "./residentportal.scss"
+import "./residentportal.scss";
 import Chatwindow from "./Chatwindow";
 
 const Residentportal = () => {
   return (
     <div fluid="True" className="container1">
+      <Chatwindow id="chatpopup"></Chatwindow>
       <CardGroup>
         <Card>
           <div className="m-1">
@@ -443,10 +444,6 @@ const Residentportal = () => {
             </Card.Body>
           </Card>
         </CardGroup>
-        <div>
-          <Chatwindow id="chatpopup"></Chatwindow>
-        </div>
-
       </div>
     </div>
   );
