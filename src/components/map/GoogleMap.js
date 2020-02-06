@@ -56,9 +56,9 @@ const mapStyles = {
   //position: 'static',
   width: '50%',
   height: '70%',
-  top: '-150px',
-  left: '8%',
-  right: '3%'
+  top: '-149px',
+  left: '5%',
+  right: '20%'
 };
 export default GoogleApiWrapper({
   apiKey: ''
