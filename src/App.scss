@@ -114,7 +114,7 @@ img {
 }
 
 .container-img {
-  background-image: url("./components/layout/images/aurajokiranta_kuva-vesa-aaltonen.png");
+  background-image: url('./components/layout/images/aurajokiranta_kuva-vesa-aaltonen.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -220,13 +220,6 @@ img {
   max-width: 600px;
   border: 0px;
   border-radius: 0rem;
-}
-
-.cardmap {
-  text-align: initial;
-  border: 0px;
-  max-width:0px;
-  font-size: 1rem;
 }
 
 .card-img-top-right {
@@ -458,10 +451,10 @@ input {
   color: #888;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="date"],
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
 select,
 textarea {
   display: block;
@@ -472,7 +465,7 @@ textarea {
   border-radius: 5px;
 }
 
-input[type="submit"],
+input[type='submit'],
 button {
   font: inherit;
 }
@@ -753,38 +746,37 @@ a.navbar-brand img {
   }
   .img-chat {
     display: none !important;
-    }
-    .resAsiointi {
-      display: none !important;
-    }
-    /* Mobile cards */
-       
-    .card-btn4 {
-      background-color: var(--secondary-color);
-      height: 200px;
-      margin-bottom: 0px !important;
-      margin-left: 0px !important;
-      width: auto !important;
-      position: initial !important;
-    }
-    .card-btn2 {
-      background-color: var(--symbol-color);  
-      height: 200px;
-      margin-bottom: 0px !important;
-      margin-left: 0px !important;
-      width: auto !important;
-      position: initial !important;
-    }
-    .card-btn3 {
-      background-color: var(--link-color);    
-      height: 200px;
-      margin-bottom: 0px !important;
-      margin-left: 0px !important;
-      width: auto !important;
-      position: initial !important;
-    }
   }
+  .resAsiointi {
+    display: none !important;
+  }
+  /* Mobile cards */
 
+  .card-btn4 {
+    background-color: var(--secondary-color);
+    height: 200px;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    width: auto !important;
+    position: initial !important;
+  }
+  .card-btn2 {
+    background-color: var(--symbol-color);
+    height: 200px;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    width: auto !important;
+    position: initial !important;
+  }
+  .card-btn3 {
+    background-color: var(--link-color);
+    height: 200px;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    width: auto !important;
+    position: initial !important;
+  }
+}
 
 /* Menu */
 .menu {
@@ -949,7 +941,7 @@ a.navbar-brand img {
   margin-top: 2rem;
 }
 .circle {
-  display:inline-block;
+  display: inline-block;
   background: var(--symbol-color);
   border-radius: 0%;
   height: 20px;
@@ -957,7 +949,7 @@ a.navbar-brand img {
   margin-right: 15px;
 }
 .circle1 {
-  display:inline-block;
+  display: inline-block;
   background: var(--success-color);
   border-radius: 0%;
   height: 20px;
@@ -965,7 +957,7 @@ a.navbar-brand img {
   margin-right: 15px;
 }
 .circle2 {
-  display:inline-block;
+  display: inline-block;
   background: var(--link-color);
   border-radius: 0%;
   height: 20px;
@@ -973,7 +965,7 @@ a.navbar-brand img {
   margin-right: 15px;
 }
 .circle3 {
-  display:inline-block;
+  display: inline-block;
   background: var(--secondary-color);
   border-radius: 0%;
   height: 20px;
@@ -981,7 +973,7 @@ a.navbar-brand img {
   margin-right: 15px;
 }
 .circle4 {
-  display:inline-block;
+  display: inline-block;
   background: var(--symbol-color);
   border-radius: 0%;
   height: 20px;
@@ -1036,23 +1028,23 @@ a.navbar-brand img {
   width: 30%;
   overflow: hidden;
   position: fixed;
-  max-height:500px; 
-  overflow-y:scroll;
+  max-height: 500px;
+  overflow-y: scroll;
 }
 
-#chatbutton {
-  background-color: var(--tertiary-color);
-  z-index: 999;
-  position: fixed;
-  bottom: 3%;
-  right: 3%;
-}
+// #chatbutton {
+//   background-color: var(--tertiary-color);
+//   z-index: 999;
+//   //position: fixed;
+//   // bottom: 3%;
+//   right: 3%;
+// }
 
 //chat-window
 
 div.sc-header {
   background-color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   font-style: bold;
 }
@@ -1073,24 +1065,22 @@ div.sc-launcher {
   background-color: transparent;
   border-radius: 21%;
   width: 120px;
-  height: 120px;  
-  
+  height: 120px;
 }
 
 .sc-open-icon {
-  content:url(./components/layout/images/chatkupla.png);
-  
-  background-color:none;
+  content: url(./components/layout/images/chatkupla.png);
+
+  background-color: none;
   width: 120px;
   height: 120px;
 }
 
 .sc-closed-icon {
-  content:url(./components/layout/images/chatkupla.png);
+  content: url(./components/layout/images/chatkupla.png);
   width: 120px;
   height: 120px;
-  background-color:none;
-  
+  background-color: none;
 }
 
 form.sc-user-input {
@@ -1104,4 +1094,3 @@ div.sc-user-input--text {
     color: var(--middle-color);
   }
 }
-

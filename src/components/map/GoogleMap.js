@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Map, GoogleApiWrapper, Marker } from "google-maps-react";
+import React, { Component } from 'react';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 class MapContainer extends Component {
   constructor(props) {
@@ -33,7 +33,7 @@ class MapContainer extends Component {
             lat: store.latitude,
             lng: store.longitude
           }}
-          onClick={() => console.log("You clicked me!")}
+          onClick={() => console.log('You clicked me!')}
         />
       );
     });
@@ -53,13 +53,13 @@ class MapContainer extends Component {
   }
 }
 const mapStyles = {
-  position: "static",
-  width: "40%",
-  height: "41%",
-  top: "-169px",
-  right: "20px",
-  left: "60px"
+  //position: 'static',
+  width: '50%',
+  height: '70%',
+  top: '-150px',
+  left: '8%',
+  right: '3%'
 };
 export default GoogleApiWrapper({
-  apiKey: ""
+  apiKey: ''
 })(MapContainer);
