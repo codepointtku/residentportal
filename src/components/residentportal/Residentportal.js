@@ -95,18 +95,7 @@ const Residentportal = () => {
             </Button>
           </ButtonGroup>
         </Card>
-        <Card>
-
-
-          <map name="mapname">
-            <area
-              shape="rect"
-              coords="90,240,215,290"
-              href="./about"
-              alt="picture area"
-            ></area>
-          </map>
-        </Card>
+        <Card />
       </CardGroup>
       {/* kortit vaihtuu */}
       <div fluid="True">
@@ -181,7 +170,7 @@ const Residentportal = () => {
                   <tr className="">
                     <th className="pb-3 font-weight-normal">Koti</th>
                     <td rowSpan="6">
-                      <GoogleMap id="googleMap" />
+                      <GoogleMap />
                     </td>
                   </tr>
                   <tr className="">

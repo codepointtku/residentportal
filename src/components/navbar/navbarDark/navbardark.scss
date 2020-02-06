@@ -29,6 +29,10 @@ a.navbar-brand img {
   width: 155px;
 }
 .navmenudark {
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
   padding: 0px;
   a {
     color: var(--light-color);
