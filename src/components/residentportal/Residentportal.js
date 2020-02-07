@@ -7,11 +7,12 @@ import logo3 from "../layout/images/symbol_bicycling.png";
 import logo4 from "../layout/images/symbol_running.png";
 import logo5 from "../layout/images/BMI.png";
 import logo6 from "../layout/images/aktiivisuusmittari.png";
+import Map from "../layout/images/mapimage.png";
 import Image from "react-bootstrap/Image";
 import CardGroup from "react-bootstrap/CardGroup";
 import Card from "react-bootstrap/Card";
 
-import GoogleMap from "../map/GoogleMap";
+// import GoogleMap from "../map/GoogleMap";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Chat from "../chatwindow/Chat";
@@ -160,18 +161,17 @@ const Residentportal = () => {
             </Container>
           </Card>
           <Card>
+            <div>
+              <img src={Map} className="map" alt="Kartta" />
+            </div>
             <h5 className="mt-5 ml-1 p-3 text-left font-weight-bold">
               OMAT PAIKAT
             </h5>
-
             <Card.Body>
               <table>
                 <tbody>
                   <tr>
                     <th className="pb-3 font-weight-normal">Koti</th>
-                    <td>
-                      <GoogleMap className="map" />
-                    </td>
                   </tr>
                   <tr>
                     <th className="pb-3 font-weight-normal">Työ, Minna</th>
