@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Launcher from "./Launcher";
-import Tkulogo from "../layout/images/turkulogowhite.png"
+import Tkulogo from "../layout/images/chat-tkulogo.png"
 
 class Chat extends Component {
   constructor() {
@@ -36,7 +36,7 @@ class Chat extends Component {
       <div>
         <Launcher
           agentProfile={{
-            teamName: "Palvelu Chat",
+            teamName: "Asukasportaalin palveluchat",
             imageUrl:
               Tkulogo
           }}
