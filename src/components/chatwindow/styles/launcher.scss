@@ -13,7 +13,6 @@
 }
 
 .sc-launcher:before {
-  content: "";
   position: relative;
   display: block;
   width: 60px;
@@ -46,7 +45,7 @@
 
 .sc-launcher.opened .sc-open-icon {
   transform: rotate(-90deg);
-  opacity: 1;
+  opacity: 0.01;
 }
 
 .sc-launcher.opened .sc-closed-icon {
