@@ -13,41 +13,37 @@ import Login from "./components/login/Login";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <div className="App">
         <Switch>
-          <Route exact path="/" component={Navbar} />
-        </Switch>
-        <Route exact path="/" component={Home} />
-        <Switch>
-        </Switch>
-        <Route exact path="/" component={Foot} />
-        <Switch>
-          <Route path="/residentportal" component={NavbarDark} />
-        </Switch>
-        <Switch>
-          <Route path="/aspa" component={NavbarDark} />
+          <Route exact path="/">
+            <Navbar />
+            <Home />
+            <Foot />
+          </Route>
         </Switch>
         <Switch>
           <Route path="/login" component={Login} />
         </Switch>
         <Switch>
-          <Route exact path="/aspa" component={Aspa} />
+          <Route path="/aspa">
+            <NavbarDark />
+            <Aspa />
+            <Foot />
+          </Route>
         </Switch>
         <Switch>
-        <Route exact path="/aspa" component={Foot} />
+          <Route path="/about">
+            <About />
+            <Foot />
+          </Route>
         </Switch>
         <Switch>
-          <Route exact path="/about" component={About} />
-        </Switch>
-        <Switch>
-        <Route exact path="/about" component={Foot} />
-        </Switch>
-        <Switch>
-          <Route path="/residentportal" component={Residentalportal} />
-        </Switch>
-        <Switch>
-        <Route exact path="/residentportal" component={Foot} />
+          <Route path="/residentportal">
+            <NavbarDark />
+            <Residentalportal />
+            <Foot />
+          </Route>
         </Switch>
       </div>
     </BrowserRouter>

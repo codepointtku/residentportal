@@ -16,8 +16,13 @@
     background-color: var(--primary-color);
   }
   h2 {
-    opacity: 100%;
     font-weight: bold;
+  }
+  a {
+    color: var(--dark-color);
+    a:hover {
+      color: var(--light-color);
+    }
   }
   ul {
     margin-top: 0rem;

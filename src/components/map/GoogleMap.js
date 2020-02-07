@@ -53,7 +53,6 @@ class MapContainer extends Component {
   }
 }
 const mapStyles = {
-  //position: 'static',
   width: '50%',
   height: '70%',
   top: '-149px',

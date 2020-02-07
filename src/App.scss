@@ -114,7 +114,7 @@ img {
 }
 
 .container-img {
-  background-image: url('./components/layout/images/aurajokiranta_kuva-vesa-aaltonen.png');
+  background-image: url("./components/layout/images/aurajokiranta_kuva-vesa-aaltonen.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -451,10 +451,10 @@ input {
   color: #888;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='password'],
-input[type='date'],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
 select,
 textarea {
   display: block;
@@ -465,7 +465,7 @@ textarea {
   border-radius: 5px;
 }
 
-input[type='submit'],
+input[type="submit"],
 button {
   font: inherit;
 }
@@ -1044,7 +1044,7 @@ a.navbar-brand img {
 
 div.sc-header {
   background-color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #333;
   font-style: bold;
 }
