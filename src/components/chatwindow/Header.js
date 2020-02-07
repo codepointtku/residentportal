@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import closeIcon from './../assets/close-icon.png';
-
+import React, { Component } from "react";
+import closeIcon from "./../layout/images/chat.png";
+import "./styles/header.scss";
 
 class Header extends Component {
-
   render() {
     return (
       <div className="sc-header">

@@ -1,47 +1,48 @@
+import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { Launcher } from "react-chat-window";
-import Tkulogo from "../layout/images/chat-tkulogo.png";
+import MessageList from "./MessageList";
+import UserInput from "./UserInput";
+import Header from "./Header";
+import "./styles/chat-window.scss";
 
-class Chatwindow extends Component {
-  constructor() {
-    super();
-    this.state = {
-      messageList: []
-    };
+class ChatWindow extends Component {
+  onUserInputSubmit(message) {
+    this.props.onUserInputSubmit(message);
   }
-  _onMessageWasSent(message) {
-    this.setState({
-      messageList: [...this.state.messageList, message]
-    });
+
+  onFilesSelected(filesList) {
+    this.props.onFilesSelected(filesList);
   }
-  _sendMessage(text) {
-    if (text.length > 0) {
-      this.setState({
-        messageList: [
-          ...this.state.messageList,
-          {
-            author: "them",
-            type: "text",
-            data: { text }
-          }
-        ]
-      });
-    }
-  }
+
   render() {
+    let messageList = this.props.messageList || [];
+    let classList = ["sc-chat-window", this.props.isOpen ? "opened" : "closed"];
     return (
-      <>
-        <Launcher
-          agentProfile={{
-            teamName: "Asukasportaalin palveluchat",
-            imageUrl: Tkulogo
-          }}
-          onMessageWasSent={this._onMessageWasSent.bind(this)}
-          messageList={this.state.messageList}
-          showEmoji
+      <div className={classList.join(" ")}>
+        <Header
+          teamName={this.props.agentProfile.teamName}
+          imageUrl={this.props.agentProfile.imageUrl}
+          onClose={this.props.onClose}
         />
-      </>
+        <MessageList
+          messages={messageList}
+          imageUrl={this.props.agentProfile.imageUrl}
+        />
+        <UserInput
+          onSubmit={this.onUserInputSubmit.bind(this)}
+          onFilesSelected={this.onFilesSelected.bind(this)}
+          showEmoji={this.props.showEmoji}
+        />
+      </div>
     );
   }
 }
-export default Chatwindow;
+
+ChatWindow.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+  onFilesSelected: PropTypes.func,
+  showEmoji: PropTypes.bool
+};
+
+export default ChatWindow;
