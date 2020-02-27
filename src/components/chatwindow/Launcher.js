@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import ChatWindow from "./ChatWindow.js";
+import ChatWindow from "./Chatwindow.js";
 import launcherIcon from "./../layout/images/chatkupla.png";
 import launcherIconActive from "./../layout/images/chatkuplapieni.png";
 import "./styles/launcher.scss";
